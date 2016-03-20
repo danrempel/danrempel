@@ -1,0 +1,2743 @@
+/*! normalize.css v3.0.3 | MIT License | github.com/necolas/normalize.css */
+/**
+ * 1. Set default font family to sans-serif.
+ * 2. Prevent iOS and IE text size adjust after device orientation change,
+ *    without disabling user zoom.
+ */
+/* line 10, /home/drempel/workspace/rempelonrails/app/assets/stylesheets/_normalize.css.scss */
+html {
+  font-family: sans-serif;
+  /* 1 */
+  -ms-text-size-adjust: 100%;
+  /* 2 */
+  -webkit-text-size-adjust: 100%;
+  /* 2 */
+}
+
+/**
+ * Remove default margin.
+ */
+/* line 20, /home/drempel/workspace/rempelonrails/app/assets/stylesheets/_normalize.css.scss */
+body {
+  margin: 0;
+}
+
+/* HTML5 display definitions
+   ========================================================================== */
+/**
+ * Correct `block` display not defined for any HTML5 element in IE 8/9.
+ * Correct `block` display not defined for `details` or `summary` in IE 10/11
+ * and Firefox.
+ * Correct `block` display not defined for `main` in IE 11.
+ */
+/* line 34, /home/drempel/workspace/rempelonrails/app/assets/stylesheets/_normalize.css.scss */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+main,
+menu,
+nav,
+section,
+summary {
+  display: block;
+}
+
+/**
+ * 1. Correct `inline-block` display not defined in IE 8/9.
+ * 2. Normalize vertical alignment of `progress` in Chrome, Firefox, and Opera.
+ */
+/* line 55, /home/drempel/workspace/rempelonrails/app/assets/stylesheets/_normalize.css.scss */
+audio,
+canvas,
+progress,
+video {
+  display: inline-block;
+  /* 1 */
+  vertical-align: baseline;
+  /* 2 */
+}
+
+/**
+ * Prevent modern browsers from displaying `audio` without controls.
+ * Remove excess height in iOS 5 devices.
+ */
+/* line 68, /home/drempel/workspace/rempelonrails/app/assets/stylesheets/_normalize.css.scss */
+audio:not([controls]) {
+  display: none;
+  height: 0;
+}
+
+/**
+ * Address `[hidden]` styling not present in IE 8/9/10.
+ * Hide the `template` element in IE 8/9/10/11, Safari, and Firefox < 22.
+ */
+/* line 78, /home/drempel/workspace/rempelonrails/app/assets/stylesheets/_normalize.css.scss */
+[hidden],
+template {
+  display: none;
+}
+
+/* Links
+   ========================================================================== */
+/**
+ * Remove the gray background color from active links in IE 10.
+ */
+/* line 90, /home/drempel/workspace/rempelonrails/app/assets/stylesheets/_normalize.css.scss */
+a {
+  background-color: transparent;
+}
+
+/**
+ * Improve readability of focused elements when they are also in an
+ * active/hover state.
+ */
+/* line 99, /home/drempel/workspace/rempelonrails/app/assets/stylesheets/_normalize.css.scss */
+a:active,
+a:hover {
+  outline: 0;
+}
+
+/* Text-level semantics
+   ========================================================================== */
+/**
+ * Address styling not present in IE 8/9/10/11, Safari, and Chrome.
+ */
+/* line 111, /home/drempel/workspace/rempelonrails/app/assets/stylesheets/_normalize.css.scss */
+abbr[title] {
+  border-bottom: 1px dotted;
+}
+
+/**
+ * Address style set to `bolder` in Firefox 4+, Safari, and Chrome.
+ */
+/* line 119, /home/drempel/workspace/rempelonrails/app/assets/stylesheets/_normalize.css.scss */
+b,
+strong {
+  font-weight: bold;
+}
+
+/**
+ * Address styling not present in Safari and Chrome.
+ */
+/* line 128, /home/drempel/workspace/rempelonrails/app/assets/stylesheets/_normalize.css.scss */
+dfn {
+  font-style: italic;
+}
+
+/**
+ * Address variable `h1` font-size and margin within `section` and `article`
+ * contexts in Firefox 4+, Safari, and Chrome.
+ */
+/* line 137, /home/drempel/workspace/rempelonrails/app/assets/stylesheets/_normalize.css.scss */
+h1 {
+  font-size: 2em;
+  margin: 0.67em 0;
+}
+
+/**
+ * Address styling not present in IE 8/9.
+ */
+/* line 146, /home/drempel/workspace/rempelonrails/app/assets/stylesheets/_normalize.css.scss */
+mark {
+  background: #ff0;
+  color: #000;
+}
+
+/**
+ * Address inconsistent and variable font size in all browsers.
+ */
+/* line 155, /home/drempel/workspace/rempelonrails/app/assets/stylesheets/_normalize.css.scss */
+small {
+  font-size: 80%;
+}
+
+/**
+ * Prevent `sub` and `sup` affecting `line-height` in all browsers.
+ */
+/* line 163, /home/drempel/workspace/rempelonrails/app/assets/stylesheets/_normalize.css.scss */
+sub,
+sup {
+  font-size: 75%;
+  line-height: 0;
+  position: relative;
+  vertical-align: baseline;
+}
+
+/* line 171, /home/drempel/workspace/rempelonrails/app/assets/stylesheets/_normalize.css.scss */
+sup {
+  top: -0.5em;
+}
+
+/* line 175, /home/drempel/workspace/rempelonrails/app/assets/stylesheets/_normalize.css.scss */
+sub {
+  bottom: -0.25em;
+}
+
+/* Embedded content
+   ========================================================================== */
+/**
+ * Remove border when inside `a` element in IE 8/9/10.
+ */
+/* line 186, /home/drempel/workspace/rempelonrails/app/assets/stylesheets/_normalize.css.scss */
+img {
+  border: 0;
+}
+
+/**
+ * Correct overflow not hidden in IE 9/10/11.
+ */
+/* line 194, /home/drempel/workspace/rempelonrails/app/assets/stylesheets/_normalize.css.scss */
+svg:not(:root) {
+  overflow: hidden;
+}
+
+/* Grouping content
+   ========================================================================== */
+/**
+ * Address margin not present in IE 8/9 and Safari.
+ */
+/* line 205, /home/drempel/workspace/rempelonrails/app/assets/stylesheets/_normalize.css.scss */
+figure {
+  margin: 1em 40px;
+}
+
+/**
+ * Address differences between Firefox and other browsers.
+ */
+/* line 213, /home/drempel/workspace/rempelonrails/app/assets/stylesheets/_normalize.css.scss */
+hr {
+  box-sizing: content-box;
+  height: 0;
+}
+
+/**
+ * Contain overflow in all browsers.
+ */
+/* line 222, /home/drempel/workspace/rempelonrails/app/assets/stylesheets/_normalize.css.scss */
+pre {
+  overflow: auto;
+}
+
+/**
+ * Address odd `em`-unit font size rendering in all browsers.
+ */
+/* line 230, /home/drempel/workspace/rempelonrails/app/assets/stylesheets/_normalize.css.scss */
+code,
+kbd,
+pre,
+samp {
+  font-family: monospace, monospace;
+  font-size: 1rem;
+}
+
+/* Forms
+   ========================================================================== */
+/**
+ * Known limitation: by default, Chrome and Safari on OS X allow very limited
+ * styling of `select`, unless a `border` property is set.
+ */
+/**
+ * 1. Correct color not being inherited.
+ *    Known issue: affects color of disabled elements.
+ * 2. Correct font properties not being inherited.
+ * 3. Address margins set differently in Firefox 4+, Safari, and Chrome.
+ */
+/* line 253, /home/drempel/workspace/rempelonrails/app/assets/stylesheets/_normalize.css.scss */
+button,
+input,
+optgroup,
+select,
+textarea {
+  color: inherit;
+  /* 1 */
+  font: inherit;
+  /* 2 */
+  margin: 0;
+  /* 3 */
+}
+
+/**
+ * Address `overflow` set to `hidden` in IE 8/9/10/11.
+ */
+/* line 267, /home/drempel/workspace/rempelonrails/app/assets/stylesheets/_normalize.css.scss */
+button {
+  overflow: visible;
+}
+
+/**
+ * Address inconsistent `text-transform` inheritance for `button` and `select`.
+ * All other form control elements do not inherit `text-transform` values.
+ * Correct `button` style inheritance in Firefox, IE 8/9/10/11, and Opera.
+ * Correct `select` style inheritance in Firefox.
+ */
+/* line 278, /home/drempel/workspace/rempelonrails/app/assets/stylesheets/_normalize.css.scss */
+button,
+select {
+  text-transform: none;
+}
+
+/**
+ * 1. Avoid the WebKit bug in Android 4.0.* where (2) destroys native `audio`
+ *    and `video` controls.
+ * 2. Correct inability to style clickable `input` types in iOS.
+ * 3. Improve usability and consistency of cursor style between image-type
+ *    `input` and others.
+ */
+/* line 291, /home/drempel/workspace/rempelonrails/app/assets/stylesheets/_normalize.css.scss */
+button,
+html input[type="button"],
+input[type="reset"],
+input[type="submit"] {
+  -webkit-appearance: button;
+  /* 2 */
+  cursor: pointer;
+  /* 3 */
+}
+
+/**
+ * Re-set default cursor for disabled elements.
+ */
+/* line 303, /home/drempel/workspace/rempelonrails/app/assets/stylesheets/_normalize.css.scss */
+button[disabled],
+html input[disabled] {
+  cursor: default;
+}
+
+/**
+ * Remove inner padding and border in Firefox 4+.
+ */
+/* line 312, /home/drempel/workspace/rempelonrails/app/assets/stylesheets/_normalize.css.scss */
+button::-moz-focus-inner,
+input::-moz-focus-inner {
+  border: 0;
+  padding: 0;
+}
+
+/**
+ * Address Firefox 4+ setting `line-height` on `input` using `!important` in
+ * the UA stylesheet.
+ */
+/* line 323, /home/drempel/workspace/rempelonrails/app/assets/stylesheets/_normalize.css.scss */
+input {
+  line-height: normal;
+}
+
+/**
+ * It's recommended that you don't attempt to style these elements.
+ * Firefox's implementation doesn't respect box-sizing, padding, or width.
+ *
+ * 1. Address box sizing set to `content-box` in IE 8/9/10.
+ * 2. Remove excess padding in IE 8/9/10.
+ */
+/* line 335, /home/drempel/workspace/rempelonrails/app/assets/stylesheets/_normalize.css.scss */
+input[type="checkbox"],
+input[type="radio"] {
+  box-sizing: border-box;
+  /* 1 */
+  padding: 0;
+  /* 2 */
+}
+
+/**
+ * Fix the cursor style for Chrome's increment/decrement buttons. For certain
+ * `font-size` values of the `input`, it causes the cursor style of the
+ * decrement button to change from `default` to `text`.
+ */
+/* line 347, /home/drempel/workspace/rempelonrails/app/assets/stylesheets/_normalize.css.scss */
+input[type="number"]::-webkit-inner-spin-button,
+input[type="number"]::-webkit-outer-spin-button {
+  height: auto;
+}
+
+/**
+ * 1. Address `appearance` set to `searchfield` in Safari and Chrome.
+ * 2. Address `box-sizing` set to `border-box` in Safari and Chrome.
+ */
+/* line 357, /home/drempel/workspace/rempelonrails/app/assets/stylesheets/_normalize.css.scss */
+input[type="search"] {
+  -webkit-appearance: textfield;
+  /* 1 */
+  box-sizing: content-box;
+  /* 2 */
+}
+
+/**
+ * Remove inner padding and search cancel button in Safari and Chrome on OS X.
+ * Safari (but not Chrome) clips the cancel button when the search input has
+ * padding (and `textfield` appearance).
+ */
+/* line 368, /home/drempel/workspace/rempelonrails/app/assets/stylesheets/_normalize.css.scss */
+input[type="search"]::-webkit-search-cancel-button,
+input[type="search"]::-webkit-search-decoration {
+  -webkit-appearance: none;
+}
+
+/**
+ * Define consistent border, margin, and padding.
+ */
+/* line 377, /home/drempel/workspace/rempelonrails/app/assets/stylesheets/_normalize.css.scss */
+fieldset {
+  border: 1px solid #c0c0c0;
+  margin: 0 2px;
+  padding: 0.35em 0.625em 0.75em;
+}
+
+/**
+ * 1. Correct `color` not being inherited in IE 8/9/10/11.
+ * 2. Remove padding so people aren't caught out if they zero out fieldsets.
+ */
+/* line 388, /home/drempel/workspace/rempelonrails/app/assets/stylesheets/_normalize.css.scss */
+legend {
+  border: 0;
+  /* 1 */
+  padding: 0;
+  /* 2 */
+}
+
+/**
+ * Remove default vertical scrollbar in IE 8/9/10/11.
+ */
+/* line 397, /home/drempel/workspace/rempelonrails/app/assets/stylesheets/_normalize.css.scss */
+textarea {
+  overflow: auto;
+}
+
+/**
+ * Don't inherit the `font-weight` (applied by a rule above).
+ * NOTE: the default cannot safely be changed in Chrome and Safari on OS X.
+ */
+/* line 406, /home/drempel/workspace/rempelonrails/app/assets/stylesheets/_normalize.css.scss */
+optgroup {
+  font-weight: bold;
+}
+
+/* Tables
+   ========================================================================== */
+/**
+ * Remove most spacing between table cells.
+ */
+/* line 417, /home/drempel/workspace/rempelonrails/app/assets/stylesheets/_normalize.css.scss */
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+/* line 422, /home/drempel/workspace/rempelonrails/app/assets/stylesheets/_normalize.css.scss */
+td,
+th {
+  padding: 0;
+}
+/* line 7, /home/drempel/workspace/rempelonrails/app/assets/stylesheets/_posts_projects.css.scss */
+#posts_wrapper {
+  padding-top: 4em;
+}
+/* line 9, /home/drempel/workspace/rempelonrails/app/assets/stylesheets/_posts_projects.css.scss */
+#posts_wrapper .post {
+  text-align: left;
+}
+/* line 11, /home/drempel/workspace/rempelonrails/app/assets/stylesheets/_posts_projects.css.scss */
+#posts_wrapper .post .date {
+  font-size: .9em;
+  margin: 0;
+  display: inline-block;
+  padding-right: 10px;
+  color: #9a9da4;
+}
+/* line 18, /home/drempel/workspace/rempelonrails/app/assets/stylesheets/_posts_projects.css.scss */
+#posts_wrapper .post h2 {
+  margin: 0;
+  font-size: 1.5em;
+  text-transform: capitalize;
+}
+/* line 22, /home/drempel/workspace/rempelonrails/app/assets/stylesheets/_posts_projects.css.scss */
+#posts_wrapper .post h2 a {
+  text-decoration: none;
+  color: #2E303A;
+}
+/* line 25, /home/drempel/workspace/rempelonrails/app/assets/stylesheets/_posts_projects.css.scss */
+#posts_wrapper .post h2 a:hover {
+  color: #cb4b16;
+}
+/* line 30, /home/drempel/workspace/rempelonrails/app/assets/stylesheets/_posts_projects.css.scss */
+#posts_wrapper .post h2#posthead {
+  display: inline-block;
+}
+/* line 33, /home/drempel/workspace/rempelonrails/app/assets/stylesheets/_posts_projects.css.scss */
+#posts_wrapper .post span#draft {
+  display: inline-block;
+  padding-left: 10px;
+  color: #9a9da4;
+  font-size: 1em;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+/* line 41, /home/drempel/workspace/rempelonrails/app/assets/stylesheets/_posts_projects.css.scss */
+#posts_wrapper .post h4 {
+  color: #707070;
+  font-size: 1.05em;
+  font-weight: 400;
+  margin-top: 1.2em;
+  margin-bottom: 1.4em;
+  font-family: 'Droid Serif', 'Georgia', 'Cambria', 'Times New Roman', serif;
+}
+/* line 49, /home/drempel/workspace/rempelonrails/app/assets/stylesheets/_posts_projects.css.scss */
+#posts_wrapper .post hr {
+  margin: 3em auto;
+}
+/* line 53, /home/drempel/workspace/rempelonrails/app/assets/stylesheets/_posts_projects.css.scss */
+#posts_wrapper .project {
+  text-align: center;
+}
+/* line 55, /home/drempel/workspace/rempelonrails/app/assets/stylesheets/_posts_projects.css.scss */
+#posts_wrapper .project h2 {
+  font-size: 2em;
+}
+
+/* line 63, /home/drempel/workspace/rempelonrails/app/assets/stylesheets/_posts_projects.css.scss */
+#post_show_content header {
+  text-align: center;
+}
+/* line 65, /home/drempel/workspace/rempelonrails/app/assets/stylesheets/_posts_projects.css.scss */
+#post_show_content header .date {
+  font-style: .9em;
+  color: #9a9da4;
+  margin: 20px 0 10px 0;
+}
+/* line 70, /home/drempel/workspace/rempelonrails/app/assets/stylesheets/_posts_projects.css.scss */
+#post_show_content header h1 {
+  margin: 0;
+  font-size: 2.3rem;
+}
+/* line 75, /home/drempel/workspace/rempelonrails/app/assets/stylesheets/_posts_projects.css.scss */
+#post_show_content p {
+  font-family: 'Georgia', 'Cambria', 'Times New Roman', serif;
+}
+/* line 77, /home/drempel/workspace/rempelonrails/app/assets/stylesheets/_posts_projects.css.scss */
+#post_show_content p a {
+  color: #cb4b16;
+  font-weight: 400;
+  text-decoration: none;
+}
+/* line 81, /home/drempel/workspace/rempelonrails/app/assets/stylesheets/_posts_projects.css.scss */
+#post_show_content p a:hover {
+  color: black;
+}
+/* line 86, /home/drempel/workspace/rempelonrails/app/assets/stylesheets/_posts_projects.css.scss */
+#post_show_content hr {
+  margin: 3em auto;
+}
+
+/* line 91, /home/drempel/workspace/rempelonrails/app/assets/stylesheets/_posts_projects.css.scss */
+#share_box {
+  text-align: center;
+}
+/* line 93, /home/drempel/workspace/rempelonrails/app/assets/stylesheets/_posts_projects.css.scss */
+#share_box p {
+  padding-bottom: 0 0 1em 0;
+  margin: 0;
+  font-weight: 700;
+  text-transform: capitalize;
+  color: #2E303A;
+  font-size: .8em;
+}
+/* line 100, /home/drempel/workspace/rempelonrails/app/assets/stylesheets/_posts_projects.css.scss */
+#share_box p .redshare {
+  text-transform: uppercase;
+  margin-right: 5px;
+}
+/* line 105, /home/drempel/workspace/rempelonrails/app/assets/stylesheets/_posts_projects.css.scss */
+#share_box i {
+  color: #2E303A;
+  padding: 1em 1.5em;
+}
+/* line 108, /home/drempel/workspace/rempelonrails/app/assets/stylesheets/_posts_projects.css.scss */
+#share_box i:hover {
+  color: #cb4b16;
+  cursor: pointer;
+}
+
+/* line 115, /home/drempel/workspace/rempelonrails/app/assets/stylesheets/_posts_projects.css.scss */
+#admin_links {
+  border-top: 1px solid #D5D5D5;
+  border-bottom: 1px solid #D5D5D5;
+  text-align: center;
+  padding: 1em 0;
+  margin: 3em 0;
+}
+/* line 121, /home/drempel/workspace/rempelonrails/app/assets/stylesheets/_posts_projects.css.scss */
+#admin_links a {
+  color: #9a9da4;
+  margin: 0 1em;
+  font-weight: 700;
+  font-style: .8em;
+  text-transform: uppercase;
+  text-decoration: none;
+}
+/* line 128, /home/drempel/workspace/rempelonrails/app/assets/stylesheets/_posts_projects.css.scss */
+#admin_links a:hover {
+  color: #cb4b16;
+}
+
+/* line 136, /home/drempel/workspace/rempelonrails/app/assets/stylesheets/_posts_projects.css.scss */
+.pagination:before,
+.pagination:after {
+  content: " ";
+  display: table;
+}
+
+/* line 142, /home/drempel/workspace/rempelonrails/app/assets/stylesheets/_posts_projects.css.scss */
+.pagination:after {
+  clear: both;
+}
+
+/* line 146, /home/drempel/workspace/rempelonrails/app/assets/stylesheets/_posts_projects.css.scss */
+.pagination {
+  text-align: center;
+  margin: 0 0 3em 0;
+}
+/* line 149, /home/drempel/workspace/rempelonrails/app/assets/stylesheets/_posts_projects.css.scss */
+.pagination a, .pagination .previous_page, .pagination .current, .pagination .next_page {
+  padding: .75em 1em;
+  margin: 0.5em;
+  border-radius: .15em;
+  line-height: 20px;
+  text-decoration: none;
+  background: #ffffff;
+  font-weight: 700;
+  font-size: .7em;
+  font-style: normal;
+  color: #2E303A;
+}
+/* line 160, /home/drempel/workspace/rempelonrails/app/assets/stylesheets/_posts_projects.css.scss */
+.pagination a:hover, .pagination .previous_page:hover, .pagination .current:hover, .pagination .next_page:hover {
+  background: #cb4b16;
+  color: #ffffff;
+}
+/* line 165, /home/drempel/workspace/rempelonrails/app/assets/stylesheets/_posts_projects.css.scss */
+.pagination .current {
+  background: #cb4b16;
+  color: #ffffff;
+}
+/* line 169, /home/drempel/workspace/rempelonrails/app/assets/stylesheets/_posts_projects.css.scss */
+.pagination .disabled {
+  color: #C0C0C0;
+}
+/* line 171, /home/drempel/workspace/rempelonrails/app/assets/stylesheets/_posts_projects.css.scss */
+.pagination .disabled:hover {
+  color: #C0C0C0;
+  background: #ffffff;
+}
+/* line 7, /home/drempel/workspace/rempelonrails/app/assets/stylesheets/_welcome.css.scss */
+.col-1, .col-2, .col-3 {
+  float: left;
+}
+
+/* line 11, /home/drempel/workspace/rempelonrails/app/assets/stylesheets/_welcome.css.scss */
+.col-1 {
+  width: 45%;
+  padding: 0 5% 0 2.5%;
+}
+
+/* line 16, /home/drempel/workspace/rempelonrails/app/assets/stylesheets/_welcome.css.scss */
+.col-2, .col-3 {
+  width: 27.5%;
+  padding: 0 2.5%;
+}
+
+/* line 22, /home/drempel/workspace/rempelonrails/app/assets/stylesheets/_welcome.css.scss */
+.homepage_content h2 {
+  font-size: 1.1rem;
+  text-transform: uppercase;
+}
+/* line 27, /home/drempel/workspace/rempelonrails/app/assets/stylesheets/_welcome.css.scss */
+.homepage_content h3 {
+  font-family: 'Roboto', sans-serif;
+  font-size: 1.3em;
+  font-weight: 700;
+  margin-bottom: .7em;
+}
+/* line 33, /home/drempel/workspace/rempelonrails/app/assets/stylesheets/_welcome.css.scss */
+.homepage_content h4 {
+  font-size: .95rem;
+  font-family: 'Droid Serif', 'Georgia', 'Cambria', 'Times New Roman', serif;
+  color: #707070;
+  margin-top: 0.5em;
+  margin-bottom: 0;
+  font-weight: 400;
+  margin-bottom: .8em;
+}
+/* line 43, /home/drempel/workspace/rempelonrails/app/assets/stylesheets/_welcome.css.scss */
+.homepage_content a {
+  text-decoration: none;
+  color: #2E303A;
+}
+/* line 46, /home/drempel/workspace/rempelonrails/app/assets/stylesheets/_welcome.css.scss */
+.homepage_content a:hover {
+  color: #cb4b16;
+}
+/* line 50, /home/drempel/workspace/rempelonrails/app/assets/stylesheets/_welcome.css.scss */
+.homepage_content .date {
+  font-size: .9em;
+  margin-bottom: 2em;
+  color: #9a9da4;
+  display: inline-block;
+  padding-right: 10px;
+  font-family: 'Roboto', sans-serif;
+}
+/* line 58, /home/drempel/workspace/rempelonrails/app/assets/stylesheets/_welcome.css.scss */
+.homepage_content p {
+  margin: 0 0 .75em 0;
+  font-family: 'Georgia', 'Cambria', 'Times New Roman', serif;
+}
+
+/* line 64, /home/drempel/workspace/rempelonrails/app/assets/stylesheets/_welcome.css.scss */
+.about {
+  padding: 0 7.5% 0 0;
+}
+/* line 66, /home/drempel/workspace/rempelonrails/app/assets/stylesheets/_welcome.css.scss */
+.about a {
+  color: #cb4b16;
+  font-weight: 400;
+  text-decoration: none;
+}
+/* line 70, /home/drempel/workspace/rempelonrails/app/assets/stylesheets/_welcome.css.scss */
+.about a:hover {
+  color: #2E303A;
+}
+/* Solarized Dark 
+
+SOLARIZED HEX      ROLE
+--------- -------- ------------------------------------------
+base03    #002b36  background
+base01    #586e75  comments / secondary content
+base1     #93a1a1  body text / default code / primary content
+orange    #cb4b16  constants
+red       #dc322f  regex, special keywords
+blue      #268bd2  reserved keywords
+cyan      #2aa198  strings, numbers
+green     #859900  operators, other keywords
+*/
+/* line 16, /home/drempel/workspace/rempelonrails/app/assets/stylesheets/pygments.css.scss */
+pre {
+  background-color: #002b36;
+  color: #93a1a1;
+  padding: 10px;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  border-radius: 5px;
+  overflow: auto;
+}
+
+/* line 25, /home/drempel/workspace/rempelonrails/app/assets/stylesheets/pygments.css.scss */
+code {
+  background-color: #002b36;
+  color: #93a1a1;
+  padding: 1px 3px;
+  -webkit-border-radius: 2px;
+  -moz-border-radius: 2px;
+  border-radius: 2px;
+}
+
+/* line 33, /home/drempel/workspace/rempelonrails/app/assets/stylesheets/pygments.css.scss */
+.highlight .lineno {
+  color: #586e75;
+}
+
+/* Line Numbers */
+/* line 34, /home/drempel/workspace/rempelonrails/app/assets/stylesheets/pygments.css.scss */
+.highlight .c {
+  color: #586e75;
+}
+
+/* Comment */
+/* line 35, /home/drempel/workspace/rempelonrails/app/assets/stylesheets/pygments.css.scss */
+.highlight .err {
+  color: #93a1a1;
+}
+
+/* Error */
+/* line 36, /home/drempel/workspace/rempelonrails/app/assets/stylesheets/pygments.css.scss */
+.highlight .g {
+  color: #93a1a1;
+}
+
+/* Generic */
+/* line 37, /home/drempel/workspace/rempelonrails/app/assets/stylesheets/pygments.css.scss */
+.highlight .k {
+  color: #859900;
+}
+
+/* Keyword */
+/* line 38, /home/drempel/workspace/rempelonrails/app/assets/stylesheets/pygments.css.scss */
+.highlight .l {
+  color: #93a1a1;
+}
+
+/* Literal */
+/* line 39, /home/drempel/workspace/rempelonrails/app/assets/stylesheets/pygments.css.scss */
+.highlight .n {
+  color: #93a1a1;
+}
+
+/* Name */
+/* line 40, /home/drempel/workspace/rempelonrails/app/assets/stylesheets/pygments.css.scss */
+.highlight .o {
+  color: #859900;
+}
+
+/* Operator */
+/* line 41, /home/drempel/workspace/rempelonrails/app/assets/stylesheets/pygments.css.scss */
+.highlight .x {
+  color: #cb4b16;
+}
+
+/* Other */
+/* line 42, /home/drempel/workspace/rempelonrails/app/assets/stylesheets/pygments.css.scss */
+.highlight .p {
+  color: #93a1a1;
+}
+
+/* Punctuation */
+/* line 43, /home/drempel/workspace/rempelonrails/app/assets/stylesheets/pygments.css.scss */
+.highlight .cm {
+  color: #586e75;
+}
+
+/* Comment.Multiline */
+/* line 44, /home/drempel/workspace/rempelonrails/app/assets/stylesheets/pygments.css.scss */
+.highlight .cp {
+  color: #859900;
+}
+
+/* Comment.Preproc */
+/* line 45, /home/drempel/workspace/rempelonrails/app/assets/stylesheets/pygments.css.scss */
+.highlight .c1 {
+  color: #586e75;
+}
+
+/* Comment.Single */
+/* line 46, /home/drempel/workspace/rempelonrails/app/assets/stylesheets/pygments.css.scss */
+.highlight .cs {
+  color: #859900;
+}
+
+/* Comment.Special */
+/* line 47, /home/drempel/workspace/rempelonrails/app/assets/stylesheets/pygments.css.scss */
+.highlight .gd {
+  color: #2aa198;
+}
+
+/* Generic.Deleted */
+/* line 48, /home/drempel/workspace/rempelonrails/app/assets/stylesheets/pygments.css.scss */
+.highlight .ge {
+  color: #93a1a1;
+  font-style: italic;
+}
+
+/* Generic.Emph */
+/* line 49, /home/drempel/workspace/rempelonrails/app/assets/stylesheets/pygments.css.scss */
+.highlight .gr {
+  color: #dc322f;
+}
+
+/* Generic.Error */
+/* line 50, /home/drempel/workspace/rempelonrails/app/assets/stylesheets/pygments.css.scss */
+.highlight .gh {
+  color: #cb4b16;
+}
+
+/* Generic.Heading */
+/* line 51, /home/drempel/workspace/rempelonrails/app/assets/stylesheets/pygments.css.scss */
+.highlight .gi {
+  color: #859900;
+}
+
+/* Generic.Inserted */
+/* line 52, /home/drempel/workspace/rempelonrails/app/assets/stylesheets/pygments.css.scss */
+.highlight .go {
+  color: #93a1a1;
+}
+
+/* Generic.Output */
+/* line 53, /home/drempel/workspace/rempelonrails/app/assets/stylesheets/pygments.css.scss */
+.highlight .gp {
+  color: #93a1a1;
+}
+
+/* Generic.Prompt */
+/* line 54, /home/drempel/workspace/rempelonrails/app/assets/stylesheets/pygments.css.scss */
+.highlight .gs {
+  color: #93a1a1;
+  font-weight: bold;
+}
+
+/* Generic.Strong */
+/* line 55, /home/drempel/workspace/rempelonrails/app/assets/stylesheets/pygments.css.scss */
+.highlight .gu {
+  color: #cb4b16;
+}
+
+/* Generic.Subheading */
+/* line 56, /home/drempel/workspace/rempelonrails/app/assets/stylesheets/pygments.css.scss */
+.highlight .gt {
+  color: #93a1a1;
+}
+
+/* Generic.Traceback */
+/* line 57, /home/drempel/workspace/rempelonrails/app/assets/stylesheets/pygments.css.scss */
+.highlight .kc {
+  color: #cb4b16;
+}
+
+/* Keyword.Constant */
+/* line 58, /home/drempel/workspace/rempelonrails/app/assets/stylesheets/pygments.css.scss */
+.highlight .kd {
+  color: #268bd2;
+}
+
+/* Keyword.Declaration */
+/* line 59, /home/drempel/workspace/rempelonrails/app/assets/stylesheets/pygments.css.scss */
+.highlight .kn {
+  color: #859900;
+}
+
+/* Keyword.Namespace */
+/* line 60, /home/drempel/workspace/rempelonrails/app/assets/stylesheets/pygments.css.scss */
+.highlight .kp {
+  color: #859900;
+}
+
+/* Keyword.Pseudo */
+/* line 61, /home/drempel/workspace/rempelonrails/app/assets/stylesheets/pygments.css.scss */
+.highlight .kr {
+  color: #268bd2;
+}
+
+/* Keyword.Reserved */
+/* line 62, /home/drempel/workspace/rempelonrails/app/assets/stylesheets/pygments.css.scss */
+.highlight .kt {
+  color: #dc322f;
+}
+
+/* Keyword.Type */
+/* line 63, /home/drempel/workspace/rempelonrails/app/assets/stylesheets/pygments.css.scss */
+.highlight .ld {
+  color: #93a1a1;
+}
+
+/* Literal.Date */
+/* line 64, /home/drempel/workspace/rempelonrails/app/assets/stylesheets/pygments.css.scss */
+.highlight .m {
+  color: #2aa198;
+}
+
+/* Literal.Number */
+/* line 65, /home/drempel/workspace/rempelonrails/app/assets/stylesheets/pygments.css.scss */
+.highlight .s {
+  color: #2aa198;
+}
+
+/* Literal.String */
+/* line 66, /home/drempel/workspace/rempelonrails/app/assets/stylesheets/pygments.css.scss */
+.highlight .na {
+  color: #93a1a1;
+}
+
+/* Name.Attribute */
+/* line 67, /home/drempel/workspace/rempelonrails/app/assets/stylesheets/pygments.css.scss */
+.highlight .nb {
+  color: #B58900;
+}
+
+/* Name.Builtin */
+/* line 68, /home/drempel/workspace/rempelonrails/app/assets/stylesheets/pygments.css.scss */
+.highlight .nc {
+  color: #268bd2;
+}
+
+/* Name.Class */
+/* line 69, /home/drempel/workspace/rempelonrails/app/assets/stylesheets/pygments.css.scss */
+.highlight .no {
+  color: #cb4b16;
+}
+
+/* Name.Constant */
+/* line 70, /home/drempel/workspace/rempelonrails/app/assets/stylesheets/pygments.css.scss */
+.highlight .nd {
+  color: #268bd2;
+}
+
+/* Name.Decorator */
+/* line 71, /home/drempel/workspace/rempelonrails/app/assets/stylesheets/pygments.css.scss */
+.highlight .ni {
+  color: #cb4b16;
+}
+
+/* Name.Entity */
+/* line 72, /home/drempel/workspace/rempelonrails/app/assets/stylesheets/pygments.css.scss */
+.highlight .ne {
+  color: #cb4b16;
+}
+
+/* Name.Exception */
+/* line 73, /home/drempel/workspace/rempelonrails/app/assets/stylesheets/pygments.css.scss */
+.highlight .nf {
+  color: #268bd2;
+}
+
+/* Name.Function */
+/* line 74, /home/drempel/workspace/rempelonrails/app/assets/stylesheets/pygments.css.scss */
+.highlight .nl {
+  color: #93a1a1;
+}
+
+/* Name.Label */
+/* line 75, /home/drempel/workspace/rempelonrails/app/assets/stylesheets/pygments.css.scss */
+.highlight .nn {
+  color: #93a1a1;
+}
+
+/* Name.Namespace */
+/* line 76, /home/drempel/workspace/rempelonrails/app/assets/stylesheets/pygments.css.scss */
+.highlight .nx {
+  color: #93a1a1;
+}
+
+/* Name.Other */
+/* line 77, /home/drempel/workspace/rempelonrails/app/assets/stylesheets/pygments.css.scss */
+.highlight .py {
+  color: #93a1a1;
+}
+
+/* Name.Property */
+/* line 78, /home/drempel/workspace/rempelonrails/app/assets/stylesheets/pygments.css.scss */
+.highlight .nt {
+  color: #268bd2;
+}
+
+/* Name.Tag */
+/* line 79, /home/drempel/workspace/rempelonrails/app/assets/stylesheets/pygments.css.scss */
+.highlight .nv {
+  color: #268bd2;
+}
+
+/* Name.Variable */
+/* line 80, /home/drempel/workspace/rempelonrails/app/assets/stylesheets/pygments.css.scss */
+.highlight .ow {
+  color: #859900;
+}
+
+/* Operator.Word */
+/* line 81, /home/drempel/workspace/rempelonrails/app/assets/stylesheets/pygments.css.scss */
+.highlight .w {
+  color: #93a1a1;
+}
+
+/* Text.Whitespace */
+/* line 82, /home/drempel/workspace/rempelonrails/app/assets/stylesheets/pygments.css.scss */
+.highlight .mf {
+  color: #2aa198;
+}
+
+/* Literal.Number.Float */
+/* line 83, /home/drempel/workspace/rempelonrails/app/assets/stylesheets/pygments.css.scss */
+.highlight .mh {
+  color: #2aa198;
+}
+
+/* Literal.Number.Hex */
+/* line 84, /home/drempel/workspace/rempelonrails/app/assets/stylesheets/pygments.css.scss */
+.highlight .mi {
+  color: #2aa198;
+}
+
+/* Literal.Number.Integer */
+/* line 85, /home/drempel/workspace/rempelonrails/app/assets/stylesheets/pygments.css.scss */
+.highlight .mo {
+  color: #2aa198;
+}
+
+/* Literal.Number.Oct */
+/* line 86, /home/drempel/workspace/rempelonrails/app/assets/stylesheets/pygments.css.scss */
+.highlight .sb {
+  color: #586e75;
+}
+
+/* Literal.String.Backtick */
+/* line 87, /home/drempel/workspace/rempelonrails/app/assets/stylesheets/pygments.css.scss */
+.highlight .sc {
+  color: #2aa198;
+}
+
+/* Literal.String.Char */
+/* line 88, /home/drempel/workspace/rempelonrails/app/assets/stylesheets/pygments.css.scss */
+.highlight .sd {
+  color: #93a1a1;
+}
+
+/* Literal.String.Doc */
+/* line 89, /home/drempel/workspace/rempelonrails/app/assets/stylesheets/pygments.css.scss */
+.highlight .s2 {
+  color: #2aa198;
+}
+
+/* Literal.String.Double */
+/* line 90, /home/drempel/workspace/rempelonrails/app/assets/stylesheets/pygments.css.scss */
+.highlight .se {
+  color: #cb4b16;
+}
+
+/* Literal.String.Escape */
+/* line 91, /home/drempel/workspace/rempelonrails/app/assets/stylesheets/pygments.css.scss */
+.highlight .sh {
+  color: #93a1a1;
+}
+
+/* Literal.String.Heredoc */
+/* line 92, /home/drempel/workspace/rempelonrails/app/assets/stylesheets/pygments.css.scss */
+.highlight .si {
+  color: #2aa198;
+}
+
+/* Literal.String.Interpol */
+/* line 93, /home/drempel/workspace/rempelonrails/app/assets/stylesheets/pygments.css.scss */
+.highlight .sx {
+  color: #2aa198;
+}
+
+/* Literal.String.Other */
+/* line 94, /home/drempel/workspace/rempelonrails/app/assets/stylesheets/pygments.css.scss */
+.highlight .sr {
+  color: #dc322f;
+}
+
+/* Literal.String.Regex */
+/* line 95, /home/drempel/workspace/rempelonrails/app/assets/stylesheets/pygments.css.scss */
+.highlight .s1 {
+  color: #2aa198;
+}
+
+/* Literal.String.Single */
+/* line 96, /home/drempel/workspace/rempelonrails/app/assets/stylesheets/pygments.css.scss */
+.highlight .ss {
+  color: #2aa198;
+}
+
+/* Literal.String.Symbol */
+/* line 97, /home/drempel/workspace/rempelonrails/app/assets/stylesheets/pygments.css.scss */
+.highlight .bp {
+  color: #268bd2;
+}
+
+/* Name.Builtin.Pseudo */
+/* line 98, /home/drempel/workspace/rempelonrails/app/assets/stylesheets/pygments.css.scss */
+.highlight .vc {
+  color: #268bd2;
+}
+
+/* Name.Variable.Class */
+/* line 99, /home/drempel/workspace/rempelonrails/app/assets/stylesheets/pygments.css.scss */
+.highlight .vg {
+  color: #268bd2;
+}
+
+/* Name.Variable.Global */
+/* line 100, /home/drempel/workspace/rempelonrails/app/assets/stylesheets/pygments.css.scss */
+.highlight .vi {
+  color: #268bd2;
+}
+
+/* Name.Variable.Instance */
+/* line 101, /home/drempel/workspace/rempelonrails/app/assets/stylesheets/pygments.css.scss */
+.highlight .il {
+  color: #2aa198;
+}
+
+/* Literal.Number.Integer.Long */
+/*
+ * This is a manifest file that'll be compiled into application.css, which will include all the files
+ * listed below.
+ *
+ * Any CSS and SCSS file within this directory, lib/assets/stylesheets, vendor/assets/stylesheets,
+ * or any plugin's vendor/assets/stylesheets directory can be referenced here using a relative path.
+ *
+ * You're free to add application-wide styles to this file and they'll appear at the bottom of the
+ * compiled file so the styles you add here take precedence over styles defined in any styles
+ * defined in the other CSS/SCSS files in this directory. It is generally better to create a new
+ * file per style scope.
+ *
+
+
+ */
+/*! normalize.css v3.0.3 | MIT License | github.com/necolas/normalize.css */
+/**
+ * 1. Set default font family to sans-serif.
+ * 2. Prevent iOS and IE text size adjust after device orientation change,
+ *    without disabling user zoom.
+ */
+@import url(https://fonts.googleapis.com/css?family=Roboto:400,500,700,400italic,300italic,300,700italic,500italic);
+@import url(https://fonts.googleapis.com/css?family=Droid+Serif:400,400italic,700,700italic);
+@import url(https://fonts.googleapis.com/css?family=Libre+Baskerville:400,700|Fira+Sans:400,500,700);
+@import url(https://fonts.googleapis.com/css?family=Ubuntu:400,500,700);
+/* line 9, /home/drempel/workspace/rempelonrails/app/assets/stylesheets/_normalize.css.scss */
+html {
+  font-family: sans-serif;
+  /* 1 */
+  -ms-text-size-adjust: 100%;
+  /* 2 */
+  -webkit-text-size-adjust: 100%;
+  /* 2 */
+}
+
+/**
+ * Remove default margin.
+ */
+/* line 19, /home/drempel/workspace/rempelonrails/app/assets/stylesheets/_normalize.css.scss */
+body {
+  margin: 0;
+}
+
+/* HTML5 display definitions
+   ========================================================================== */
+/**
+ * Correct `block` display not defined for any HTML5 element in IE 8/9.
+ * Correct `block` display not defined for `details` or `summary` in IE 10/11
+ * and Firefox.
+ * Correct `block` display not defined for `main` in IE 11.
+ */
+/* line 33, /home/drempel/workspace/rempelonrails/app/assets/stylesheets/_normalize.css.scss */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+main,
+menu,
+nav,
+section,
+summary {
+  display: block;
+}
+
+/**
+ * 1. Correct `inline-block` display not defined in IE 8/9.
+ * 2. Normalize vertical alignment of `progress` in Chrome, Firefox, and Opera.
+ */
+/* line 54, /home/drempel/workspace/rempelonrails/app/assets/stylesheets/_normalize.css.scss */
+audio,
+canvas,
+progress,
+video {
+  display: inline-block;
+  /* 1 */
+  vertical-align: baseline;
+  /* 2 */
+}
+
+/**
+ * Prevent modern browsers from displaying `audio` without controls.
+ * Remove excess height in iOS 5 devices.
+ */
+/* line 67, /home/drempel/workspace/rempelonrails/app/assets/stylesheets/_normalize.css.scss */
+audio:not([controls]) {
+  display: none;
+  height: 0;
+}
+
+/**
+ * Address `[hidden]` styling not present in IE 8/9/10.
+ * Hide the `template` element in IE 8/9/10/11, Safari, and Firefox < 22.
+ */
+/* line 77, /home/drempel/workspace/rempelonrails/app/assets/stylesheets/_normalize.css.scss */
+[hidden],
+template {
+  display: none;
+}
+
+/* Links
+   ========================================================================== */
+/**
+ * Remove the gray background color from active links in IE 10.
+ */
+/* line 89, /home/drempel/workspace/rempelonrails/app/assets/stylesheets/_normalize.css.scss */
+a {
+  background-color: transparent;
+}
+
+/**
+ * Improve readability of focused elements when they are also in an
+ * active/hover state.
+ */
+/* line 98, /home/drempel/workspace/rempelonrails/app/assets/stylesheets/_normalize.css.scss */
+a:active,
+a:hover {
+  outline: 0;
+}
+
+/* Text-level semantics
+   ========================================================================== */
+/**
+ * Address styling not present in IE 8/9/10/11, Safari, and Chrome.
+ */
+/* line 110, /home/drempel/workspace/rempelonrails/app/assets/stylesheets/_normalize.css.scss */
+abbr[title] {
+  border-bottom: 1px dotted;
+}
+
+/**
+ * Address style set to `bolder` in Firefox 4+, Safari, and Chrome.
+ */
+/* line 118, /home/drempel/workspace/rempelonrails/app/assets/stylesheets/_normalize.css.scss */
+b,
+strong {
+  font-weight: bold;
+}
+
+/**
+ * Address styling not present in Safari and Chrome.
+ */
+/* line 127, /home/drempel/workspace/rempelonrails/app/assets/stylesheets/_normalize.css.scss */
+dfn {
+  font-style: italic;
+}
+
+/**
+ * Address variable `h1` font-size and margin within `section` and `article`
+ * contexts in Firefox 4+, Safari, and Chrome.
+ */
+/* line 136, /home/drempel/workspace/rempelonrails/app/assets/stylesheets/_normalize.css.scss */
+h1 {
+  font-size: 2em;
+  margin: 0.67em 0;
+}
+
+/**
+ * Address styling not present in IE 8/9.
+ */
+/* line 145, /home/drempel/workspace/rempelonrails/app/assets/stylesheets/_normalize.css.scss */
+mark {
+  background: #ff0;
+  color: #000;
+}
+
+/**
+ * Address inconsistent and variable font size in all browsers.
+ */
+/* line 154, /home/drempel/workspace/rempelonrails/app/assets/stylesheets/_normalize.css.scss */
+small {
+  font-size: 80%;
+}
+
+/**
+ * Prevent `sub` and `sup` affecting `line-height` in all browsers.
+ */
+/* line 162, /home/drempel/workspace/rempelonrails/app/assets/stylesheets/_normalize.css.scss */
+sub,
+sup {
+  font-size: 75%;
+  line-height: 0;
+  position: relative;
+  vertical-align: baseline;
+}
+
+/* line 170, /home/drempel/workspace/rempelonrails/app/assets/stylesheets/_normalize.css.scss */
+sup {
+  top: -0.5em;
+}
+
+/* line 174, /home/drempel/workspace/rempelonrails/app/assets/stylesheets/_normalize.css.scss */
+sub {
+  bottom: -0.25em;
+}
+
+/* Embedded content
+   ========================================================================== */
+/**
+ * Remove border when inside `a` element in IE 8/9/10.
+ */
+/* line 185, /home/drempel/workspace/rempelonrails/app/assets/stylesheets/_normalize.css.scss */
+img {
+  border: 0;
+}
+
+/**
+ * Correct overflow not hidden in IE 9/10/11.
+ */
+/* line 193, /home/drempel/workspace/rempelonrails/app/assets/stylesheets/_normalize.css.scss */
+svg:not(:root) {
+  overflow: hidden;
+}
+
+/* Grouping content
+   ========================================================================== */
+/**
+ * Address margin not present in IE 8/9 and Safari.
+ */
+/* line 204, /home/drempel/workspace/rempelonrails/app/assets/stylesheets/_normalize.css.scss */
+figure {
+  margin: 1em 40px;
+}
+
+/**
+ * Address differences between Firefox and other browsers.
+ */
+/* line 212, /home/drempel/workspace/rempelonrails/app/assets/stylesheets/_normalize.css.scss */
+hr {
+  box-sizing: content-box;
+  height: 0;
+}
+
+/**
+ * Contain overflow in all browsers.
+ */
+/* line 221, /home/drempel/workspace/rempelonrails/app/assets/stylesheets/_normalize.css.scss */
+pre {
+  overflow: auto;
+}
+
+/**
+ * Address odd `em`-unit font size rendering in all browsers.
+ */
+/* line 229, /home/drempel/workspace/rempelonrails/app/assets/stylesheets/_normalize.css.scss */
+code,
+kbd,
+pre,
+samp {
+  font-family: monospace, monospace;
+  font-size: 1rem;
+}
+
+/* Forms
+   ========================================================================== */
+/**
+ * Known limitation: by default, Chrome and Safari on OS X allow very limited
+ * styling of `select`, unless a `border` property is set.
+ */
+/**
+ * 1. Correct color not being inherited.
+ *    Known issue: affects color of disabled elements.
+ * 2. Correct font properties not being inherited.
+ * 3. Address margins set differently in Firefox 4+, Safari, and Chrome.
+ */
+/* line 252, /home/drempel/workspace/rempelonrails/app/assets/stylesheets/_normalize.css.scss */
+button,
+input,
+optgroup,
+select,
+textarea {
+  color: inherit;
+  /* 1 */
+  font: inherit;
+  /* 2 */
+  margin: 0;
+  /* 3 */
+}
+
+/**
+ * Address `overflow` set to `hidden` in IE 8/9/10/11.
+ */
+/* line 266, /home/drempel/workspace/rempelonrails/app/assets/stylesheets/_normalize.css.scss */
+button {
+  overflow: visible;
+}
+
+/**
+ * Address inconsistent `text-transform` inheritance for `button` and `select`.
+ * All other form control elements do not inherit `text-transform` values.
+ * Correct `button` style inheritance in Firefox, IE 8/9/10/11, and Opera.
+ * Correct `select` style inheritance in Firefox.
+ */
+/* line 277, /home/drempel/workspace/rempelonrails/app/assets/stylesheets/_normalize.css.scss */
+button,
+select {
+  text-transform: none;
+}
+
+/**
+ * 1. Avoid the WebKit bug in Android 4.0.* where (2) destroys native `audio`
+ *    and `video` controls.
+ * 2. Correct inability to style clickable `input` types in iOS.
+ * 3. Improve usability and consistency of cursor style between image-type
+ *    `input` and others.
+ */
+/* line 290, /home/drempel/workspace/rempelonrails/app/assets/stylesheets/_normalize.css.scss */
+button,
+html input[type="button"],
+input[type="reset"],
+input[type="submit"] {
+  -webkit-appearance: button;
+  /* 2 */
+  cursor: pointer;
+  /* 3 */
+}
+
+/**
+ * Re-set default cursor for disabled elements.
+ */
+/* line 302, /home/drempel/workspace/rempelonrails/app/assets/stylesheets/_normalize.css.scss */
+button[disabled],
+html input[disabled] {
+  cursor: default;
+}
+
+/**
+ * Remove inner padding and border in Firefox 4+.
+ */
+/* line 311, /home/drempel/workspace/rempelonrails/app/assets/stylesheets/_normalize.css.scss */
+button::-moz-focus-inner,
+input::-moz-focus-inner {
+  border: 0;
+  padding: 0;
+}
+
+/**
+ * Address Firefox 4+ setting `line-height` on `input` using `!important` in
+ * the UA stylesheet.
+ */
+/* line 322, /home/drempel/workspace/rempelonrails/app/assets/stylesheets/_normalize.css.scss */
+input {
+  line-height: normal;
+}
+
+/**
+ * It's recommended that you don't attempt to style these elements.
+ * Firefox's implementation doesn't respect box-sizing, padding, or width.
+ *
+ * 1. Address box sizing set to `content-box` in IE 8/9/10.
+ * 2. Remove excess padding in IE 8/9/10.
+ */
+/* line 334, /home/drempel/workspace/rempelonrails/app/assets/stylesheets/_normalize.css.scss */
+input[type="checkbox"],
+input[type="radio"] {
+  box-sizing: border-box;
+  /* 1 */
+  padding: 0;
+  /* 2 */
+}
+
+/**
+ * Fix the cursor style for Chrome's increment/decrement buttons. For certain
+ * `font-size` values of the `input`, it causes the cursor style of the
+ * decrement button to change from `default` to `text`.
+ */
+/* line 346, /home/drempel/workspace/rempelonrails/app/assets/stylesheets/_normalize.css.scss */
+input[type="number"]::-webkit-inner-spin-button,
+input[type="number"]::-webkit-outer-spin-button {
+  height: auto;
+}
+
+/**
+ * 1. Address `appearance` set to `searchfield` in Safari and Chrome.
+ * 2. Address `box-sizing` set to `border-box` in Safari and Chrome.
+ */
+/* line 356, /home/drempel/workspace/rempelonrails/app/assets/stylesheets/_normalize.css.scss */
+input[type="search"] {
+  -webkit-appearance: textfield;
+  /* 1 */
+  box-sizing: content-box;
+  /* 2 */
+}
+
+/**
+ * Remove inner padding and search cancel button in Safari and Chrome on OS X.
+ * Safari (but not Chrome) clips the cancel button when the search input has
+ * padding (and `textfield` appearance).
+ */
+/* line 367, /home/drempel/workspace/rempelonrails/app/assets/stylesheets/_normalize.css.scss */
+input[type="search"]::-webkit-search-cancel-button,
+input[type="search"]::-webkit-search-decoration {
+  -webkit-appearance: none;
+}
+
+/**
+ * Define consistent border, margin, and padding.
+ */
+/* line 376, /home/drempel/workspace/rempelonrails/app/assets/stylesheets/_normalize.css.scss */
+fieldset {
+  border: 1px solid #c0c0c0;
+  margin: 0 2px;
+  padding: 0.35em 0.625em 0.75em;
+}
+
+/**
+ * 1. Correct `color` not being inherited in IE 8/9/10/11.
+ * 2. Remove padding so people aren't caught out if they zero out fieldsets.
+ */
+/* line 387, /home/drempel/workspace/rempelonrails/app/assets/stylesheets/_normalize.css.scss */
+legend {
+  border: 0;
+  /* 1 */
+  padding: 0;
+  /* 2 */
+}
+
+/**
+ * Remove default vertical scrollbar in IE 8/9/10/11.
+ */
+/* line 396, /home/drempel/workspace/rempelonrails/app/assets/stylesheets/_normalize.css.scss */
+textarea {
+  overflow: auto;
+}
+
+/**
+ * Don't inherit the `font-weight` (applied by a rule above).
+ * NOTE: the default cannot safely be changed in Chrome and Safari on OS X.
+ */
+/* line 405, /home/drempel/workspace/rempelonrails/app/assets/stylesheets/_normalize.css.scss */
+optgroup {
+  font-weight: bold;
+}
+
+/* Tables
+   ========================================================================== */
+/**
+ * Remove most spacing between table cells.
+ */
+/* line 416, /home/drempel/workspace/rempelonrails/app/assets/stylesheets/_normalize.css.scss */
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+/* line 421, /home/drempel/workspace/rempelonrails/app/assets/stylesheets/_normalize.css.scss */
+td,
+th {
+  padding: 0;
+}
+
+/* --------------------------------
+
+Primary style
+
+-------------------------------- */
+/* line 6, /home/drempel/.rbenv/versions/2.3.0/lib/ruby/gems/2.3.0/gems/parallaximage-rails-1.0.0/app/assets/stylesheets/parallaximage.css */
+*, *::after, *::before {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+/* line 12, /home/drempel/.rbenv/versions/2.3.0/lib/ruby/gems/2.3.0/gems/parallaximage-rails-1.0.0/app/assets/stylesheets/parallaximage.css */
+html {
+  font-size: 62.5%;
+}
+
+/* line 16, /home/drempel/.rbenv/versions/2.3.0/lib/ruby/gems/2.3.0/gems/parallaximage-rails-1.0.0/app/assets/stylesheets/parallaximage.css */
+body {
+  font-size: 1.6rem;
+  font-family: sans-serif;
+  color: #ffffff;
+  background: #001426 url("../images/bg-pattern.png");
+}
+
+/* line 23, /home/drempel/.rbenv/versions/2.3.0/lib/ruby/gems/2.3.0/gems/parallaximage-rails-1.0.0/app/assets/stylesheets/parallaximage.css */
+a {
+  color: #196a74;
+  text-decoration: none;
+}
+
+/* --------------------------------
+
+Main Components
+
+-------------------------------- */
+/* line 33, /home/drempel/.rbenv/versions/2.3.0/lib/ruby/gems/2.3.0/gems/parallaximage-rails-1.0.0/app/assets/stylesheets/parallaximage.css */
+.cd-background-wrapper {
+  background-color: #001426;
+  position: relative;
+  overflow: hidden;
+}
+
+/* line 38, /home/drempel/.rbenv/versions/2.3.0/lib/ruby/gems/2.3.0/gems/parallaximage-rails-1.0.0/app/assets/stylesheets/parallaximage.css */
+.no-touch .cd-background-wrapper {
+  -webkit-perspective: 4000px;
+  -moz-perspective: 4000px;
+  perspective: 4000px;
+}
+
+/* line 43, /home/drempel/.rbenv/versions/2.3.0/lib/ruby/gems/2.3.0/gems/parallaximage-rails-1.0.0/app/assets/stylesheets/parallaximage.css */
+.cd-background-wrapper::before {
+  /* never visible - this is used in jQuery to check the device type */
+  content: 'web';
+  display: none;
+}
+
+/* line 48, /home/drempel/.rbenv/versions/2.3.0/lib/ruby/gems/2.3.0/gems/parallaximage-rails-1.0.0/app/assets/stylesheets/parallaximage.css */
+.touch .cd-background-wrapper::before {
+  /* never visible - this is used in jQuery to check the device type */
+  content: 'mobile';
+}
+
+/* line 53, /home/drempel/.rbenv/versions/2.3.0/lib/ruby/gems/2.3.0/gems/parallaximage-rails-1.0.0/app/assets/stylesheets/parallaximage.css */
+.cd-floating-background {
+  position: relative;
+}
+
+/* line 56, /home/drempel/.rbenv/versions/2.3.0/lib/ruby/gems/2.3.0/gems/parallaximage-rails-1.0.0/app/assets/stylesheets/parallaximage.css */
+.cd-floating-background img {
+  display: block;
+  width: 100%;
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+  /* fixes a Firefox bug - images not correctly rendered*/
+  background-color: rgba(255, 255, 255, 0.01);
+}
+
+/* line 64, /home/drempel/.rbenv/versions/2.3.0/lib/ruby/gems/2.3.0/gems/parallaximage-rails-1.0.0/app/assets/stylesheets/parallaximage.css */
+.cd-floating-background img:not(:first-child) {
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+/* line 69, /home/drempel/.rbenv/versions/2.3.0/lib/ruby/gems/2.3.0/gems/parallaximage-rails-1.0.0/app/assets/stylesheets/parallaximage.css */
+.no-touch .cd-floating-background {
+  top: 0;
+  left: 0;
+  -webkit-transform-style: preserve-3d;
+  -moz-transform-style: preserve-3d;
+  -ms-transform-style: preserve-3d;
+  -o-transform-style: preserve-3d;
+  transform-style: preserve-3d;
+  -webkit-transform: translateZ(0);
+  -moz-transform: translateZ(0);
+  -ms-transform: translateZ(0);
+  -o-transform: translateZ(0);
+  transform: translateZ(0);
+}
+
+/* line 83, /home/drempel/.rbenv/versions/2.3.0/lib/ruby/gems/2.3.0/gems/parallaximage-rails-1.0.0/app/assets/stylesheets/parallaximage.css */
+.no-touch .cd-floating-background.is-absolute {
+  position: absolute;
+}
+
+/* line 86, /home/drempel/.rbenv/versions/2.3.0/lib/ruby/gems/2.3.0/gems/parallaximage-rails-1.0.0/app/assets/stylesheets/parallaximage.css */
+.no-touch .cd-floating-background img:first-child {
+  -webkit-transform: translateZ(50px);
+  -moz-transform: translateZ(50px);
+  -ms-transform: translateZ(50px);
+  -o-transform: translateZ(50px);
+  transform: translateZ(50px);
+}
+
+/* line 93, /home/drempel/.rbenv/versions/2.3.0/lib/ruby/gems/2.3.0/gems/parallaximage-rails-1.0.0/app/assets/stylesheets/parallaximage.css */
+.no-touch .cd-floating-background img:nth-child(2) {
+  -webkit-transform: translateZ(290px);
+  -moz-transform: translateZ(290px);
+  -ms-transform: translateZ(290px);
+  -o-transform: translateZ(290px);
+  transform: translateZ(290px);
+}
+
+/* line 100, /home/drempel/.rbenv/versions/2.3.0/lib/ruby/gems/2.3.0/gems/parallaximage-rails-1.0.0/app/assets/stylesheets/parallaximage.css */
+.no-touch .cd-floating-background img:nth-child(3) {
+  -webkit-transform: translateZ(400px);
+  -moz-transform: translateZ(400px);
+  -ms-transform: translateZ(400px);
+  -o-transform: translateZ(400px);
+  transform: translateZ(400px);
+}
+
+/* line 107, /home/drempel/.rbenv/versions/2.3.0/lib/ruby/gems/2.3.0/gems/parallaximage-rails-1.0.0/app/assets/stylesheets/parallaximage.css */
+.no-touch.no-preserve-3d .cd-floating-background {
+  /* we target browsers that don't support preserve-3d and show just a standard image - no effect visible */
+  position: relative;
+}
+
+/* line 32, /home/drempel/workspace/rempelonrails/app/assets/stylesheets/application.css.scss */
+* {
+  box-sizing: border-box;
+}
+
+/* line 36, /home/drempel/workspace/rempelonrails/app/assets/stylesheets/application.css.scss */
+body {
+  font-family: 'Roboto', sans-serif;
+  background-color: #ffffff;
+}
+
+/* line 41, /home/drempel/workspace/rempelonrails/app/assets/stylesheets/application.css.scss */
+.wrapper {
+  width: 90%;
+  margin: 0 auto;
+}
+
+/* line 46, /home/drempel/workspace/rempelonrails/app/assets/stylesheets/application.css.scss */
+.skinny_wrapper {
+  width: 80%;
+  max-width: 720px;
+  margin: 0 auto;
+}
+
+/* line 52, /home/drempel/workspace/rempelonrails/app/assets/stylesheets/application.css.scss */
+.wrapper_padding {
+  padding: 4rem 0;
+}
+
+/* line 56, /home/drempel/workspace/rempelonrails/app/assets/stylesheets/application.css.scss */
+.clearfix:before,
+.clearfix:after {
+  content: " ";
+  display: table;
+}
+
+/* line 62, /home/drempel/workspace/rempelonrails/app/assets/stylesheets/application.css.scss */
+.clearfix:after {
+  clear: both;
+}
+
+/* line 66, /home/drempel/workspace/rempelonrails/app/assets/stylesheets/application.css.scss */
+.hidden {
+  display: none;
+}
+
+/* line 70, /home/drempel/workspace/rempelonrails/app/assets/stylesheets/application.css.scss */
+.notice, .alert {
+  text-align: center;
+  padding: 1em 0;
+  border-bottom: 1px solid #e9e9e9;
+}
+
+/* line 76, /home/drempel/workspace/rempelonrails/app/assets/stylesheets/application.css.scss */
+h1, h2, h3, h4, h5, h6, p, ul, li {
+  color: #2E303A;
+}
+
+/* line 80, /home/drempel/workspace/rempelonrails/app/assets/stylesheets/application.css.scss */
+h1 {
+  font-size: 2.5rem;
+}
+
+/* line 84, /home/drempel/workspace/rempelonrails/app/assets/stylesheets/application.css.scss */
+h2 {
+  font-size: 2rem;
+}
+
+/* line 88, /home/drempel/workspace/rempelonrails/app/assets/stylesheets/application.css.scss */
+h3 {
+  font-size: 1.75rem;
+}
+
+/* line 92, /home/drempel/workspace/rempelonrails/app/assets/stylesheets/application.css.scss */
+h4 {
+  font-size: 1.375rem;
+}
+
+/* line 96, /home/drempel/workspace/rempelonrails/app/assets/stylesheets/application.css.scss */
+h5 {
+  font-size: 1.25rem;
+}
+
+/* line 100, /home/drempel/workspace/rempelonrails/app/assets/stylesheets/application.css.scss */
+h6 {
+  font-size: 1rem;
+}
+
+/* line 104, /home/drempel/workspace/rempelonrails/app/assets/stylesheets/application.css.scss */
+p, li {
+  font-size: 1.1rem;
+  line-height: 1.75;
+}
+
+/* line 109, /home/drempel/workspace/rempelonrails/app/assets/stylesheets/application.css.scss */
+p, ul, ol {
+  margin: 0 0 1.6em 0;
+}
+
+/* line 113, /home/drempel/workspace/rempelonrails/app/assets/stylesheets/application.css.scss */
+hr {
+  width: 3em;
+  display: block;
+  height: 2px;
+  border: 0;
+  border-top: 2px solid #cb4b16;
+  margin: 2rem 0;
+}
+
+/* line 122, /home/drempel/workspace/rempelonrails/app/assets/stylesheets/application.css.scss */
+#main_navigation {
+  padding: .8em 5%;
+  border-bottom: 1px solid #2E303A;
+  background: #002b36;
+  box-shadow: 0 10px 15px -8px #000;
+}
+/* line 127, /home/drempel/workspace/rempelonrails/app/assets/stylesheets/application.css.scss */
+#main_navigation .active {
+  color: #cb4b16;
+}
+/* line 130, /home/drempel/workspace/rempelonrails/app/assets/stylesheets/application.css.scss */
+#main_navigation .name {
+  font-weight: 700;
+  font-size: 1.1em;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  padding: 1rem 0;
+  text-decoration: none;
+  color: #ffffff;
+  float: left;
+}
+/* line 140, /home/drempel/workspace/rempelonrails/app/assets/stylesheets/application.css.scss */
+#main_navigation nav {
+  float: right;
+  padding-top: 1rem;
+}
+/* line 143, /home/drempel/workspace/rempelonrails/app/assets/stylesheets/application.css.scss */
+#main_navigation nav a {
+  color: #ffffff;
+  text-decoration: none;
+  margin: 0 1rem;
+  font-size: 1rem;
+}
+/* line 148, /home/drempel/workspace/rempelonrails/app/assets/stylesheets/application.css.scss */
+#main_navigation nav a:hover {
+  color: #cb4b16;
+}
+
+/* line 155, /home/drempel/workspace/rempelonrails/app/assets/stylesheets/application.css.scss */
+span.tag a {
+  color: #cb4b16;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-size: .75em;
+  padding-right: 2px;
+  display: inline-block;
+}
+/* line 162, /home/drempel/workspace/rempelonrails/app/assets/stylesheets/application.css.scss */
+span.tag a:after {
+  content: ", ";
+  color: #2E303A;
+}
+/* line 166, /home/drempel/workspace/rempelonrails/app/assets/stylesheets/application.css.scss */
+span.tag a:last-child:after {
+  content: "";
+}
+/* line 169, /home/drempel/workspace/rempelonrails/app/assets/stylesheets/application.css.scss */
+span.tag a:hover {
+  color: #2E303A;
+}
+
+/* line 174, /home/drempel/workspace/rempelonrails/app/assets/stylesheets/application.css.scss */
+#page_title {
+  text-align: center;
+  border-bottom: 1px solid #D5D5D5;
+  padding: 3em 0;
+  font-size: 1rem;
+  text-transform: uppercase;
+}
+
+/* line 182, /home/drempel/workspace/rempelonrails/app/assets/stylesheets/application.css.scss */
+#main_footer {
+  padding: 2.5em 5%;
+  margin-top: 39px;
+  border-top: 1px solid #2E303A;
+  background: #2E303A;
+  box-shadow: 0 -10px 15px -8px #000;
+}
+/* line 188, /home/drempel/workspace/rempelonrails/app/assets/stylesheets/application.css.scss */
+#main_footer .copyright {
+  float: left;
+  line-height: .5em;
+  color: #9a9da4;
+  font-weight: 700;
+  font-size: .9em;
+  margin: 0;
+}
+/* line 196, /home/drempel/workspace/rempelonrails/app/assets/stylesheets/application.css.scss */
+#main_footer nav {
+  float: right;
+}
+/* line 198, /home/drempel/workspace/rempelonrails/app/assets/stylesheets/application.css.scss */
+#main_footer nav i {
+  color: #9a9da4;
+  line-height: .5em;
+  margin-left: 1em;
+  padding-top: .2em;
+}
+/* line 203, /home/drempel/workspace/rempelonrails/app/assets/stylesheets/application.css.scss */
+#main_footer nav i:hover {
+  color: #ffffff;
+}
+
+/* line 210, /home/drempel/workspace/rempelonrails/app/assets/stylesheets/application.css.scss */
+input[type="text"], input[type="email"], input[type="password"], textarea {
+  width: 100%;
+  max-width: 100%;
+  height: 3em;
+  border: 2px solid #D5D5D5;
+  padding: 1em;
+  margin: .5em 0 2em 0;
+}
+
+/* line 219, /home/drempel/workspace/rempelonrails/app/assets/stylesheets/application.css.scss */
+textarea {
+  min-height: 20em;
+  margin: 0.5em 0 2em 0 !important;
+}
+
+/* line 224, /home/drempel/workspace/rempelonrails/app/assets/stylesheets/application.css.scss */
+input[type="submit"], .button {
+  outline: none;
+  background: transparent;
+  border: 2px solid #D5D5D5;
+  text-align: center;
+  font-style: 1em;
+  color: #2E303A;
+  text-decoration: none;
+  padding: 1em 2em;
+}
+/* line 233, /home/drempel/workspace/rempelonrails/app/assets/stylesheets/application.css.scss */
+input[type="submit"]:hover, .button:hover {
+  border: 2px solid #cb4b16;
+  color: #cb4b16;
+}
+
+/* line 239, /home/drempel/workspace/rempelonrails/app/assets/stylesheets/application.css.scss */
+.project_button {
+  background: #cb4b16;
+  color: #ffffff;
+  text-decoration: none;
+  padding: 1em 2em;
+}
+
+/* line 246, /home/drempel/workspace/rempelonrails/app/assets/stylesheets/application.css.scss */
+.button_wrapper {
+  margin: 4em 0 0 0;
+  text-align: center;
+}
+
+/* line 7, /home/drempel/workspace/rempelonrails/app/assets/stylesheets/_welcome.css.scss */
+.col-1, .col-2, .col-3 {
+  float: left;
+}
+
+/* line 11, /home/drempel/workspace/rempelonrails/app/assets/stylesheets/_welcome.css.scss */
+.col-1 {
+  width: 45%;
+  padding: 0 5% 0 2.5%;
+}
+
+/* line 16, /home/drempel/workspace/rempelonrails/app/assets/stylesheets/_welcome.css.scss */
+.col-2, .col-3 {
+  width: 27.5%;
+  padding: 0 2.5%;
+}
+
+/* line 22, /home/drempel/workspace/rempelonrails/app/assets/stylesheets/_welcome.css.scss */
+.homepage_content h2 {
+  font-size: 1.1rem;
+  text-transform: uppercase;
+}
+/* line 27, /home/drempel/workspace/rempelonrails/app/assets/stylesheets/_welcome.css.scss */
+.homepage_content h3 {
+  font-family: 'Roboto', sans-serif;
+  font-size: 1.3em;
+  font-weight: 700;
+  margin-bottom: .7em;
+}
+/* line 33, /home/drempel/workspace/rempelonrails/app/assets/stylesheets/_welcome.css.scss */
+.homepage_content h4 {
+  font-size: .95rem;
+  font-family: 'Droid Serif', 'Georgia', 'Cambria', 'Times New Roman', serif;
+  color: #707070;
+  margin-top: 0.5em;
+  margin-bottom: 0;
+  font-weight: 400;
+  margin-bottom: .8em;
+}
+/* line 43, /home/drempel/workspace/rempelonrails/app/assets/stylesheets/_welcome.css.scss */
+.homepage_content a {
+  text-decoration: none;
+  color: #2E303A;
+}
+/* line 46, /home/drempel/workspace/rempelonrails/app/assets/stylesheets/_welcome.css.scss */
+.homepage_content a:hover {
+  color: #cb4b16;
+}
+/* line 50, /home/drempel/workspace/rempelonrails/app/assets/stylesheets/_welcome.css.scss */
+.homepage_content .date {
+  font-size: .9em;
+  margin-bottom: 2em;
+  color: #9a9da4;
+  display: inline-block;
+  padding-right: 10px;
+  font-family: 'Roboto', sans-serif;
+}
+/* line 58, /home/drempel/workspace/rempelonrails/app/assets/stylesheets/_welcome.css.scss */
+.homepage_content p {
+  margin: 0 0 .75em 0;
+  font-family: 'Georgia', 'Cambria', 'Times New Roman', serif;
+}
+
+/* line 64, /home/drempel/workspace/rempelonrails/app/assets/stylesheets/_welcome.css.scss */
+.about {
+  padding: 0 7.5% 0 0;
+}
+/* line 66, /home/drempel/workspace/rempelonrails/app/assets/stylesheets/_welcome.css.scss */
+.about a {
+  color: #cb4b16;
+  font-weight: 400;
+  text-decoration: none;
+}
+/* line 70, /home/drempel/workspace/rempelonrails/app/assets/stylesheets/_welcome.css.scss */
+.about a:hover {
+  color: #2E303A;
+}
+
+/* line 7, /home/drempel/workspace/rempelonrails/app/assets/stylesheets/_posts_projects.css.scss */
+#posts_wrapper {
+  padding-top: 4em;
+}
+/* line 9, /home/drempel/workspace/rempelonrails/app/assets/stylesheets/_posts_projects.css.scss */
+#posts_wrapper .post {
+  text-align: left;
+}
+/* line 11, /home/drempel/workspace/rempelonrails/app/assets/stylesheets/_posts_projects.css.scss */
+#posts_wrapper .post .date {
+  font-size: .9em;
+  margin: 0;
+  display: inline-block;
+  padding-right: 10px;
+  color: #9a9da4;
+}
+/* line 18, /home/drempel/workspace/rempelonrails/app/assets/stylesheets/_posts_projects.css.scss */
+#posts_wrapper .post h2 {
+  margin: 0;
+  font-size: 1.5em;
+  text-transform: capitalize;
+}
+/* line 22, /home/drempel/workspace/rempelonrails/app/assets/stylesheets/_posts_projects.css.scss */
+#posts_wrapper .post h2 a {
+  text-decoration: none;
+  color: #2E303A;
+}
+/* line 25, /home/drempel/workspace/rempelonrails/app/assets/stylesheets/_posts_projects.css.scss */
+#posts_wrapper .post h2 a:hover {
+  color: #cb4b16;
+}
+/* line 30, /home/drempel/workspace/rempelonrails/app/assets/stylesheets/_posts_projects.css.scss */
+#posts_wrapper .post h2#posthead {
+  display: inline-block;
+}
+/* line 33, /home/drempel/workspace/rempelonrails/app/assets/stylesheets/_posts_projects.css.scss */
+#posts_wrapper .post span#draft {
+  display: inline-block;
+  padding-left: 10px;
+  color: #9a9da4;
+  font-size: 1em;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+/* line 41, /home/drempel/workspace/rempelonrails/app/assets/stylesheets/_posts_projects.css.scss */
+#posts_wrapper .post h4 {
+  color: #707070;
+  font-size: 1.05em;
+  font-weight: 400;
+  margin-top: 1.2em;
+  margin-bottom: 1.4em;
+  font-family: 'Droid Serif', 'Georgia', 'Cambria', 'Times New Roman', serif;
+}
+/* line 49, /home/drempel/workspace/rempelonrails/app/assets/stylesheets/_posts_projects.css.scss */
+#posts_wrapper .post hr {
+  margin: 3em auto;
+}
+/* line 53, /home/drempel/workspace/rempelonrails/app/assets/stylesheets/_posts_projects.css.scss */
+#posts_wrapper .project {
+  text-align: center;
+}
+/* line 55, /home/drempel/workspace/rempelonrails/app/assets/stylesheets/_posts_projects.css.scss */
+#posts_wrapper .project h2 {
+  font-size: 2em;
+}
+
+/* line 63, /home/drempel/workspace/rempelonrails/app/assets/stylesheets/_posts_projects.css.scss */
+#post_show_content header {
+  text-align: center;
+}
+/* line 65, /home/drempel/workspace/rempelonrails/app/assets/stylesheets/_posts_projects.css.scss */
+#post_show_content header .date {
+  font-style: .9em;
+  color: #9a9da4;
+  margin: 20px 0 10px 0;
+}
+/* line 70, /home/drempel/workspace/rempelonrails/app/assets/stylesheets/_posts_projects.css.scss */
+#post_show_content header h1 {
+  margin: 0;
+  font-size: 2.3rem;
+}
+/* line 75, /home/drempel/workspace/rempelonrails/app/assets/stylesheets/_posts_projects.css.scss */
+#post_show_content p {
+  font-family: 'Georgia', 'Cambria', 'Times New Roman', serif;
+}
+/* line 77, /home/drempel/workspace/rempelonrails/app/assets/stylesheets/_posts_projects.css.scss */
+#post_show_content p a {
+  color: #cb4b16;
+  font-weight: 400;
+  text-decoration: none;
+}
+/* line 81, /home/drempel/workspace/rempelonrails/app/assets/stylesheets/_posts_projects.css.scss */
+#post_show_content p a:hover {
+  color: black;
+}
+/* line 86, /home/drempel/workspace/rempelonrails/app/assets/stylesheets/_posts_projects.css.scss */
+#post_show_content hr {
+  margin: 3em auto;
+}
+
+/* line 91, /home/drempel/workspace/rempelonrails/app/assets/stylesheets/_posts_projects.css.scss */
+#share_box {
+  text-align: center;
+}
+/* line 93, /home/drempel/workspace/rempelonrails/app/assets/stylesheets/_posts_projects.css.scss */
+#share_box p {
+  padding-bottom: 0 0 1em 0;
+  margin: 0;
+  font-weight: 700;
+  text-transform: capitalize;
+  color: #2E303A;
+  font-size: .8em;
+}
+/* line 100, /home/drempel/workspace/rempelonrails/app/assets/stylesheets/_posts_projects.css.scss */
+#share_box p .redshare {
+  text-transform: uppercase;
+  margin-right: 5px;
+}
+/* line 105, /home/drempel/workspace/rempelonrails/app/assets/stylesheets/_posts_projects.css.scss */
+#share_box i {
+  color: #2E303A;
+  padding: 1em 1.5em;
+}
+/* line 108, /home/drempel/workspace/rempelonrails/app/assets/stylesheets/_posts_projects.css.scss */
+#share_box i:hover {
+  color: #cb4b16;
+  cursor: pointer;
+}
+
+/* line 115, /home/drempel/workspace/rempelonrails/app/assets/stylesheets/_posts_projects.css.scss */
+#admin_links {
+  border-top: 1px solid #D5D5D5;
+  border-bottom: 1px solid #D5D5D5;
+  text-align: center;
+  padding: 1em 0;
+  margin: 3em 0;
+}
+/* line 121, /home/drempel/workspace/rempelonrails/app/assets/stylesheets/_posts_projects.css.scss */
+#admin_links a {
+  color: #9a9da4;
+  margin: 0 1em;
+  font-weight: 700;
+  font-style: .8em;
+  text-transform: uppercase;
+  text-decoration: none;
+}
+/* line 128, /home/drempel/workspace/rempelonrails/app/assets/stylesheets/_posts_projects.css.scss */
+#admin_links a:hover {
+  color: #cb4b16;
+}
+
+/* line 136, /home/drempel/workspace/rempelonrails/app/assets/stylesheets/_posts_projects.css.scss */
+.pagination:before,
+.pagination:after {
+  content: " ";
+  display: table;
+}
+
+/* line 142, /home/drempel/workspace/rempelonrails/app/assets/stylesheets/_posts_projects.css.scss */
+.pagination:after {
+  clear: both;
+}
+
+/* line 146, /home/drempel/workspace/rempelonrails/app/assets/stylesheets/_posts_projects.css.scss */
+.pagination {
+  text-align: center;
+  margin: 0 0 3em 0;
+}
+/* line 149, /home/drempel/workspace/rempelonrails/app/assets/stylesheets/_posts_projects.css.scss */
+.pagination a, .pagination .previous_page, .pagination .current, .pagination .next_page {
+  padding: .75em 1em;
+  margin: 0.5em;
+  border-radius: .15em;
+  line-height: 20px;
+  text-decoration: none;
+  background: #ffffff;
+  font-weight: 700;
+  font-size: .7em;
+  font-style: normal;
+  color: #2E303A;
+}
+/* line 160, /home/drempel/workspace/rempelonrails/app/assets/stylesheets/_posts_projects.css.scss */
+.pagination a:hover, .pagination .previous_page:hover, .pagination .current:hover, .pagination .next_page:hover {
+  background: #cb4b16;
+  color: #ffffff;
+}
+/* line 165, /home/drempel/workspace/rempelonrails/app/assets/stylesheets/_posts_projects.css.scss */
+.pagination .current {
+  background: #cb4b16;
+  color: #ffffff;
+}
+/* line 169, /home/drempel/workspace/rempelonrails/app/assets/stylesheets/_posts_projects.css.scss */
+.pagination .disabled {
+  color: #C0C0C0;
+}
+/* line 171, /home/drempel/workspace/rempelonrails/app/assets/stylesheets/_posts_projects.css.scss */
+.pagination .disabled:hover {
+  color: #C0C0C0;
+  background: #ffffff;
+}
+
+/* Solarized Dark 
+
+SOLARIZED HEX      ROLE
+--------- -------- ------------------------------------------
+base03    #002b36  background
+base01    #586e75  comments / secondary content
+base1     #93a1a1  body text / default code / primary content
+orange    #cb4b16  constants
+red       #dc322f  regex, special keywords
+blue      #268bd2  reserved keywords
+cyan      #2aa198  strings, numbers
+green     #859900  operators, other keywords
+*/
+/* line 15, /home/drempel/workspace/rempelonrails/app/assets/stylesheets/pygments.css.scss */
+pre {
+  background-color: #002b36;
+  color: #93a1a1;
+  padding: 10px;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  border-radius: 5px;
+  overflow: auto;
+}
+
+/* line 24, /home/drempel/workspace/rempelonrails/app/assets/stylesheets/pygments.css.scss */
+code {
+  background-color: #002b36;
+  color: #93a1a1;
+  padding: 1px 3px;
+  -webkit-border-radius: 2px;
+  -moz-border-radius: 2px;
+  border-radius: 2px;
+}
+
+/* line 32, /home/drempel/workspace/rempelonrails/app/assets/stylesheets/pygments.css.scss */
+.highlight .lineno {
+  color: #586e75;
+}
+
+/* Line Numbers */
+/* line 33, /home/drempel/workspace/rempelonrails/app/assets/stylesheets/pygments.css.scss */
+.highlight .c {
+  color: #586e75;
+}
+
+/* Comment */
+/* line 34, /home/drempel/workspace/rempelonrails/app/assets/stylesheets/pygments.css.scss */
+.highlight .err {
+  color: #93a1a1;
+}
+
+/* Error */
+/* line 35, /home/drempel/workspace/rempelonrails/app/assets/stylesheets/pygments.css.scss */
+.highlight .g {
+  color: #93a1a1;
+}
+
+/* Generic */
+/* line 36, /home/drempel/workspace/rempelonrails/app/assets/stylesheets/pygments.css.scss */
+.highlight .k {
+  color: #859900;
+}
+
+/* Keyword */
+/* line 37, /home/drempel/workspace/rempelonrails/app/assets/stylesheets/pygments.css.scss */
+.highlight .l {
+  color: #93a1a1;
+}
+
+/* Literal */
+/* line 38, /home/drempel/workspace/rempelonrails/app/assets/stylesheets/pygments.css.scss */
+.highlight .n {
+  color: #93a1a1;
+}
+
+/* Name */
+/* line 39, /home/drempel/workspace/rempelonrails/app/assets/stylesheets/pygments.css.scss */
+.highlight .o {
+  color: #859900;
+}
+
+/* Operator */
+/* line 40, /home/drempel/workspace/rempelonrails/app/assets/stylesheets/pygments.css.scss */
+.highlight .x {
+  color: #cb4b16;
+}
+
+/* Other */
+/* line 41, /home/drempel/workspace/rempelonrails/app/assets/stylesheets/pygments.css.scss */
+.highlight .p {
+  color: #93a1a1;
+}
+
+/* Punctuation */
+/* line 42, /home/drempel/workspace/rempelonrails/app/assets/stylesheets/pygments.css.scss */
+.highlight .cm {
+  color: #586e75;
+}
+
+/* Comment.Multiline */
+/* line 43, /home/drempel/workspace/rempelonrails/app/assets/stylesheets/pygments.css.scss */
+.highlight .cp {
+  color: #859900;
+}
+
+/* Comment.Preproc */
+/* line 44, /home/drempel/workspace/rempelonrails/app/assets/stylesheets/pygments.css.scss */
+.highlight .c1 {
+  color: #586e75;
+}
+
+/* Comment.Single */
+/* line 45, /home/drempel/workspace/rempelonrails/app/assets/stylesheets/pygments.css.scss */
+.highlight .cs {
+  color: #859900;
+}
+
+/* Comment.Special */
+/* line 46, /home/drempel/workspace/rempelonrails/app/assets/stylesheets/pygments.css.scss */
+.highlight .gd {
+  color: #2aa198;
+}
+
+/* Generic.Deleted */
+/* line 47, /home/drempel/workspace/rempelonrails/app/assets/stylesheets/pygments.css.scss */
+.highlight .ge {
+  color: #93a1a1;
+  font-style: italic;
+}
+
+/* Generic.Emph */
+/* line 48, /home/drempel/workspace/rempelonrails/app/assets/stylesheets/pygments.css.scss */
+.highlight .gr {
+  color: #dc322f;
+}
+
+/* Generic.Error */
+/* line 49, /home/drempel/workspace/rempelonrails/app/assets/stylesheets/pygments.css.scss */
+.highlight .gh {
+  color: #cb4b16;
+}
+
+/* Generic.Heading */
+/* line 50, /home/drempel/workspace/rempelonrails/app/assets/stylesheets/pygments.css.scss */
+.highlight .gi {
+  color: #859900;
+}
+
+/* Generic.Inserted */
+/* line 51, /home/drempel/workspace/rempelonrails/app/assets/stylesheets/pygments.css.scss */
+.highlight .go {
+  color: #93a1a1;
+}
+
+/* Generic.Output */
+/* line 52, /home/drempel/workspace/rempelonrails/app/assets/stylesheets/pygments.css.scss */
+.highlight .gp {
+  color: #93a1a1;
+}
+
+/* Generic.Prompt */
+/* line 53, /home/drempel/workspace/rempelonrails/app/assets/stylesheets/pygments.css.scss */
+.highlight .gs {
+  color: #93a1a1;
+  font-weight: bold;
+}
+
+/* Generic.Strong */
+/* line 54, /home/drempel/workspace/rempelonrails/app/assets/stylesheets/pygments.css.scss */
+.highlight .gu {
+  color: #cb4b16;
+}
+
+/* Generic.Subheading */
+/* line 55, /home/drempel/workspace/rempelonrails/app/assets/stylesheets/pygments.css.scss */
+.highlight .gt {
+  color: #93a1a1;
+}
+
+/* Generic.Traceback */
+/* line 56, /home/drempel/workspace/rempelonrails/app/assets/stylesheets/pygments.css.scss */
+.highlight .kc {
+  color: #cb4b16;
+}
+
+/* Keyword.Constant */
+/* line 57, /home/drempel/workspace/rempelonrails/app/assets/stylesheets/pygments.css.scss */
+.highlight .kd {
+  color: #268bd2;
+}
+
+/* Keyword.Declaration */
+/* line 58, /home/drempel/workspace/rempelonrails/app/assets/stylesheets/pygments.css.scss */
+.highlight .kn {
+  color: #859900;
+}
+
+/* Keyword.Namespace */
+/* line 59, /home/drempel/workspace/rempelonrails/app/assets/stylesheets/pygments.css.scss */
+.highlight .kp {
+  color: #859900;
+}
+
+/* Keyword.Pseudo */
+/* line 60, /home/drempel/workspace/rempelonrails/app/assets/stylesheets/pygments.css.scss */
+.highlight .kr {
+  color: #268bd2;
+}
+
+/* Keyword.Reserved */
+/* line 61, /home/drempel/workspace/rempelonrails/app/assets/stylesheets/pygments.css.scss */
+.highlight .kt {
+  color: #dc322f;
+}
+
+/* Keyword.Type */
+/* line 62, /home/drempel/workspace/rempelonrails/app/assets/stylesheets/pygments.css.scss */
+.highlight .ld {
+  color: #93a1a1;
+}
+
+/* Literal.Date */
+/* line 63, /home/drempel/workspace/rempelonrails/app/assets/stylesheets/pygments.css.scss */
+.highlight .m {
+  color: #2aa198;
+}
+
+/* Literal.Number */
+/* line 64, /home/drempel/workspace/rempelonrails/app/assets/stylesheets/pygments.css.scss */
+.highlight .s {
+  color: #2aa198;
+}
+
+/* Literal.String */
+/* line 65, /home/drempel/workspace/rempelonrails/app/assets/stylesheets/pygments.css.scss */
+.highlight .na {
+  color: #93a1a1;
+}
+
+/* Name.Attribute */
+/* line 66, /home/drempel/workspace/rempelonrails/app/assets/stylesheets/pygments.css.scss */
+.highlight .nb {
+  color: #B58900;
+}
+
+/* Name.Builtin */
+/* line 67, /home/drempel/workspace/rempelonrails/app/assets/stylesheets/pygments.css.scss */
+.highlight .nc {
+  color: #268bd2;
+}
+
+/* Name.Class */
+/* line 68, /home/drempel/workspace/rempelonrails/app/assets/stylesheets/pygments.css.scss */
+.highlight .no {
+  color: #cb4b16;
+}
+
+/* Name.Constant */
+/* line 69, /home/drempel/workspace/rempelonrails/app/assets/stylesheets/pygments.css.scss */
+.highlight .nd {
+  color: #268bd2;
+}
+
+/* Name.Decorator */
+/* line 70, /home/drempel/workspace/rempelonrails/app/assets/stylesheets/pygments.css.scss */
+.highlight .ni {
+  color: #cb4b16;
+}
+
+/* Name.Entity */
+/* line 71, /home/drempel/workspace/rempelonrails/app/assets/stylesheets/pygments.css.scss */
+.highlight .ne {
+  color: #cb4b16;
+}
+
+/* Name.Exception */
+/* line 72, /home/drempel/workspace/rempelonrails/app/assets/stylesheets/pygments.css.scss */
+.highlight .nf {
+  color: #268bd2;
+}
+
+/* Name.Function */
+/* line 73, /home/drempel/workspace/rempelonrails/app/assets/stylesheets/pygments.css.scss */
+.highlight .nl {
+  color: #93a1a1;
+}
+
+/* Name.Label */
+/* line 74, /home/drempel/workspace/rempelonrails/app/assets/stylesheets/pygments.css.scss */
+.highlight .nn {
+  color: #93a1a1;
+}
+
+/* Name.Namespace */
+/* line 75, /home/drempel/workspace/rempelonrails/app/assets/stylesheets/pygments.css.scss */
+.highlight .nx {
+  color: #93a1a1;
+}
+
+/* Name.Other */
+/* line 76, /home/drempel/workspace/rempelonrails/app/assets/stylesheets/pygments.css.scss */
+.highlight .py {
+  color: #93a1a1;
+}
+
+/* Name.Property */
+/* line 77, /home/drempel/workspace/rempelonrails/app/assets/stylesheets/pygments.css.scss */
+.highlight .nt {
+  color: #268bd2;
+}
+
+/* Name.Tag */
+/* line 78, /home/drempel/workspace/rempelonrails/app/assets/stylesheets/pygments.css.scss */
+.highlight .nv {
+  color: #268bd2;
+}
+
+/* Name.Variable */
+/* line 79, /home/drempel/workspace/rempelonrails/app/assets/stylesheets/pygments.css.scss */
+.highlight .ow {
+  color: #859900;
+}
+
+/* Operator.Word */
+/* line 80, /home/drempel/workspace/rempelonrails/app/assets/stylesheets/pygments.css.scss */
+.highlight .w {
+  color: #93a1a1;
+}
+
+/* Text.Whitespace */
+/* line 81, /home/drempel/workspace/rempelonrails/app/assets/stylesheets/pygments.css.scss */
+.highlight .mf {
+  color: #2aa198;
+}
+
+/* Literal.Number.Float */
+/* line 82, /home/drempel/workspace/rempelonrails/app/assets/stylesheets/pygments.css.scss */
+.highlight .mh {
+  color: #2aa198;
+}
+
+/* Literal.Number.Hex */
+/* line 83, /home/drempel/workspace/rempelonrails/app/assets/stylesheets/pygments.css.scss */
+.highlight .mi {
+  color: #2aa198;
+}
+
+/* Literal.Number.Integer */
+/* line 84, /home/drempel/workspace/rempelonrails/app/assets/stylesheets/pygments.css.scss */
+.highlight .mo {
+  color: #2aa198;
+}
+
+/* Literal.Number.Oct */
+/* line 85, /home/drempel/workspace/rempelonrails/app/assets/stylesheets/pygments.css.scss */
+.highlight .sb {
+  color: #586e75;
+}
+
+/* Literal.String.Backtick */
+/* line 86, /home/drempel/workspace/rempelonrails/app/assets/stylesheets/pygments.css.scss */
+.highlight .sc {
+  color: #2aa198;
+}
+
+/* Literal.String.Char */
+/* line 87, /home/drempel/workspace/rempelonrails/app/assets/stylesheets/pygments.css.scss */
+.highlight .sd {
+  color: #93a1a1;
+}
+
+/* Literal.String.Doc */
+/* line 88, /home/drempel/workspace/rempelonrails/app/assets/stylesheets/pygments.css.scss */
+.highlight .s2 {
+  color: #2aa198;
+}
+
+/* Literal.String.Double */
+/* line 89, /home/drempel/workspace/rempelonrails/app/assets/stylesheets/pygments.css.scss */
+.highlight .se {
+  color: #cb4b16;
+}
+
+/* Literal.String.Escape */
+/* line 90, /home/drempel/workspace/rempelonrails/app/assets/stylesheets/pygments.css.scss */
+.highlight .sh {
+  color: #93a1a1;
+}
+
+/* Literal.String.Heredoc */
+/* line 91, /home/drempel/workspace/rempelonrails/app/assets/stylesheets/pygments.css.scss */
+.highlight .si {
+  color: #2aa198;
+}
+
+/* Literal.String.Interpol */
+/* line 92, /home/drempel/workspace/rempelonrails/app/assets/stylesheets/pygments.css.scss */
+.highlight .sx {
+  color: #2aa198;
+}
+
+/* Literal.String.Other */
+/* line 93, /home/drempel/workspace/rempelonrails/app/assets/stylesheets/pygments.css.scss */
+.highlight .sr {
+  color: #dc322f;
+}
+
+/* Literal.String.Regex */
+/* line 94, /home/drempel/workspace/rempelonrails/app/assets/stylesheets/pygments.css.scss */
+.highlight .s1 {
+  color: #2aa198;
+}
+
+/* Literal.String.Single */
+/* line 95, /home/drempel/workspace/rempelonrails/app/assets/stylesheets/pygments.css.scss */
+.highlight .ss {
+  color: #2aa198;
+}
+
+/* Literal.String.Symbol */
+/* line 96, /home/drempel/workspace/rempelonrails/app/assets/stylesheets/pygments.css.scss */
+.highlight .bp {
+  color: #268bd2;
+}
+
+/* Name.Builtin.Pseudo */
+/* line 97, /home/drempel/workspace/rempelonrails/app/assets/stylesheets/pygments.css.scss */
+.highlight .vc {
+  color: #268bd2;
+}
+
+/* Name.Variable.Class */
+/* line 98, /home/drempel/workspace/rempelonrails/app/assets/stylesheets/pygments.css.scss */
+.highlight .vg {
+  color: #268bd2;
+}
+
+/* Name.Variable.Global */
+/* line 99, /home/drempel/workspace/rempelonrails/app/assets/stylesheets/pygments.css.scss */
+.highlight .vi {
+  color: #268bd2;
+}
+
+/* Name.Variable.Instance */
+/* line 100, /home/drempel/workspace/rempelonrails/app/assets/stylesheets/pygments.css.scss */
+.highlight .il {
+  color: #2aa198;
+}
+
+/* Literal.Number.Integer.Long */

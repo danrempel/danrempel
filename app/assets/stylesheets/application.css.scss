@@ -1,0 +1,333 @@
+/*
+ * This is a manifest file that'll be compiled into application.css, which will include all the files
+ * listed below.
+ *
+ * Any CSS and SCSS file within this directory, lib/assets/stylesheets, vendor/assets/stylesheets,
+ * or any plugin's vendor/assets/stylesheets directory can be referenced here using a relative path.
+ *
+ * You're free to add application-wide styles to this file and they'll appear at the bottom of the
+ * compiled file so the styles you add here take precedence over styles defined in any styles
+ * defined in the other CSS/SCSS files in this directory. It is generally better to create a new
+ * file per style scope.
+ *
+ *= require_tree .
+ *= require_self
+ */
+
+// "bootstrap-sprockets" must be imported before "bootstrap" and "bootstrap/variables"
+@import "bootstrap-sprockets";
+@import "bootstrap";
+
+@import 'normalize';
+@import url(https://fonts.googleapis.com/css?family=Roboto:400,500,700,400italic,300italic,300,700italic,500italic);
+@import url(https://fonts.googleapis.com/css?family=Droid+Serif:400,400italic,700,700italic);
+@import url(https://fonts.googleapis.com/css?family=Noto+Serif:400,700,400italic,700italic|Open+Sans:400,700,800,600);
+
+$dark: #2E303A;
+$white: #ffffff;
+$light: #9a9da4;
+$highlight: #cb4b16;
+$background: #002b36;
+$border: #D5D5D5;
+
+html {
+  font-size: 17px;
+}
+
+* {
+	box-sizing: border-box;
+}
+
+body {
+	font-family: 'Roboto', sans-serif;
+	background-color: $white;
+}
+
+.wrapper {
+	width: 90%;
+	margin: 0 auto;
+}
+
+.skinny_wrapper {
+	width: 80%;
+	max-width: 720px;
+	margin: 0 auto;
+}
+
+.wrapper_padding {
+	padding: 4rem 0;
+}
+
+.clearfix:before,
+.clearfix:after {
+	content: " ";
+	display: table;
+}
+
+.clearfix:after {
+	clear: both;
+}
+
+.hidden {
+	display: none;
+}
+
+.notice, .alert {
+	text-align: center;
+	padding: 1em 0;
+	border-bottom: 1px solid #e9e9e9;
+}
+
+h1, h2, h3, h4, h5, h6, p, ul, li {
+	color: $dark;
+}
+
+h1 {
+	font-size: 2.5rem;
+}
+
+h2 {
+	font-size: 2rem;
+}
+
+h3 {
+	font-size: 1.65rem;
+}
+
+h4 {
+	font-size: 1.375rem;
+}
+
+h5 {
+	font-size: 1.25rem;
+}
+
+h6 {
+	font-size: 1rem;
+}
+
+p, li {
+	font-size: 1rem;
+	line-height: 1.75;
+}
+
+p, ul, ol {
+	margin: 0 0 1.6em 0;
+}
+
+hr {
+		width: 3.5em;
+    text-align: center;
+		display: block;
+		height: 2px;
+		border: 0;
+		border-top: 2px solid $highlight;
+		margin: 2rem auto;
+	}
+
+#main_navigation {
+	padding: .8em 5%;
+	border-bottom: 1px solid $dark;
+	background: $background;
+	box-shadow: 0 10px 15px -8px #000;
+	.active {
+		color: $highlight;
+	}
+	.name {
+		font-weight: 700;
+		font-size: 1.25em;
+		letter-spacing: 2px;
+		text-transform: uppercase;
+		padding: 1rem 0;
+		text-decoration: none;
+		color: $white;
+		float: left;
+	}
+	nav {
+		float: right;
+		padding-top: 1rem;
+    margin: 0 3em;
+		a {
+			color: $white;
+			text-decoration: none;
+			margin: 0 1rem;
+			font-size: .9rem;
+			&:hover {
+				color: $highlight;
+			}
+		}
+	}
+}
+
+.navbar {
+	padding: 1em 5%;
+	box-shadow: 0 10px 15px -8px #000;
+	.container {
+		margin: 0;
+	}
+	.name {
+		font-weight: 700;
+		font-size: 2em;
+		letter-spacing: 2px;
+		text-transform: uppercase;
+		padding: 1rem 0;
+		text-decoration: none;
+		color: $white;
+	}
+}
+
+@media only screen and (max-width: 71.25em) {
+  .navbar .name {
+    font-size: 1.25em;
+  }
+}
+
+.navbar-inverse { background-color: $background}
+.navbar-inverse .navbar-nav>.active>a:hover,.navbar-inverse
+.navbar-nav>li>a:hover, .navbar-inverse .navbar-nav>li>a:focus {
+background-color: $background}
+.navbar-inverse .navbar-nav>.active>a,.navbar-inverse
+.navbar-nav>.open>a,.navbar-inverse .navbar-nav>.open>a, .navbar-inverse
+.navbar-nav>.open>a:hover,.navbar-inverse .navbar-nav>.open>a, .navbar-inverse
+.navbar-nav>.open>a:hover, .navbar-inverse .navbar-nav>.open>a:focus {
+background-color: $background}
+.dropdown-menu { background-color: $white}
+.dropdown-menu>li>a:hover, .dropdown-menu>li>a:focus { background-color:
+$background}
+.navbar-inverse { background-image: none; }
+.dropdown-menu>li>a:hover, .dropdown-menu>li>a:focus { background-image:
+none; }
+.navbar-inverse { border-color: #080808}
+.navbar-inverse .navbar-brand { color: $white}
+.navbar-inverse .navbar-brand:hover { color: $white}
+.navbar-inverse .navbar-nav>li>a { color: $white}
+.navbar-inverse .navbar-nav>li>a:hover, .navbar-inverse
+.navbar-nav>li>a:focus { color: $highlight}
+.navbar-inverse .navbar-nav>.active>a,.navbar-inverse
+.navbar-nav>.open>a, .navbar-inverse .navbar-nav>.open>a:hover,
+.navbar-inverse .navbar-nav>.open>a:focus { color: $highlight}
+.navbar-inverse .navbar-nav>.active>a:hover, .navbar-inverse
+.navbar-nav>.active>a:focus { color: $background}
+.dropdown-menu>li>a { color: #333333}
+.dropdown-menu>li>a:hover, .dropdown-menu>li>a:focus { color: $white}
+.navbar-inverse .navbar-nav>.dropdown>a .caret { border-top-color:
+#999999}
+.navbar-inverse .navbar-nav>.dropdown>a:hover .caret {
+border-top-color: $white}
+.navbar-inverse .navbar-nav>.dropdown>a .caret {
+border-bottom-color: #999999}
+.navbar-inverse .navbar-nav>.dropdown>a:hover .caret {
+border-bottom-color: $white}
+
+
+
+span.tag a {
+  color: $highlight;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-size: .9em;
+  padding-right: 2px;
+  display: inline-block;
+  &:after {
+    content: ", ";
+    color: $dark;
+  }
+  &:last-child:after {
+    content: "";
+  }
+  &:hover {
+    color: $dark;
+  }
+}
+
+#page_title {
+	text-align: center;
+	border-bottom: 1px solid $border;
+	padding: 2em 0;
+	font-size: 1.5rem;
+	text-transform: uppercase;
+}
+
+#main_footer {
+	padding: 2.5em 5%;
+  margin-top: 39px;
+	border-top: 1px solid $dark;
+	background: $dark;
+	box-shadow: 0 -10px 15px -8px #000;
+	.copyright {
+		float: left;
+    line-height: .5em;
+		color: $light;
+    font-weight: 700;
+		font-size: 1.1em;
+		margin: 0;
+	}
+	nav {
+		float: right;
+		i {
+			color: $light;
+      font-size: 1.1em;
+      line-height: .4em;
+			margin-left: 1em;
+			padding-top: .4em;
+			&:hover {
+				color: $white;
+			}
+		}
+	}
+}
+
+label {
+  font-size: 1rem;
+}
+
+input[type="text"],input[type="email"],input[type="password"], textarea {
+	width: 100%;
+	max-width: 100%;
+	height: 3em;
+	border: 2px solid $border;
+	padding: 1em;
+	margin: .5em 0 2em 0;
+}
+
+textarea {
+	min-height: 20em;
+	margin: .5em 0 2em 0!important;
+}
+
+input[type="submit"], .button {
+	outline: none;
+	background: transparent;
+	border: 2px solid $border;
+	text-align: center;
+	font-size: 1.2em;
+	color: $dark;
+	text-decoration: none;
+	padding: 1em 2em;
+	&:hover {
+		border: 2px solid $highlight;
+		color: $highlight;
+	}
+}
+
+.project_button {
+	background: $highlight;
+	color: $white;
+	text-decoration: none;
+	padding: 1em 2em;
+}
+
+.button_wrapper {
+	margin: 4em 0 0 0;
+	text-align: center;
+}
+
+@media only screen and (max-width: 71.25em) {
+  hr {
+    text-align: left;
+  }
+}
+
+@import 'welcome';
+@import 'posts_projects';
+@import 'pygments';

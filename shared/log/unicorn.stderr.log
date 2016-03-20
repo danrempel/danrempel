@@ -1,0 +1,1352 @@
+I, [2016-02-16T08:01:00.947236 #1886]  INFO -- : Refreshing Gem list
+I, [2016-02-16T08:01:03.961088 #1886]  INFO -- : listening on addr=/home/deploy/rempelonrails/shared/sockets/unicorn.sock fd=11
+I, [2016-02-16T08:01:03.961518 #1886]  INFO -- : worker=0 spawning...
+I, [2016-02-16T08:01:03.964481 #1886]  INFO -- : worker=1 spawning...
+I, [2016-02-16T08:01:03.966062 #1889]  INFO -- : worker=0 spawned pid=1889
+I, [2016-02-16T08:01:03.966311 #1889]  INFO -- : worker=0 ready
+I, [2016-02-16T08:01:03.968719 #1886]  INFO -- : master process ready
+I, [2016-02-16T08:01:03.973792 #1892]  INFO -- : worker=1 spawned pid=1892
+I, [2016-02-16T08:01:03.974005 #1892]  INFO -- : worker=1 ready
+I, [2016-02-16T08:03:04.147360 #1886]  INFO -- : reaped #<Process::Status: pid 1889 exit 0> worker=0
+I, [2016-02-16T08:03:04.147724 #1886]  INFO -- : reaped #<Process::Status: pid 1892 exit 0> worker=1
+I, [2016-02-16T08:03:04.147810 #1886]  INFO -- : master complete
+I, [2016-02-16T08:03:16.257927 #1212]  INFO -- : Refreshing Gem list
+I, [2016-02-16T08:03:19.016258 #1212]  INFO -- : unlinking existing socket=/home/deploy/rempelonrails/shared/sockets/unicorn.sock
+I, [2016-02-16T08:03:19.016503 #1212]  INFO -- : listening on addr=/home/deploy/rempelonrails/shared/sockets/unicorn.sock fd=11
+I, [2016-02-16T08:03:19.016673 #1212]  INFO -- : worker=0 spawning...
+I, [2016-02-16T08:03:19.018630 #1212]  INFO -- : worker=1 spawning...
+I, [2016-02-16T08:03:19.019915 #1215]  INFO -- : worker=0 spawned pid=1215
+I, [2016-02-16T08:03:19.020123 #1215]  INFO -- : worker=0 ready
+I, [2016-02-16T08:03:19.022306 #1212]  INFO -- : master process ready
+I, [2016-02-16T08:03:19.027888 #1218]  INFO -- : worker=1 spawned pid=1218
+I, [2016-02-16T08:03:19.028101 #1218]  INFO -- : worker=1 ready
+I, [2016-02-16T08:09:42.393263 #1212]  INFO -- : reaped #<Process::Status: pid 1215 exit 0> worker=0
+I, [2016-02-16T08:09:42.393816 #1212]  INFO -- : reaped #<Process::Status: pid 1218 exit 0> worker=1
+I, [2016-02-16T08:09:42.394079 #1212]  INFO -- : master complete
+I, [2016-02-16T08:14:06.579751 #1212]  INFO -- : Refreshing Gem list
+I, [2016-02-16T08:14:10.219366 #1212]  INFO -- : unlinking existing socket=/home/deploy/rempelonrails/shared/sockets/unicorn.sock
+I, [2016-02-16T08:14:10.219570 #1212]  INFO -- : listening on addr=/home/deploy/rempelonrails/shared/sockets/unicorn.sock fd=11
+I, [2016-02-16T08:14:10.219718 #1212]  INFO -- : worker=0 spawning...
+I, [2016-02-16T08:14:10.221422 #1212]  INFO -- : worker=1 spawning...
+I, [2016-02-16T08:14:10.222824 #1245]  INFO -- : worker=0 spawned pid=1245
+I, [2016-02-16T08:14:10.223033 #1245]  INFO -- : worker=0 ready
+I, [2016-02-16T08:14:10.224880 #1212]  INFO -- : master process ready
+I, [2016-02-16T08:14:10.230958 #1248]  INFO -- : worker=1 spawned pid=1248
+I, [2016-02-16T08:14:10.231176 #1248]  INFO -- : worker=1 ready
+I, [2016-02-16T08:21:45.540397 #1212]  INFO -- : reaped #<Process::Status: pid 1245 exit 0> worker=0
+I, [2016-02-16T08:21:45.540612 #1212]  INFO -- : reaped #<Process::Status: pid 1248 exit 0> worker=1
+I, [2016-02-16T08:21:45.540700 #1212]  INFO -- : master complete
+I, [2016-02-16T08:22:01.817503 #1213]  INFO -- : Refreshing Gem list
+I, [2016-02-16T08:22:05.144471 #1213]  INFO -- : unlinking existing socket=/home/deploy/rempelonrails/shared/sockets/unicorn.sock
+I, [2016-02-16T08:22:05.145154 #1213]  INFO -- : listening on addr=/home/deploy/rempelonrails/shared/sockets/unicorn.sock fd=11
+I, [2016-02-16T08:22:05.145486 #1213]  INFO -- : worker=0 spawning...
+I, [2016-02-16T08:22:05.150243 #1213]  INFO -- : worker=1 spawning...
+I, [2016-02-16T08:22:05.152605 #1246]  INFO -- : worker=0 spawned pid=1246
+I, [2016-02-16T08:22:05.152928 #1246]  INFO -- : worker=0 ready
+I, [2016-02-16T08:22:05.156516 #1213]  INFO -- : master process ready
+I, [2016-02-16T08:22:05.164693 #1249]  INFO -- : worker=1 spawned pid=1249
+I, [2016-02-16T08:22:05.165059 #1249]  INFO -- : worker=1 ready
+I, [2016-02-16T08:27:55.124939 #1213]  INFO -- : reaped #<Process::Status: pid 1246 exit 0> worker=0
+I, [2016-02-16T08:27:55.125275 #1213]  INFO -- : reaped #<Process::Status: pid 1249 exit 0> worker=1
+I, [2016-02-16T08:27:55.125426 #1213]  INFO -- : master complete
+I, [2016-02-16T08:28:08.615554 #1214]  INFO -- : Refreshing Gem list
+I, [2016-02-16T08:28:11.766531 #1214]  INFO -- : unlinking existing socket=/home/deploy/rempelonrails/shared/sockets/unicorn.sock
+I, [2016-02-16T08:28:11.767004 #1214]  INFO -- : listening on addr=/home/deploy/rempelonrails/shared/sockets/unicorn.sock fd=11
+I, [2016-02-16T08:28:11.767221 #1214]  INFO -- : worker=0 spawning...
+I, [2016-02-16T08:28:11.771148 #1214]  INFO -- : worker=1 spawning...
+I, [2016-02-16T08:28:11.773060 #1214]  INFO -- : master process ready
+I, [2016-02-16T08:28:11.780526 #1217]  INFO -- : worker=0 spawned pid=1217
+I, [2016-02-16T08:28:11.780747 #1217]  INFO -- : worker=0 ready
+I, [2016-02-16T08:28:11.782008 #1219]  INFO -- : worker=1 spawned pid=1219
+I, [2016-02-16T08:28:11.782179 #1219]  INFO -- : worker=1 ready
+I, [2016-02-16T09:10:27.319557 #1214]  INFO -- : reaped #<Process::Status: pid 1217 exit 0> worker=0
+I, [2016-02-16T09:10:27.319832 #1214]  INFO -- : reaped #<Process::Status: pid 1219 exit 0> worker=1
+I, [2016-02-16T09:10:27.319913 #1214]  INFO -- : master complete
+I, [2016-02-16T09:10:41.167400 #1211]  INFO -- : Refreshing Gem list
+I, [2016-02-16T09:10:44.276974 #1211]  INFO -- : unlinking existing socket=/home/deploy/rempelonrails/shared/sockets/unicorn.sock
+I, [2016-02-16T09:10:44.277274 #1211]  INFO -- : listening on addr=/home/deploy/rempelonrails/shared/sockets/unicorn.sock fd=11
+I, [2016-02-16T09:10:44.277453 #1211]  INFO -- : worker=0 spawning...
+I, [2016-02-16T09:10:44.279722 #1211]  INFO -- : worker=1 spawning...
+I, [2016-02-16T09:10:44.281076 #1214]  INFO -- : worker=0 spawned pid=1214
+I, [2016-02-16T09:10:44.281278 #1214]  INFO -- : worker=0 ready
+I, [2016-02-16T09:10:44.283210 #1211]  INFO -- : master process ready
+I, [2016-02-16T09:10:44.289019 #1217]  INFO -- : worker=1 spawned pid=1217
+I, [2016-02-16T09:10:44.289220 #1217]  INFO -- : worker=1 ready
+I, [2016-02-16T09:11:59.476842 #1211]  INFO -- : reaped #<Process::Status: pid 1214 exit 0> worker=0
+I, [2016-02-16T09:11:59.477152 #1211]  INFO -- : reaped #<Process::Status: pid 1217 exit 0> worker=1
+I, [2016-02-16T09:11:59.477277 #1211]  INFO -- : master complete
+I, [2016-02-16T09:12:13.501676 #1211]  INFO -- : Refreshing Gem list
+I, [2016-02-16T09:12:16.492367 #1211]  INFO -- : unlinking existing socket=/home/deploy/rempelonrails/shared/sockets/unicorn.sock
+I, [2016-02-16T09:12:16.492762 #1211]  INFO -- : listening on addr=/home/deploy/rempelonrails/shared/sockets/unicorn.sock fd=11
+I, [2016-02-16T09:12:16.492947 #1211]  INFO -- : worker=0 spawning...
+I, [2016-02-16T09:12:16.495788 #1211]  INFO -- : worker=1 spawning...
+I, [2016-02-16T09:12:16.497137 #1244]  INFO -- : worker=0 spawned pid=1244
+I, [2016-02-16T09:12:16.497566 #1244]  INFO -- : worker=0 ready
+I, [2016-02-16T09:12:16.499977 #1211]  INFO -- : master process ready
+I, [2016-02-16T09:12:16.507229 #1247]  INFO -- : worker=1 spawned pid=1247
+I, [2016-02-16T09:12:16.507426 #1247]  INFO -- : worker=1 ready
+I, [2016-02-16T09:19:19.188601 #1768]  INFO -- : executing ["/home/deploy/.rbenv/versions/2.3.0/bin/unicorn", "-c", "config/unicorn.rb", "-E", "production", "-D", {11=>#<Kgio::UNIXServer:/home/deploy/rempelonrails/shared/sockets/unicorn.sock>}] (in /home/deploy/rempelonrails)
+I, [2016-02-16T09:19:19.188867 #1768]  INFO -- : forked child re-executing...
+I, [2016-02-16T09:19:19.609662 #1768]  INFO -- : inherited addr=/home/deploy/rempelonrails/shared/sockets/unicorn.sock fd=11
+I, [2016-02-16T09:19:19.610112 #1768]  INFO -- : Refreshing Gem list
+I, [2016-02-16T09:19:21.580346 #1768]  INFO -- : worker=0 spawning...
+I, [2016-02-16T09:19:21.581885 #1768]  INFO -- : worker=1 spawning...
+I, [2016-02-16T09:19:21.583048 #1772]  INFO -- : worker=0 spawned pid=1772
+I, [2016-02-16T09:19:21.583225 #1772]  INFO -- : worker=0 ready
+I, [2016-02-16T09:19:21.584775 #1768]  INFO -- : master process ready
+I, [2016-02-16T09:19:21.586037 #1775]  INFO -- : worker=1 spawned pid=1775
+I, [2016-02-16T09:19:21.586218 #1775]  INFO -- : worker=1 ready
+E, [2016-02-16T09:20:31.401991 #1768] ERROR -- : old PID:1211 running with existing pid=/home/deploy/rempelonrails/shared/pids/unicorn.pid.oldbin, refusing rexec
+E, [2016-02-16T09:25:07.178961 #1768] ERROR -- : old PID:1211 running with existing pid=/home/deploy/rempelonrails/shared/pids/unicorn.pid.oldbin, refusing rexec
+E, [2016-02-16T09:25:57.355295 #1768] ERROR -- : old PID:1211 running with existing pid=/home/deploy/rempelonrails/shared/pids/unicorn.pid.oldbin, refusing rexec
+E, [2016-02-16T09:26:03.261953 #1768] ERROR -- : old PID:1211 running with existing pid=/home/deploy/rempelonrails/shared/pids/unicorn.pid.oldbin, refusing rexec
+E, [2016-02-16T09:26:09.401659 #1768] ERROR -- : old PID:1211 running with existing pid=/home/deploy/rempelonrails/shared/pids/unicorn.pid.oldbin, refusing rexec
+E, [2016-02-16T09:27:42.565712 #1768] ERROR -- : old PID:1211 running with existing pid=/home/deploy/rempelonrails/shared/pids/unicorn.pid.oldbin, refusing rexec
+E, [2016-02-16T09:33:35.247424 #1768] ERROR -- : old PID:1211 running with existing pid=/home/deploy/rempelonrails/shared/pids/unicorn.pid.oldbin, refusing rexec
+I, [2016-02-16T09:39:09.575421 #1768]  INFO -- : reaped #<Process::Status: pid 1772 exit 0> worker=0
+I, [2016-02-16T09:39:09.575899 #1768]  INFO -- : reaped #<Process::Status: pid 1775 exit 0> worker=1
+I, [2016-02-16T09:39:09.576098 #1768]  INFO -- : master complete
+E, [2016-02-16T09:39:09.648749 #1211] ERROR -- : reaped #<Process::Status: pid 1768 exit 0> exec()-ed
+I, [2016-02-16T09:39:10.528086 #1211]  INFO -- : reaped #<Process::Status: pid 1244 exit 0> worker=0
+I, [2016-02-16T09:39:10.528838 #1211]  INFO -- : reaped #<Process::Status: pid 1247 exit 0> worker=1
+I, [2016-02-16T09:39:10.529148 #1211]  INFO -- : master complete
+I, [2016-02-16T09:39:23.261702 #1214]  INFO -- : Refreshing Gem list
+I, [2016-02-16T09:39:26.197553 #1214]  INFO -- : unlinking existing socket=/home/deploy/rempelonrails/shared/sockets/unicorn.sock
+I, [2016-02-16T09:39:26.197916 #1214]  INFO -- : listening on addr=/home/deploy/rempelonrails/shared/sockets/unicorn.sock fd=11
+I, [2016-02-16T09:39:26.198114 #1214]  INFO -- : worker=0 spawning...
+I, [2016-02-16T09:39:26.200430 #1214]  INFO -- : worker=1 spawning...
+I, [2016-02-16T09:39:26.202163 #1214]  INFO -- : master process ready
+I, [2016-02-16T09:39:26.209539 #1217]  INFO -- : worker=0 spawned pid=1217
+I, [2016-02-16T09:39:26.209763 #1217]  INFO -- : worker=0 ready
+I, [2016-02-16T09:39:26.210990 #1219]  INFO -- : worker=1 spawned pid=1219
+I, [2016-02-16T09:39:26.211202 #1219]  INFO -- : worker=1 ready
+I, [2016-02-16T09:40:58.591509 #1578]  INFO -- : executing ["/home/deploy/.rbenv/versions/2.3.0/bin/unicorn", "-c", "config/unicorn.rb", "-E", "production", "-D", {11=>#<Kgio::UNIXServer:/home/deploy/rempelonrails/shared/sockets/unicorn.sock>}] (in /home/deploy/rempelonrails)
+I, [2016-02-16T09:40:58.591903 #1578]  INFO -- : forked child re-executing...
+I, [2016-02-16T09:40:59.010860 #1578]  INFO -- : inherited addr=/home/deploy/rempelonrails/shared/sockets/unicorn.sock fd=11
+I, [2016-02-16T09:40:59.011178 #1578]  INFO -- : Refreshing Gem list
+I, [2016-02-16T09:41:00.929111 #1578]  INFO -- : worker=0 spawning...
+I, [2016-02-16T09:41:00.931313 #1578]  INFO -- : worker=1 spawning...
+I, [2016-02-16T09:41:00.932596 #1582]  INFO -- : worker=0 spawned pid=1582
+I, [2016-02-16T09:41:00.932853 #1582]  INFO -- : worker=0 ready
+I, [2016-02-16T09:41:00.934972 #1578]  INFO -- : master process ready
+I, [2016-02-16T09:41:00.936309 #1585]  INFO -- : worker=1 spawned pid=1585
+I, [2016-02-16T09:41:00.936564 #1585]  INFO -- : worker=1 ready
+I, [2016-02-16T09:47:33.354186 #1578]  INFO -- : reaped #<Process::Status: pid 1582 exit 0> worker=0
+I, [2016-02-16T09:47:33.355386 #1578]  INFO -- : reaped #<Process::Status: pid 1585 exit 0> worker=1
+I, [2016-02-16T09:47:33.355508 #1578]  INFO -- : master complete
+E, [2016-02-16T09:47:33.435408 #1214] ERROR -- : reaped #<Process::Status: pid 1578 exit 0> exec()-ed
+I, [2016-02-16T09:47:34.184984 #1214]  INFO -- : reaped #<Process::Status: pid 1217 exit 0> worker=0
+I, [2016-02-16T09:47:34.185125 #1214]  INFO -- : reaped #<Process::Status: pid 1219 exit 0> worker=1
+I, [2016-02-16T09:47:34.185258 #1214]  INFO -- : master complete
+I, [2016-02-16T09:47:47.616823 #1213]  INFO -- : Refreshing Gem list
+I, [2016-02-16T09:47:50.673312 #1213]  INFO -- : unlinking existing socket=/home/deploy/rempelonrails/shared/sockets/unicorn.sock
+I, [2016-02-16T09:47:50.673621 #1213]  INFO -- : listening on addr=/home/deploy/rempelonrails/shared/sockets/unicorn.sock fd=11
+I, [2016-02-16T09:47:50.673799 #1213]  INFO -- : worker=0 spawning...
+I, [2016-02-16T09:47:50.675668 #1213]  INFO -- : worker=1 spawning...
+I, [2016-02-16T09:47:50.678564 #1213]  INFO -- : master process ready
+I, [2016-02-16T09:47:50.684742 #1216]  INFO -- : worker=0 spawned pid=1216
+I, [2016-02-16T09:47:50.684936 #1216]  INFO -- : worker=0 ready
+I, [2016-02-16T09:47:50.686217 #1219]  INFO -- : worker=1 spawned pid=1219
+I, [2016-02-16T09:47:50.686396 #1219]  INFO -- : worker=1 ready
+I, [2016-02-16T09:56:35.565463 #1213]  INFO -- : reaped #<Process::Status: pid 1216 exit 0> worker=0
+I, [2016-02-16T09:56:35.566512 #1213]  INFO -- : reaped #<Process::Status: pid 1219 exit 0> worker=1
+I, [2016-02-16T09:56:35.566610 #1213]  INFO -- : master complete
+I, [2016-02-16T09:56:49.339366 #1211]  INFO -- : Refreshing Gem list
+I, [2016-02-16T09:56:52.714857 #1211]  INFO -- : unlinking existing socket=/home/deploy/rempelonrails/shared/sockets/unicorn.sock
+I, [2016-02-16T09:56:52.715326 #1211]  INFO -- : listening on addr=/home/deploy/rempelonrails/shared/sockets/unicorn.sock fd=11
+I, [2016-02-16T09:56:52.715606 #1211]  INFO -- : worker=0 spawning...
+I, [2016-02-16T09:56:52.719519 #1211]  INFO -- : worker=1 spawning...
+I, [2016-02-16T09:56:52.721429 #1214]  INFO -- : worker=0 spawned pid=1214
+I, [2016-02-16T09:56:52.721948 #1214]  INFO -- : worker=0 ready
+I, [2016-02-16T09:56:52.724244 #1211]  INFO -- : master process ready
+I, [2016-02-16T09:56:52.730029 #1217]  INFO -- : worker=1 spawned pid=1217
+I, [2016-02-16T09:56:52.730279 #1217]  INFO -- : worker=1 ready
+I, [2016-02-16T10:00:16.649044 #1211]  INFO -- : reaped #<Process::Status: pid 1214 exit 0> worker=0
+I, [2016-02-16T10:00:16.649533 #1211]  INFO -- : reaped #<Process::Status: pid 1217 exit 0> worker=1
+I, [2016-02-16T10:00:16.649716 #1211]  INFO -- : master complete
+I, [2016-02-16T10:00:29.502251 #1213]  INFO -- : Refreshing Gem list
+I, [2016-02-16T10:00:32.712409 #1213]  INFO -- : unlinking existing socket=/home/deploy/rempelonrails/shared/sockets/unicorn.sock
+I, [2016-02-16T10:00:32.712720 #1213]  INFO -- : listening on addr=/home/deploy/rempelonrails/shared/sockets/unicorn.sock fd=11
+I, [2016-02-16T10:00:32.712923 #1213]  INFO -- : worker=0 spawning...
+I, [2016-02-16T10:00:32.716738 #1213]  INFO -- : worker=1 spawning...
+I, [2016-02-16T10:00:32.720273 #1213]  INFO -- : master process ready
+I, [2016-02-16T10:00:32.727059 #1216]  INFO -- : worker=0 spawned pid=1216
+I, [2016-02-16T10:00:32.727290 #1216]  INFO -- : worker=0 ready
+I, [2016-02-16T10:00:32.728605 #1219]  INFO -- : worker=1 spawned pid=1219
+I, [2016-02-16T10:00:32.728816 #1219]  INFO -- : worker=1 ready
+I, [2016-02-16T12:37:30.889282 #1213]  INFO -- : reaped #<Process::Status: pid 1216 exit 0> worker=0
+I, [2016-02-16T12:37:30.889685 #1213]  INFO -- : reaped #<Process::Status: pid 1219 exit 0> worker=1
+I, [2016-02-16T12:37:30.889820 #1213]  INFO -- : master complete
+I, [2016-02-16T12:37:43.425780 #1210]  INFO -- : Refreshing Gem list
+I, [2016-02-16T12:37:46.613435 #1210]  INFO -- : unlinking existing socket=/home/deploy/rempelonrails/shared/sockets/unicorn.sock
+I, [2016-02-16T12:37:46.613844 #1210]  INFO -- : listening on addr=/home/deploy/rempelonrails/shared/sockets/unicorn.sock fd=11
+I, [2016-02-16T12:37:46.614127 #1210]  INFO -- : worker=0 spawning...
+I, [2016-02-16T12:37:46.617280 #1210]  INFO -- : worker=1 spawning...
+I, [2016-02-16T12:37:46.618810 #1213]  INFO -- : worker=0 spawned pid=1213
+I, [2016-02-16T12:37:46.619057 #1213]  INFO -- : worker=0 ready
+I, [2016-02-16T12:37:46.621266 #1210]  INFO -- : master process ready
+I, [2016-02-16T12:37:46.626718 #1216]  INFO -- : worker=1 spawned pid=1216
+I, [2016-02-16T12:37:46.626945 #1216]  INFO -- : worker=1 ready
+I, [2016-02-16T12:41:26.827084 #1210]  INFO -- : reaped #<Process::Status: pid 1213 exit 0> worker=0
+I, [2016-02-16T12:41:26.827524 #1210]  INFO -- : reaped #<Process::Status: pid 1216 exit 0> worker=1
+I, [2016-02-16T12:41:26.827779 #1210]  INFO -- : master complete
+I, [2016-02-16T12:41:40.208695 #1211]  INFO -- : Refreshing Gem list
+I, [2016-02-16T12:41:43.161015 #1211]  INFO -- : unlinking existing socket=/home/deploy/rempelonrails/shared/sockets/unicorn.sock
+I, [2016-02-16T12:41:43.161232 #1211]  INFO -- : listening on addr=/home/deploy/rempelonrails/shared/sockets/unicorn.sock fd=11
+I, [2016-02-16T12:41:43.161393 #1211]  INFO -- : worker=0 spawning...
+I, [2016-02-16T12:41:43.163197 #1211]  INFO -- : worker=1 spawning...
+I, [2016-02-16T12:41:43.164477 #1214]  INFO -- : worker=0 spawned pid=1214
+I, [2016-02-16T12:41:43.164685 #1214]  INFO -- : worker=0 ready
+I, [2016-02-16T12:41:43.166533 #1211]  INFO -- : master process ready
+I, [2016-02-16T12:41:43.172771 #1217]  INFO -- : worker=1 spawned pid=1217
+I, [2016-02-16T12:41:43.172982 #1217]  INFO -- : worker=1 ready
+I, [2016-02-16T12:45:44.076863 #1691]  INFO -- : executing ["/home/deploy/.rbenv/versions/2.3.0/bin/unicorn", "-c", "config/unicorn.rb", "-E", "production", "-D", {11=>#<Kgio::UNIXServer:/home/deploy/rempelonrails/shared/sockets/unicorn.sock>}] (in /home/deploy/rempelonrails)
+I, [2016-02-16T12:45:44.077332 #1691]  INFO -- : forked child re-executing...
+I, [2016-02-16T12:45:44.558117 #1691]  INFO -- : inherited addr=/home/deploy/rempelonrails/shared/sockets/unicorn.sock fd=11
+I, [2016-02-16T12:45:44.558455 #1691]  INFO -- : Refreshing Gem list
+I, [2016-02-16T12:45:47.022585 #1691]  INFO -- : worker=0 spawning...
+I, [2016-02-16T12:45:47.026028 #1691]  INFO -- : worker=1 spawning...
+I, [2016-02-16T12:45:47.027737 #1691]  INFO -- : master process ready
+I, [2016-02-16T12:45:47.029338 #1695]  INFO -- : worker=0 spawned pid=1695
+I, [2016-02-16T12:45:47.029861 #1695]  INFO -- : worker=0 ready
+I, [2016-02-16T12:45:47.031432 #1697]  INFO -- : worker=1 spawned pid=1697
+I, [2016-02-16T12:45:47.031628 #1697]  INFO -- : worker=1 ready
+I, [2016-02-16T12:46:04.245435 #1691]  INFO -- : reaped #<Process::Status: pid 1695 exit 0> worker=0
+I, [2016-02-16T12:46:04.245756 #1691]  INFO -- : reaped #<Process::Status: pid 1697 exit 0> worker=1
+I, [2016-02-16T12:46:04.245877 #1691]  INFO -- : master complete
+E, [2016-02-16T12:46:04.298478 #1211] ERROR -- : reaped #<Process::Status: pid 1691 exit 0> exec()-ed
+I, [2016-02-16T12:46:05.131607 #1211]  INFO -- : reaped #<Process::Status: pid 1214 exit 0> worker=0
+I, [2016-02-16T12:46:05.131810 #1211]  INFO -- : reaped #<Process::Status: pid 1217 exit 0> worker=1
+I, [2016-02-16T12:46:05.131990 #1211]  INFO -- : master complete
+I, [2016-02-16T12:46:17.199792 #1213]  INFO -- : Refreshing Gem list
+I, [2016-02-16T12:46:20.421941 #1213]  INFO -- : unlinking existing socket=/home/deploy/rempelonrails/shared/sockets/unicorn.sock
+I, [2016-02-16T12:46:20.422394 #1213]  INFO -- : listening on addr=/home/deploy/rempelonrails/shared/sockets/unicorn.sock fd=11
+I, [2016-02-16T12:46:20.422661 #1213]  INFO -- : worker=0 spawning...
+I, [2016-02-16T12:46:20.426263 #1213]  INFO -- : worker=1 spawning...
+I, [2016-02-16T12:46:20.427767 #1216]  INFO -- : worker=0 spawned pid=1216
+I, [2016-02-16T12:46:20.427991 #1216]  INFO -- : worker=0 ready
+I, [2016-02-16T12:46:20.430192 #1213]  INFO -- : master process ready
+I, [2016-02-16T12:46:20.435761 #1219]  INFO -- : worker=1 spawned pid=1219
+I, [2016-02-16T12:46:20.435959 #1219]  INFO -- : worker=1 ready
+I, [2016-02-16T19:08:21.038748 #1213]  INFO -- : reaped #<Process::Status: pid 1216 exit 0> worker=0
+I, [2016-02-16T19:08:21.039052 #1213]  INFO -- : reaped #<Process::Status: pid 1219 exit 0> worker=1
+I, [2016-02-16T19:08:21.039127 #1213]  INFO -- : master complete
+I, [2016-02-16T19:12:12.316860 #1210]  INFO -- : Refreshing Gem list
+I, [2016-02-16T19:12:16.474890 #1210]  INFO -- : unlinking existing socket=/home/deploy/rempelonrails/shared/sockets/unicorn.sock
+I, [2016-02-16T19:12:16.475201 #1210]  INFO -- : listening on addr=/home/deploy/rempelonrails/shared/sockets/unicorn.sock fd=11
+I, [2016-02-16T19:12:16.475372 #1210]  INFO -- : worker=0 spawning...
+I, [2016-02-16T19:12:16.477980 #1210]  INFO -- : worker=1 spawning...
+I, [2016-02-16T19:12:16.479738 #1210]  INFO -- : master process ready
+I, [2016-02-16T19:12:16.486516 #1213]  INFO -- : worker=0 spawned pid=1213
+I, [2016-02-16T19:12:16.486722 #1213]  INFO -- : worker=0 ready
+I, [2016-02-16T19:12:16.488020 #1215]  INFO -- : worker=1 spawned pid=1215
+I, [2016-02-16T19:12:16.488207 #1215]  INFO -- : worker=1 ready
+I, [2016-02-16T19:33:48.359790 #1870]  INFO -- : executing ["/home/deploy/.rbenv/versions/2.3.0/bin/unicorn", "-c", "config/unicorn.rb", "-E", "production", "-D", {11=>#<Kgio::UNIXServer:/home/deploy/rempelonrails/shared/sockets/unicorn.sock>}] (in /home/deploy/rempelonrails)
+I, [2016-02-16T19:33:48.359990 #1870]  INFO -- : forked child re-executing...
+I, [2016-02-16T19:33:48.735174 #1870]  INFO -- : inherited addr=/home/deploy/rempelonrails/shared/sockets/unicorn.sock fd=11
+I, [2016-02-16T19:33:48.735523 #1870]  INFO -- : Refreshing Gem list
+I, [2016-02-16T19:33:50.785739 #1870]  INFO -- : worker=0 spawning...
+I, [2016-02-16T19:33:50.787304 #1870]  INFO -- : worker=1 spawning...
+I, [2016-02-16T19:33:50.788685 #1874]  INFO -- : worker=0 spawned pid=1874
+I, [2016-02-16T19:33:50.788863 #1874]  INFO -- : worker=0 ready
+I, [2016-02-16T19:33:50.791074 #1870]  INFO -- : master process ready
+I, [2016-02-16T19:33:50.792178 #1877]  INFO -- : worker=1 spawned pid=1877
+I, [2016-02-16T19:33:50.792338 #1877]  INFO -- : worker=1 ready
+I, [2016-02-16T19:34:05.000722 #1870]  INFO -- : reaped #<Process::Status: pid 1874 exit 0> worker=0
+I, [2016-02-16T19:34:05.001055 #1870]  INFO -- : reaped #<Process::Status: pid 1877 exit 0> worker=1
+I, [2016-02-16T19:34:05.001184 #1870]  INFO -- : master complete
+E, [2016-02-16T19:34:05.054671 #1210] ERROR -- : reaped #<Process::Status: pid 1870 exit 0> exec()-ed
+I, [2016-02-16T19:34:05.929645 #1210]  INFO -- : reaped #<Process::Status: pid 1213 exit 0> worker=0
+I, [2016-02-16T19:34:05.929819 #1210]  INFO -- : reaped #<Process::Status: pid 1215 exit 0> worker=1
+I, [2016-02-16T19:34:05.930066 #1210]  INFO -- : master complete
+I, [2016-02-16T19:34:18.290181 #1212]  INFO -- : Refreshing Gem list
+I, [2016-02-16T19:34:21.485864 #1212]  INFO -- : unlinking existing socket=/home/deploy/rempelonrails/shared/sockets/unicorn.sock
+I, [2016-02-16T19:34:21.486241 #1212]  INFO -- : listening on addr=/home/deploy/rempelonrails/shared/sockets/unicorn.sock fd=11
+I, [2016-02-16T19:34:21.486539 #1212]  INFO -- : worker=0 spawning...
+I, [2016-02-16T19:34:21.491739 #1215]  INFO -- : worker=0 spawned pid=1215
+I, [2016-02-16T19:34:21.492005 #1215]  INFO -- : worker=0 ready
+I, [2016-02-16T19:34:21.492442 #1212]  INFO -- : worker=1 spawning...
+I, [2016-02-16T19:34:21.494442 #1212]  INFO -- : master process ready
+I, [2016-02-16T19:34:21.499793 #1218]  INFO -- : worker=1 spawned pid=1218
+I, [2016-02-16T19:34:21.499989 #1218]  INFO -- : worker=1 ready
+I, [2016-02-18T06:26:51.836399 #6185]  INFO -- : executing ["/home/deploy/.rbenv/versions/2.3.0/bin/unicorn", "-c", "config/unicorn.rb", "-E", "production", "-D", {11=>#<Kgio::UNIXServer:/home/deploy/rempelonrails/shared/sockets/unicorn.sock>}] (in /home/deploy/rempelonrails)
+I, [2016-02-18T06:26:51.837419 #6185]  INFO -- : forked child re-executing...
+I, [2016-02-18T06:26:52.294818 #6185]  INFO -- : inherited addr=/home/deploy/rempelonrails/shared/sockets/unicorn.sock fd=11
+I, [2016-02-18T06:26:52.295251 #6185]  INFO -- : Refreshing Gem list
+I, [2016-02-18T06:26:54.415405 #6185]  INFO -- : worker=0 spawning...
+I, [2016-02-18T06:26:54.418191 #6185]  INFO -- : worker=1 spawning...
+I, [2016-02-18T06:26:54.419755 #6185]  INFO -- : master process ready
+I, [2016-02-18T06:26:54.422716 #6191]  INFO -- : worker=1 spawned pid=6191
+I, [2016-02-18T06:26:54.422904 #6191]  INFO -- : worker=1 ready
+I, [2016-02-18T06:26:54.421620 #6189]  INFO -- : worker=0 spawned pid=6189
+I, [2016-02-18T06:26:54.423390 #6189]  INFO -- : worker=0 ready
+I, [2016-02-18T06:27:03.395900 #6185]  INFO -- : reaped #<Process::Status: pid 6189 exit 0> worker=0
+I, [2016-02-18T06:27:03.396128 #6185]  INFO -- : reaped #<Process::Status: pid 6191 exit 0> worker=1
+I, [2016-02-18T06:27:03.396239 #6185]  INFO -- : master complete
+E, [2016-02-18T06:27:03.449376 #1212] ERROR -- : reaped #<Process::Status: pid 6185 exit 0> exec()-ed
+I, [2016-02-18T06:27:04.263127 #1212]  INFO -- : reaped #<Process::Status: pid 1215 exit 0> worker=0
+I, [2016-02-18T06:27:04.263431 #1212]  INFO -- : reaped #<Process::Status: pid 1218 exit 0> worker=1
+I, [2016-02-18T06:27:04.263659 #1212]  INFO -- : master complete
+I, [2016-02-18T06:27:17.433420 #1212]  INFO -- : Refreshing Gem list
+I, [2016-02-18T06:27:20.415358 #1212]  INFO -- : unlinking existing socket=/home/deploy/rempelonrails/shared/sockets/unicorn.sock
+I, [2016-02-18T06:27:20.415838 #1212]  INFO -- : listening on addr=/home/deploy/rempelonrails/shared/sockets/unicorn.sock fd=11
+I, [2016-02-18T06:27:20.416184 #1212]  INFO -- : worker=0 spawning...
+I, [2016-02-18T06:27:20.420366 #1212]  INFO -- : worker=1 spawning...
+I, [2016-02-18T06:27:20.421894 #1215]  INFO -- : worker=0 spawned pid=1215
+I, [2016-02-18T06:27:20.422152 #1215]  INFO -- : worker=0 ready
+I, [2016-02-18T06:27:20.424827 #1212]  INFO -- : master process ready
+I, [2016-02-18T06:27:20.430619 #1218]  INFO -- : worker=1 spawned pid=1218
+I, [2016-02-18T06:27:20.430867 #1218]  INFO -- : worker=1 ready
+I, [2016-02-18T07:14:50.446990 #1884]  INFO -- : executing ["/home/deploy/.rbenv/versions/2.3.0/bin/unicorn", "-c", "config/unicorn.rb", "-E", "production", "-D", {11=>#<Kgio::UNIXServer:/home/deploy/rempelonrails/shared/sockets/unicorn.sock>}] (in /home/deploy/rempelonrails)
+I, [2016-02-18T07:14:50.447346 #1884]  INFO -- : forked child re-executing...
+I, [2016-02-18T07:14:50.787610 #1884]  INFO -- : inherited addr=/home/deploy/rempelonrails/shared/sockets/unicorn.sock fd=11
+I, [2016-02-18T07:14:50.788015 #1884]  INFO -- : Refreshing Gem list
+I, [2016-02-18T07:14:52.844416 #1884]  INFO -- : worker=0 spawning...
+I, [2016-02-18T07:14:52.845888 #1884]  INFO -- : worker=1 spawning...
+I, [2016-02-18T07:14:52.846799 #1888]  INFO -- : worker=0 spawned pid=1888
+I, [2016-02-18T07:14:52.846953 #1888]  INFO -- : worker=0 ready
+I, [2016-02-18T07:14:52.848097 #1884]  INFO -- : master process ready
+I, [2016-02-18T07:14:52.849048 #1891]  INFO -- : worker=1 spawned pid=1891
+I, [2016-02-18T07:14:52.849196 #1891]  INFO -- : worker=1 ready
+I, [2016-02-18T07:15:00.605689 #1884]  INFO -- : reaped #<Process::Status: pid 1888 exit 0> worker=0
+I, [2016-02-18T07:15:00.606070 #1884]  INFO -- : reaped #<Process::Status: pid 1891 exit 0> worker=1
+I, [2016-02-18T07:15:00.606201 #1884]  INFO -- : master complete
+E, [2016-02-18T07:15:00.666576 #1212] ERROR -- : reaped #<Process::Status: pid 1884 exit 0> exec()-ed
+I, [2016-02-18T07:15:01.461918 #1212]  INFO -- : reaped #<Process::Status: pid 1215 exit 0> worker=0
+I, [2016-02-18T07:15:01.462143 #1212]  INFO -- : reaped #<Process::Status: pid 1218 exit 0> worker=1
+I, [2016-02-18T07:15:01.462384 #1212]  INFO -- : master complete
+I, [2016-02-18T07:15:14.265905 #1211]  INFO -- : Refreshing Gem list
+I, [2016-02-18T07:15:17.216037 #1211]  INFO -- : unlinking existing socket=/home/deploy/rempelonrails/shared/sockets/unicorn.sock
+I, [2016-02-18T07:15:17.216249 #1211]  INFO -- : listening on addr=/home/deploy/rempelonrails/shared/sockets/unicorn.sock fd=11
+I, [2016-02-18T07:15:17.216407 #1211]  INFO -- : worker=0 spawning...
+I, [2016-02-18T07:15:17.218574 #1211]  INFO -- : worker=1 spawning...
+I, [2016-02-18T07:15:17.220632 #1211]  INFO -- : master process ready
+I, [2016-02-18T07:15:17.226802 #1214]  INFO -- : worker=0 spawned pid=1214
+I, [2016-02-18T07:15:17.227027 #1214]  INFO -- : worker=0 ready
+I, [2016-02-18T07:15:17.228512 #1216]  INFO -- : worker=1 spawned pid=1216
+I, [2016-02-18T07:15:17.228700 #1216]  INFO -- : worker=1 ready
+I, [2016-02-19T07:27:12.373057 #5369]  INFO -- : executing ["/home/deploy/.rbenv/versions/2.3.0/bin/unicorn", "-c", "config/unicorn.rb", "-E", "production", "-D", {11=>#<Kgio::UNIXServer:/home/deploy/rempelonrails/shared/sockets/unicorn.sock>}] (in /home/deploy/rempelonrails)
+I, [2016-02-19T07:27:12.374564 #5369]  INFO -- : forked child re-executing...
+I, [2016-02-19T07:27:12.857240 #5369]  INFO -- : inherited addr=/home/deploy/rempelonrails/shared/sockets/unicorn.sock fd=11
+I, [2016-02-19T07:27:12.857650 #5369]  INFO -- : Refreshing Gem list
+I, [2016-02-19T07:27:15.125820 #5369]  INFO -- : worker=0 spawning...
+I, [2016-02-19T07:27:15.129069 #5369]  INFO -- : worker=1 spawning...
+I, [2016-02-19T07:27:15.130418 #5373]  INFO -- : worker=0 spawned pid=5373
+I, [2016-02-19T07:27:15.130623 #5373]  INFO -- : worker=0 ready
+I, [2016-02-19T07:27:15.132789 #5369]  INFO -- : master process ready
+I, [2016-02-19T07:27:15.134159 #5376]  INFO -- : worker=1 spawned pid=5376
+I, [2016-02-19T07:27:15.134376 #5376]  INFO -- : worker=1 ready
+E, [2016-02-19T07:27:33.315841 #1211] ERROR -- : reaped #<Process::Status: pid 1216 SIGKILL (signal 9)> worker=1
+I, [2016-02-19T07:27:33.323220 #1211]  INFO -- : worker=1 spawning...
+I, [2016-02-19T07:27:33.348764 #5459]  INFO -- : worker=1 spawned pid=5459
+I, [2016-02-19T07:27:33.349246 #5459]  INFO -- : worker=1 ready
+E, [2016-02-19T07:27:33.859050 #5369] ERROR -- : old PID:1211 running with existing pid=/home/deploy/rempelonrails/shared/pids/unicorn.pid.oldbin, refusing rexec
+I, [2016-02-19T07:27:41.975241 #5369]  INFO -- : reaped #<Process::Status: pid 5373 exit 0> worker=0
+I, [2016-02-19T07:27:41.975390 #5369]  INFO -- : reaped #<Process::Status: pid 5376 exit 0> worker=1
+I, [2016-02-19T07:27:41.975456 #5369]  INFO -- : master complete
+E, [2016-02-19T07:27:42.025432 #1211] ERROR -- : reaped #<Process::Status: pid 5369 exit 0> exec()-ed
+I, [2016-02-19T07:27:42.857801 #1211]  INFO -- : reaped #<Process::Status: pid 5459 exit 0> worker=1
+I, [2016-02-19T07:27:42.959779 #1211]  INFO -- : reaped #<Process::Status: pid 1214 exit 0> worker=0
+I, [2016-02-19T07:27:42.960521 #1211]  INFO -- : master complete
+I, [2016-02-19T07:27:55.221723 #1211]  INFO -- : Refreshing Gem list
+I, [2016-02-19T07:27:58.130948 #1211]  INFO -- : unlinking existing socket=/home/deploy/rempelonrails/shared/sockets/unicorn.sock
+I, [2016-02-19T07:27:58.131141 #1211]  INFO -- : listening on addr=/home/deploy/rempelonrails/shared/sockets/unicorn.sock fd=11
+I, [2016-02-19T07:27:58.131294 #1211]  INFO -- : worker=0 spawning...
+I, [2016-02-19T07:27:58.133460 #1211]  INFO -- : worker=1 spawning...
+I, [2016-02-19T07:27:58.136288 #1211]  INFO -- : master process ready
+I, [2016-02-19T07:27:58.142310 #1214]  INFO -- : worker=0 spawned pid=1214
+I, [2016-02-19T07:27:58.142934 #1214]  INFO -- : worker=0 ready
+I, [2016-02-19T07:27:58.144217 #1217]  INFO -- : worker=1 spawned pid=1217
+I, [2016-02-19T07:27:58.144423 #1217]  INFO -- : worker=1 ready
+I, [2016-02-20T15:51:22.718279 #1211]  INFO -- : reaped #<Process::Status: pid 1214 exit 0> worker=0
+I, [2016-02-20T15:51:22.722397 #1211]  INFO -- : reaped #<Process::Status: pid 1217 exit 0> worker=1
+I, [2016-02-20T15:51:22.722636 #1211]  INFO -- : master complete
+I, [2016-02-20T17:24:24.771827 #1228]  INFO -- : Refreshing Gem list
+I, [2016-02-20T17:24:27.739006 #1228]  INFO -- : unlinking existing socket=/home/deploy/rempelonrails/shared/sockets/unicorn.sock
+I, [2016-02-20T17:24:27.739184 #1228]  INFO -- : listening on addr=/home/deploy/rempelonrails/shared/sockets/unicorn.sock fd=11
+I, [2016-02-20T17:24:27.739291 #1228]  INFO -- : worker=0 spawning...
+I, [2016-02-20T17:24:27.740786 #1228]  INFO -- : worker=1 spawning...
+I, [2016-02-20T17:24:27.741695 #1228]  INFO -- : master process ready
+I, [2016-02-20T17:24:27.747727 #1231]  INFO -- : worker=0 spawned pid=1231
+I, [2016-02-20T17:24:27.747890 #1231]  INFO -- : worker=0 ready
+I, [2016-02-20T17:24:27.748716 #1233]  INFO -- : worker=1 spawned pid=1233
+I, [2016-02-20T17:24:27.748858 #1233]  INFO -- : worker=1 ready
+I, [2016-02-21T15:47:34.951449 #1228]  INFO -- : reaped #<Process::Status: pid 1233 exit 0> worker=1
+I, [2016-02-21T15:47:35.052862 #1228]  INFO -- : reaped #<Process::Status: pid 1231 exit 0> worker=0
+I, [2016-02-21T15:47:35.052987 #1228]  INFO -- : master complete
+I, [2016-02-21T15:47:48.639058 #1220]  INFO -- : Refreshing Gem list
+I, [2016-02-21T15:47:51.161838 #1220]  INFO -- : unlinking existing socket=/home/deploy/rempelonrails/shared/sockets/unicorn.sock
+I, [2016-02-21T15:47:51.162026 #1220]  INFO -- : listening on addr=/home/deploy/rempelonrails/shared/sockets/unicorn.sock fd=11
+I, [2016-02-21T15:47:51.162129 #1220]  INFO -- : worker=0 spawning...
+I, [2016-02-21T15:47:51.163502 #1220]  INFO -- : worker=1 spawning...
+I, [2016-02-21T15:47:51.164834 #1220]  INFO -- : master process ready
+I, [2016-02-21T15:47:51.169736 #1223]  INFO -- : worker=0 spawned pid=1223
+I, [2016-02-21T15:47:51.169893 #1223]  INFO -- : worker=0 ready
+I, [2016-02-21T15:47:51.170739 #1226]  INFO -- : worker=1 spawned pid=1226
+I, [2016-02-21T15:47:51.170880 #1226]  INFO -- : worker=1 ready
+I, [2016-02-22T05:07:54.857904 #1220]  INFO -- : reaped #<Process::Status: pid 1226 exit 0> worker=1
+I, [2016-02-22T05:07:54.958854 #1220]  INFO -- : reaped #<Process::Status: pid 1223 exit 0> worker=0
+I, [2016-02-22T05:07:54.959055 #1220]  INFO -- : master complete
+I, [2016-02-22T05:11:36.906472 #1221]  INFO -- : Refreshing Gem list
+I, [2016-02-22T05:11:39.888506 #1221]  INFO -- : unlinking existing socket=/home/deploy/rempelonrails/shared/sockets/unicorn.sock
+I, [2016-02-22T05:11:39.888698 #1221]  INFO -- : listening on addr=/home/deploy/rempelonrails/shared/sockets/unicorn.sock fd=11
+I, [2016-02-22T05:11:39.888817 #1221]  INFO -- : worker=0 spawning...
+I, [2016-02-22T05:11:39.890006 #1221]  INFO -- : worker=1 spawning...
+I, [2016-02-22T05:11:39.890990 #1221]  INFO -- : master process ready
+I, [2016-02-22T05:11:39.901074 #1224]  INFO -- : worker=0 spawned pid=1224
+I, [2016-02-22T05:11:39.901284 #1224]  INFO -- : worker=0 ready
+I, [2016-02-22T05:11:39.902232 #1226]  INFO -- : worker=1 spawned pid=1226
+I, [2016-02-22T05:11:39.902389 #1226]  INFO -- : worker=1 ready
+I, [2016-02-23T05:32:49.345720 #1216]  INFO -- : Refreshing Gem list
+I, [2016-02-23T05:32:52.681523 #1216]  INFO -- : unlinking existing socket=/home/deploy/rempelonrails/shared/sockets/unicorn.sock
+I, [2016-02-23T05:32:52.681678 #1216]  INFO -- : listening on addr=/home/deploy/rempelonrails/shared/sockets/unicorn.sock fd=11
+I, [2016-02-23T05:32:52.681781 #1216]  INFO -- : worker=0 spawning...
+I, [2016-02-23T05:32:52.683342 #1216]  INFO -- : worker=1 spawning...
+I, [2016-02-23T05:32:52.684195 #1216]  INFO -- : master process ready
+I, [2016-02-23T05:32:52.689332 #1219]  INFO -- : worker=0 spawned pid=1219
+I, [2016-02-23T05:32:52.689478 #1219]  INFO -- : worker=0 ready
+I, [2016-02-23T05:32:52.694406 #1221]  INFO -- : worker=1 spawned pid=1221
+I, [2016-02-23T05:32:52.694547 #1221]  INFO -- : worker=1 ready
+I, [2016-02-23T06:26:39.562764 #1216]  INFO -- : reaped #<Process::Status: pid 1219 exit 0> worker=0
+I, [2016-02-23T06:26:39.562932 #1216]  INFO -- : reaped #<Process::Status: pid 1221 exit 0> worker=1
+I, [2016-02-23T06:26:39.563014 #1216]  INFO -- : master complete
+I, [2016-02-23T10:07:07.580978 #1212]  INFO -- : Refreshing Gem list
+I, [2016-02-23T10:07:10.307789 #1212]  INFO -- : unlinking existing socket=/home/deploy/rempelonrails/shared/sockets/unicorn.sock
+I, [2016-02-23T10:07:10.308113 #1212]  INFO -- : listening on addr=/home/deploy/rempelonrails/shared/sockets/unicorn.sock fd=11
+I, [2016-02-23T10:07:10.308247 #1212]  INFO -- : worker=0 spawning...
+I, [2016-02-23T10:07:10.309563 #1212]  INFO -- : worker=1 spawning...
+I, [2016-02-23T10:07:10.310451 #1212]  INFO -- : master process ready
+I, [2016-02-23T10:07:10.315616 #1215]  INFO -- : worker=0 spawned pid=1215
+I, [2016-02-23T10:07:10.315769 #1215]  INFO -- : worker=0 ready
+I, [2016-02-23T10:07:10.316642 #1217]  INFO -- : worker=1 spawned pid=1217
+I, [2016-02-23T10:07:10.316859 #1217]  INFO -- : worker=1 ready
+I, [2016-02-24T12:52:03.200405 #10329]  INFO -- : executing ["/home/deploy/.rbenv/versions/2.3.0/bin/unicorn", "-c", "config/unicorn.rb", "-E", "production", "-D", {11=>#<Kgio::UNIXServer:/home/deploy/rempelonrails/shared/sockets/unicorn.sock>}] (in /home/deploy/rempelonrails)
+I, [2016-02-24T12:52:03.201753 #10329]  INFO -- : forked child re-executing...
+I, [2016-02-24T12:52:03.645037 #10329]  INFO -- : inherited addr=/home/deploy/rempelonrails/shared/sockets/unicorn.sock fd=11
+I, [2016-02-24T12:52:03.645438 #10329]  INFO -- : Refreshing Gem list
+I, [2016-02-24T12:52:05.919140 #10329]  INFO -- : worker=0 spawning...
+E, [2016-02-24T12:52:05.989265 #10329] ERROR -- : Cannot allocate memory - fork(2) (Errno::ENOMEM)
+/home/deploy/.rbenv/versions/2.3.0/lib/ruby/gems/2.3.0/gems/unicorn-5.0.1/lib/unicorn/http_server.rb:503:in `fork'
+/home/deploy/.rbenv/versions/2.3.0/lib/ruby/gems/2.3.0/gems/unicorn-5.0.1/lib/unicorn/http_server.rb:503:in `spawn_missing_workers'
+/home/deploy/.rbenv/versions/2.3.0/lib/ruby/gems/2.3.0/gems/unicorn-5.0.1/lib/unicorn/http_server.rb:132:in `start'
+/home/deploy/.rbenv/versions/2.3.0/lib/ruby/gems/2.3.0/gems/unicorn-5.0.1/bin/unicorn:126:in `<top (required)>'
+/home/deploy/.rbenv/versions/2.3.0/bin/unicorn:23:in `load'
+/home/deploy/.rbenv/versions/2.3.0/bin/unicorn:23:in `<main>'
+E, [2016-02-24T12:52:06.001107 #1212] ERROR -- : reaped #<Process::Status: pid 10329 exit 1> exec()-ed
+I, [2016-02-24T12:52:52.484781 #1212]  INFO -- : reaped #<Process::Status: pid 1215 exit 0> worker=0
+I, [2016-02-24T12:52:52.485009 #1212]  INFO -- : reaped #<Process::Status: pid 1217 exit 0> worker=1
+I, [2016-02-24T12:52:52.485105 #1212]  INFO -- : master complete
+I, [2016-02-24T12:53:06.785133 #1213]  INFO -- : Refreshing Gem list
+I, [2016-02-24T12:53:09.527976 #1213]  INFO -- : unlinking existing socket=/home/deploy/rempelonrails/shared/sockets/unicorn.sock
+I, [2016-02-24T12:53:09.528442 #1213]  INFO -- : listening on addr=/home/deploy/rempelonrails/shared/sockets/unicorn.sock fd=11
+I, [2016-02-24T12:53:09.528653 #1213]  INFO -- : worker=0 spawning...
+I, [2016-02-24T12:53:09.530577 #1213]  INFO -- : worker=1 spawning...
+I, [2016-02-24T12:53:09.533398 #1213]  INFO -- : master process ready
+I, [2016-02-24T12:53:09.540453 #1216]  INFO -- : worker=0 spawned pid=1216
+I, [2016-02-24T12:53:09.540686 #1216]  INFO -- : worker=0 ready
+I, [2016-02-24T12:53:09.542009 #1219]  INFO -- : worker=1 spawned pid=1219
+I, [2016-02-24T12:53:09.542228 #1219]  INFO -- : worker=1 ready
+I, [2016-02-24T13:25:22.568300 #2132]  INFO -- : executing ["/home/deploy/.rbenv/versions/2.3.0/bin/unicorn", "-c", "config/unicorn.rb", "-E", "production", "-D", {11=>#<Kgio::UNIXServer:/home/deploy/rempelonrails/shared/sockets/unicorn.sock>}] (in /home/deploy/rempelonrails)
+I, [2016-02-24T13:25:22.569324 #2132]  INFO -- : forked child re-executing...
+I, [2016-02-24T13:25:23.126715 #2132]  INFO -- : inherited addr=/home/deploy/rempelonrails/shared/sockets/unicorn.sock fd=11
+I, [2016-02-24T13:25:23.127295 #2132]  INFO -- : Refreshing Gem list
+I, [2016-02-24T13:25:26.993708 #2132]  INFO -- : worker=0 spawning...
+E, [2016-02-24T13:25:27.124863 #2132] ERROR -- : Cannot allocate memory - fork(2) (Errno::ENOMEM)
+/home/deploy/.rbenv/versions/2.3.0/lib/ruby/gems/2.3.0/gems/unicorn-5.0.1/lib/unicorn/http_server.rb:503:in `fork'
+/home/deploy/.rbenv/versions/2.3.0/lib/ruby/gems/2.3.0/gems/unicorn-5.0.1/lib/unicorn/http_server.rb:503:in `spawn_missing_workers'
+/home/deploy/.rbenv/versions/2.3.0/lib/ruby/gems/2.3.0/gems/unicorn-5.0.1/lib/unicorn/http_server.rb:132:in `start'
+/home/deploy/.rbenv/versions/2.3.0/lib/ruby/gems/2.3.0/gems/unicorn-5.0.1/bin/unicorn:126:in `<top (required)>'
+/home/deploy/.rbenv/versions/2.3.0/bin/unicorn:23:in `load'
+/home/deploy/.rbenv/versions/2.3.0/bin/unicorn:23:in `<main>'
+E, [2016-02-24T13:25:27.148895 #1213] ERROR -- : reaped #<Process::Status: pid 2132 exit 1> exec()-ed
+I, [2016-02-24T13:25:39.868976 #1213]  INFO -- : reaped #<Process::Status: pid 1216 exit 0> worker=0
+I, [2016-02-24T13:25:39.869810 #1213]  INFO -- : reaped #<Process::Status: pid 1219 exit 0> worker=1
+I, [2016-02-24T13:25:39.869911 #1213]  INFO -- : master complete
+I, [2016-02-24T13:25:53.999369 #1212]  INFO -- : Refreshing Gem list
+I, [2016-02-24T13:25:56.814281 #1212]  INFO -- : unlinking existing socket=/home/deploy/rempelonrails/shared/sockets/unicorn.sock
+I, [2016-02-24T13:25:56.815223 #1212]  INFO -- : listening on addr=/home/deploy/rempelonrails/shared/sockets/unicorn.sock fd=11
+I, [2016-02-24T13:25:56.815413 #1212]  INFO -- : worker=0 spawning...
+I, [2016-02-24T13:25:56.817449 #1212]  INFO -- : worker=1 spawning...
+I, [2016-02-24T13:25:56.818713 #1215]  INFO -- : worker=0 spawned pid=1215
+I, [2016-02-24T13:25:56.818942 #1215]  INFO -- : worker=0 ready
+I, [2016-02-24T13:25:56.820995 #1212]  INFO -- : master process ready
+I, [2016-02-24T13:25:56.827512 #1218]  INFO -- : worker=1 spawned pid=1218
+I, [2016-02-24T13:25:56.827789 #1218]  INFO -- : worker=1 ready
+I, [2016-02-24T13:29:35.824262 #1212]  INFO -- : reaped #<Process::Status: pid 1215 exit 0> worker=0
+I, [2016-02-24T13:29:35.824639 #1212]  INFO -- : reaped #<Process::Status: pid 1218 exit 0> worker=1
+I, [2016-02-24T13:29:35.824768 #1212]  INFO -- : master complete
+I, [2016-02-24T13:29:50.025375 #1213]  INFO -- : Refreshing Gem list
+I, [2016-02-24T13:29:53.000305 #1213]  INFO -- : unlinking existing socket=/home/deploy/rempelonrails/shared/sockets/unicorn.sock
+I, [2016-02-24T13:29:53.000784 #1213]  INFO -- : listening on addr=/home/deploy/rempelonrails/shared/sockets/unicorn.sock fd=11
+I, [2016-02-24T13:29:53.000955 #1213]  INFO -- : worker=0 spawning...
+I, [2016-02-24T13:29:53.002866 #1213]  INFO -- : worker=1 spawning...
+I, [2016-02-24T13:29:53.005696 #1213]  INFO -- : master process ready
+I, [2016-02-24T13:29:53.011558 #1216]  INFO -- : worker=0 spawned pid=1216
+I, [2016-02-24T13:29:53.011749 #1216]  INFO -- : worker=0 ready
+I, [2016-02-24T13:29:53.013004 #1219]  INFO -- : worker=1 spawned pid=1219
+I, [2016-02-24T13:29:53.013180 #1219]  INFO -- : worker=1 ready
+I, [2016-02-24T13:35:04.164042 #1213]  INFO -- : reaped #<Process::Status: pid 1216 exit 0> worker=0
+I, [2016-02-24T13:35:04.164287 #1213]  INFO -- : reaped #<Process::Status: pid 1219 exit 0> worker=1
+I, [2016-02-24T13:35:04.164366 #1213]  INFO -- : master complete
+I, [2016-02-24T13:35:18.133194 #1213]  INFO -- : Refreshing Gem list
+I, [2016-02-24T13:35:21.025112 #1213]  INFO -- : unlinking existing socket=/home/deploy/rempelonrails/shared/sockets/unicorn.sock
+I, [2016-02-24T13:35:21.025489 #1213]  INFO -- : listening on addr=/home/deploy/rempelonrails/shared/sockets/unicorn.sock fd=11
+I, [2016-02-24T13:35:21.025664 #1213]  INFO -- : worker=0 spawning...
+I, [2016-02-24T13:35:21.027579 #1213]  INFO -- : worker=1 spawning...
+I, [2016-02-24T13:35:21.029945 #1213]  INFO -- : master process ready
+I, [2016-02-24T13:35:21.037383 #1216]  INFO -- : worker=0 spawned pid=1216
+I, [2016-02-24T13:35:21.037584 #1216]  INFO -- : worker=0 ready
+I, [2016-02-24T13:35:21.038894 #1219]  INFO -- : worker=1 spawned pid=1219
+I, [2016-02-24T13:35:21.039074 #1219]  INFO -- : worker=1 ready
+I, [2016-02-25T10:42:26.800152 #1213]  INFO -- : reaped #<Process::Status: pid 1216 exit 0> worker=0
+I, [2016-02-25T10:42:26.801405 #1213]  INFO -- : reaped #<Process::Status: pid 1219 exit 0> worker=1
+I, [2016-02-25T10:42:26.801550 #1213]  INFO -- : master complete
+I, [2016-02-25T10:46:06.689119 #1223]  INFO -- : Refreshing Gem list
+I, [2016-02-25T10:46:09.454798 #1223]  INFO -- : unlinking existing socket=/home/deploy/rempelonrails/shared/sockets/unicorn.sock
+I, [2016-02-25T10:46:09.455149 #1223]  INFO -- : listening on addr=/home/deploy/rempelonrails/shared/sockets/unicorn.sock fd=11
+I, [2016-02-25T10:46:09.455284 #1223]  INFO -- : worker=0 spawning...
+I, [2016-02-25T10:46:09.456478 #1223]  INFO -- : worker=1 spawning...
+I, [2016-02-25T10:46:09.457445 #1223]  INFO -- : master process ready
+I, [2016-02-25T10:46:09.463008 #1226]  INFO -- : worker=0 spawned pid=1226
+I, [2016-02-25T10:46:09.463185 #1226]  INFO -- : worker=0 ready
+I, [2016-02-25T10:46:09.464096 #1228]  INFO -- : worker=1 spawned pid=1228
+I, [2016-02-25T10:46:09.464257 #1228]  INFO -- : worker=1 ready
+I, [2016-02-25T10:53:36.137779 #1674]  INFO -- : executing ["/home/deploy/.rbenv/versions/2.3.0/bin/unicorn", "-c", "config/unicorn.rb", "-E", "production", "-D", {11=>#<Kgio::UNIXServer:/home/deploy/rempelonrails/shared/sockets/unicorn.sock>}] (in /home/deploy/rempelonrails)
+I, [2016-02-25T10:53:36.137960 #1674]  INFO -- : forked child re-executing...
+I, [2016-02-25T10:53:36.530711 #1674]  INFO -- : inherited addr=/home/deploy/rempelonrails/shared/sockets/unicorn.sock fd=11
+I, [2016-02-25T10:53:36.530994 #1674]  INFO -- : Refreshing Gem list
+I, [2016-02-25T10:53:38.237986 #1674]  INFO -- : worker=0 spawning...
+I, [2016-02-25T10:53:38.239131 #1674]  INFO -- : worker=1 spawning...
+I, [2016-02-25T10:53:38.240016 #1674]  INFO -- : master process ready
+I, [2016-02-25T10:53:38.240969 #1678]  INFO -- : worker=0 spawned pid=1678
+I, [2016-02-25T10:53:38.241118 #1678]  INFO -- : worker=0 ready
+I, [2016-02-25T10:53:38.241929 #1680]  INFO -- : worker=1 spawned pid=1680
+I, [2016-02-25T10:53:38.242080 #1680]  INFO -- : worker=1 ready
+I, [2016-02-25T11:17:40.717119 #1674]  INFO -- : reaped #<Process::Status: pid 1678 exit 0> worker=0
+I, [2016-02-25T11:17:40.717919 #1674]  INFO -- : reaped #<Process::Status: pid 1680 exit 0> worker=1
+I, [2016-02-25T11:17:40.718026 #1674]  INFO -- : master complete
+E, [2016-02-25T11:17:40.803535 #1223] ERROR -- : reaped #<Process::Status: pid 1674 exit 0> exec()-ed
+I, [2016-02-25T11:17:41.732338 #1223]  INFO -- : reaped #<Process::Status: pid 1228 exit 0> worker=1
+I, [2016-02-25T11:17:41.832781 #1223]  INFO -- : reaped #<Process::Status: pid 1226 exit 0> worker=0
+I, [2016-02-25T11:17:41.832903 #1223]  INFO -- : master complete
+I, [2016-02-25T11:20:23.063655 #1215]  INFO -- : Refreshing Gem list
+I, [2016-02-25T11:20:27.202103 #1215]  INFO -- : unlinking existing socket=/home/deploy/rempelonrails/shared/sockets/unicorn.sock
+I, [2016-02-25T11:20:27.202457 #1215]  INFO -- : listening on addr=/home/deploy/rempelonrails/shared/sockets/unicorn.sock fd=11
+I, [2016-02-25T11:20:27.202594 #1215]  INFO -- : worker=0 spawning...
+I, [2016-02-25T11:20:27.204293 #1215]  INFO -- : worker=1 spawning...
+I, [2016-02-25T11:20:27.206049 #1215]  INFO -- : master process ready
+I, [2016-02-25T11:20:27.213022 #1248]  INFO -- : worker=0 spawned pid=1248
+I, [2016-02-25T11:20:27.213578 #1248]  INFO -- : worker=0 ready
+I, [2016-02-25T11:20:27.214851 #1250]  INFO -- : worker=1 spawned pid=1250
+I, [2016-02-25T11:20:27.215021 #1250]  INFO -- : worker=1 ready
+/home/deploy/.rbenv/versions/2.3.0/lib/ruby/gems/2.3.0/gems/unicorn-5.0.1/lib/unicorn/http_server.rb:195:in `pid=': Already running on PID:1215 (or pid=/home/deploy/rempelonrails/shared/pids/unicorn.pid is stale) (ArgumentError)
+	from /home/deploy/.rbenv/versions/2.3.0/lib/ruby/gems/2.3.0/gems/unicorn-5.0.1/lib/unicorn/http_server.rb:127:in `start'
+	from /home/deploy/.rbenv/versions/2.3.0/lib/ruby/gems/2.3.0/gems/unicorn-5.0.1/bin/unicorn:126:in `<top (required)>'
+	from /home/deploy/.rbenv/versions/2.3.0/bin/unicorn:23:in `load'
+	from /home/deploy/.rbenv/versions/2.3.0/bin/unicorn:23:in `<main>'
+/home/deploy/.rbenv/versions/2.3.0/lib/ruby/gems/2.3.0/gems/unicorn-5.0.1/lib/unicorn/http_server.rb:195:in `pid=': Already running on PID:1215 (or pid=/home/deploy/rempelonrails/shared/pids/unicorn.pid is stale) (ArgumentError)
+	from /home/deploy/.rbenv/versions/2.3.0/lib/ruby/gems/2.3.0/gems/unicorn-5.0.1/lib/unicorn/http_server.rb:127:in `start'
+	from /home/deploy/.rbenv/versions/2.3.0/lib/ruby/gems/2.3.0/gems/unicorn-5.0.1/bin/unicorn:126:in `<top (required)>'
+	from /home/deploy/.rbenv/versions/2.3.0/bin/unicorn:23:in `load'
+	from /home/deploy/.rbenv/versions/2.3.0/bin/unicorn:23:in `<main>'
+I, [2016-02-28T16:50:09.734865 #1216]  INFO -- : Refreshing Gem list
+I, [2016-02-28T16:50:14.460796 #1216]  INFO -- : unlinking existing socket=/home/deploy/rempelonrails/shared/sockets/unicorn.sock
+I, [2016-02-28T16:50:14.461097 #1216]  INFO -- : listening on addr=/home/deploy/rempelonrails/shared/sockets/unicorn.sock fd=11
+I, [2016-02-28T16:50:14.461295 #1216]  INFO -- : worker=0 spawning...
+I, [2016-02-28T16:50:14.465144 #1216]  INFO -- : worker=1 spawning...
+I, [2016-02-28T16:50:14.467262 #1249]  INFO -- : worker=0 spawned pid=1249
+I, [2016-02-28T16:50:14.468132 #1249]  INFO -- : worker=0 ready
+I, [2016-02-28T16:50:14.471403 #1216]  INFO -- : master process ready
+I, [2016-02-28T16:50:14.478319 #1252]  INFO -- : worker=1 spawned pid=1252
+I, [2016-02-28T16:50:14.482706 #1252]  INFO -- : worker=1 ready
+I, [2016-02-28T16:54:43.042575 #1216]  INFO -- : reaped #<Process::Status: pid 1249 exit 0> worker=0
+I, [2016-02-28T16:54:43.042800 #1216]  INFO -- : reaped #<Process::Status: pid 1252 exit 0> worker=1
+I, [2016-02-28T16:54:43.042895 #1216]  INFO -- : master complete
+I, [2016-02-28T17:20:18.194205 #1213]  INFO -- : Refreshing Gem list
+I, [2016-02-28T17:20:22.106755 #1213]  INFO -- : unlinking existing socket=/home/deploy/rempelonrails/shared/sockets/unicorn.sock
+I, [2016-02-28T17:20:22.107149 #1213]  INFO -- : listening on addr=/home/deploy/rempelonrails/shared/sockets/unicorn.sock fd=11
+I, [2016-02-28T17:20:22.107925 #1213]  INFO -- : worker=0 spawning...
+I, [2016-02-28T17:20:22.109676 #1213]  INFO -- : worker=1 spawning...
+I, [2016-02-28T17:20:22.111012 #1246]  INFO -- : worker=0 spawned pid=1246
+I, [2016-02-28T17:20:22.111253 #1246]  INFO -- : worker=0 ready
+I, [2016-02-28T17:20:22.113401 #1213]  INFO -- : master process ready
+I, [2016-02-28T17:20:22.119208 #1249]  INFO -- : worker=1 spawned pid=1249
+I, [2016-02-28T17:20:22.124343 #1249]  INFO -- : worker=1 ready
+I, [2016-02-28T17:26:48.202858 #1874]  INFO -- : executing ["/home/deploy/.rbenv/versions/2.3.0/bin/unicorn", "-c", "config/unicorn.rb", "-E", "production", "-D", {11=>#<Kgio::UNIXServer:/home/deploy/rempelonrails/shared/sockets/unicorn.sock>}] (in /home/deploy/rempelonrails)
+I, [2016-02-28T17:26:48.203091 #1874]  INFO -- : forked child re-executing...
+I, [2016-02-28T17:26:48.558734 #1874]  INFO -- : inherited addr=/home/deploy/rempelonrails/shared/sockets/unicorn.sock fd=11
+I, [2016-02-28T17:26:48.559002 #1874]  INFO -- : Refreshing Gem list
+I, [2016-02-28T17:26:50.750612 #1874]  INFO -- : worker=0 spawning...
+I, [2016-02-28T17:26:50.752252 #1874]  INFO -- : worker=1 spawning...
+I, [2016-02-28T17:26:50.753591 #1874]  INFO -- : master process ready
+I, [2016-02-28T17:26:50.754621 #1878]  INFO -- : worker=0 spawned pid=1878
+I, [2016-02-28T17:26:50.754778 #1878]  INFO -- : worker=0 ready
+I, [2016-02-28T17:26:50.755728 #1880]  INFO -- : worker=1 spawned pid=1880
+I, [2016-02-28T17:26:50.755880 #1880]  INFO -- : worker=1 ready
+I, [2016-02-28T17:26:59.987290 #1874]  INFO -- : reaped #<Process::Status: pid 1878 exit 0> worker=0
+I, [2016-02-28T17:27:00.087815 #1874]  INFO -- : reaped #<Process::Status: pid 1880 exit 0> worker=1
+I, [2016-02-28T17:27:00.087953 #1874]  INFO -- : master complete
+E, [2016-02-28T17:27:00.128772 #1213] ERROR -- : reaped #<Process::Status: pid 1874 exit 0> exec()-ed
+I, [2016-02-28T17:27:00.909883 #1213]  INFO -- : reaped #<Process::Status: pid 1246 exit 0> worker=0
+I, [2016-02-28T17:27:00.910017 #1213]  INFO -- : reaped #<Process::Status: pid 1249 exit 0> worker=1
+I, [2016-02-28T17:27:00.910248 #1213]  INFO -- : master complete
+I, [2016-02-28T17:27:14.318141 #1214]  INFO -- : Refreshing Gem list
+I, [2016-02-28T17:27:17.434803 #1214]  INFO -- : unlinking existing socket=/home/deploy/rempelonrails/shared/sockets/unicorn.sock
+I, [2016-02-28T17:27:17.435139 #1214]  INFO -- : listening on addr=/home/deploy/rempelonrails/shared/sockets/unicorn.sock fd=11
+I, [2016-02-28T17:27:17.435268 #1214]  INFO -- : worker=0 spawning...
+I, [2016-02-28T17:27:17.436545 #1214]  INFO -- : worker=1 spawning...
+I, [2016-02-28T17:27:17.438014 #1214]  INFO -- : master process ready
+I, [2016-02-28T17:27:17.443286 #1217]  INFO -- : worker=0 spawned pid=1217
+I, [2016-02-28T17:27:17.443457 #1217]  INFO -- : worker=0 ready
+I, [2016-02-28T17:27:17.444406 #1220]  INFO -- : worker=1 spawned pid=1220
+I, [2016-02-28T17:27:17.444561 #1220]  INFO -- : worker=1 ready
+I, [2016-02-28T18:10:47.901002 #1214]  INFO -- : reaped #<Process::Status: pid 1217 exit 0> worker=0
+I, [2016-02-28T18:10:47.901233 #1214]  INFO -- : reaped #<Process::Status: pid 1220 exit 0> worker=1
+I, [2016-02-28T18:10:47.901352 #1214]  INFO -- : master complete
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                               I, [2016-02-28T18:14:58.011879 #1214]  INFO -- : Refreshing Gem list
+I, [2016-02-28T18:15:01.003286 #1214]  INFO -- : unlinking existing socket=/home/deploy/rempelonrails/shared/sockets/unicorn.sock
+I, [2016-02-28T18:15:01.003550 #1214]  INFO -- : listening on addr=/home/deploy/rempelonrails/shared/sockets/unicorn.sock fd=11
+I, [2016-02-28T18:15:01.003721 #1214]  INFO -- : worker=0 spawning...
+I, [2016-02-28T18:15:01.006275 #1214]  INFO -- : worker=1 spawning...
+I, [2016-02-28T18:15:01.007735 #1217]  INFO -- : worker=0 spawned pid=1217
+I, [2016-02-28T18:15:01.010247 #1214]  INFO -- : master process ready
+I, [2016-02-28T18:15:01.015058 #1217]  INFO -- : worker=0 ready
+I, [2016-02-28T18:15:01.016862 #1220]  INFO -- : worker=1 spawned pid=1220
+I, [2016-02-28T18:15:01.017033 #1220]  INFO -- : worker=1 ready
+I, [2016-03-01T08:14:33.452848 #13118]  INFO -- : executing ["/home/deploy/.rbenv/versions/2.3.0/bin/unicorn", "-c", "config/unicorn.rb", "-E", "production", "-D", {11=>#<Kgio::UNIXServer:/home/deploy/rempelonrails/shared/sockets/unicorn.sock>}] (in /home/deploy/rempelonrails)
+I, [2016-03-01T08:14:33.454016 #13118]  INFO -- : forked child re-executing...
+I, [2016-03-01T08:14:34.140877 #13118]  INFO -- : inherited addr=/home/deploy/rempelonrails/shared/sockets/unicorn.sock fd=11
+I, [2016-03-01T08:14:34.141245 #13118]  INFO -- : Refreshing Gem list
+I, [2016-03-01T08:14:37.115456 #13118]  INFO -- : worker=0 spawning...
+I, [2016-03-01T08:14:37.120385 #13118]  INFO -- : worker=1 spawning...
+I, [2016-03-01T08:14:37.125056 #13118]  INFO -- : master process ready
+I, [2016-03-01T08:14:37.122067 #13122]  INFO -- : worker=0 spawned pid=13122
+I, [2016-03-01T08:14:37.126419 #13122]  INFO -- : worker=0 ready
+I, [2016-03-01T08:14:37.127523 #13125]  INFO -- : worker=1 spawned pid=13125
+I, [2016-03-01T08:14:37.128217 #13125]  INFO -- : worker=1 ready
+I, [2016-03-01T08:14:47.365932 #13118]  INFO -- : reaped #<Process::Status: pid 13122 exit 0> worker=0
+I, [2016-03-01T08:14:47.366360 #13118]  INFO -- : reaped #<Process::Status: pid 13125 exit 0> worker=1
+I, [2016-03-01T08:14:47.366484 #13118]  INFO -- : master complete
+E, [2016-03-01T08:14:47.437075 #1214] ERROR -- : reaped #<Process::Status: pid 13118 exit 0> exec()-ed
+I, [2016-03-01T08:14:48.290471 #1214]  INFO -- : reaped #<Process::Status: pid 1217 exit 0> worker=0
+I, [2016-03-01T08:14:48.290649 #1214]  INFO -- : reaped #<Process::Status: pid 1220 exit 0> worker=1
+I, [2016-03-01T08:14:48.290819 #1214]  INFO -- : master complete
+I, [2016-03-01T08:15:03.252969 #1213]  INFO -- : Refreshing Gem list
+I, [2016-03-01T08:15:07.273845 #1213]  INFO -- : unlinking existing socket=/home/deploy/rempelonrails/shared/sockets/unicorn.sock
+I, [2016-03-01T08:15:07.274117 #1213]  INFO -- : listening on addr=/home/deploy/rempelonrails/shared/sockets/unicorn.sock fd=11
+I, [2016-03-01T08:15:07.274308 #1213]  INFO -- : worker=0 spawning...
+I, [2016-03-01T08:15:07.276209 #1213]  INFO -- : worker=1 spawning...
+I, [2016-03-01T08:15:07.279189 #1213]  INFO -- : master process ready
+I, [2016-03-01T08:15:07.285689 #1246]  INFO -- : worker=0 spawned pid=1246
+I, [2016-03-01T08:15:07.285970 #1246]  INFO -- : worker=0 ready
+I, [2016-03-01T08:15:07.287418 #1249]  INFO -- : worker=1 spawned pid=1249
+I, [2016-03-01T08:15:07.287638 #1249]  INFO -- : worker=1 ready
+I, [2016-03-01T08:51:07.278461 #1877]  INFO -- : executing ["/home/deploy/.rbenv/versions/2.3.0/bin/unicorn", "-c", "config/unicorn.rb", "-E", "production", "-D", {11=>#<Kgio::UNIXServer:/home/deploy/rempelonrails/shared/sockets/unicorn.sock>}] (in /home/deploy/rempelonrails)
+I, [2016-03-01T08:51:07.278802 #1877]  INFO -- : forked child re-executing...
+I, [2016-03-01T08:51:07.774328 #1877]  INFO -- : inherited addr=/home/deploy/rempelonrails/shared/sockets/unicorn.sock fd=11
+I, [2016-03-01T08:51:07.774634 #1877]  INFO -- : Refreshing Gem list
+I, [2016-03-01T08:51:10.371156 #1877]  INFO -- : worker=0 spawning...
+I, [2016-03-01T08:51:10.372676 #1877]  INFO -- : worker=1 spawning...
+I, [2016-03-01T08:51:10.374700 #1877]  INFO -- : master process ready
+I, [2016-03-01T08:51:10.375231 #1893]  INFO -- : worker=0 spawned pid=1893
+I, [2016-03-01T08:51:10.375400 #1893]  INFO -- : worker=0 ready
+I, [2016-03-01T08:51:10.376426 #1896]  INFO -- : worker=1 spawned pid=1896
+I, [2016-03-01T08:51:10.376607 #1896]  INFO -- : worker=1 ready
+E, [2016-03-01T08:51:17.358680 #1877] ERROR -- : old PID:1213 running with existing pid=/home/deploy/rempelonrails/shared/pids/unicorn.pid.oldbin, refusing rexec
+E, [2016-03-01T08:51:45.780315 #1877] ERROR -- : old PID:1213 running with existing pid=/home/deploy/rempelonrails/shared/pids/unicorn.pid.oldbin, refusing rexec
+E, [2016-03-01T08:52:40.305050 #1877] ERROR -- : old PID:1213 running with existing pid=/home/deploy/rempelonrails/shared/pids/unicorn.pid.oldbin, refusing rexec
+I, [2016-03-01T08:52:56.758548 #1877]  INFO -- : reaped #<Process::Status: pid 1893 exit 0> worker=0
+I, [2016-03-01T08:52:56.758787 #1877]  INFO -- : reaped #<Process::Status: pid 1896 exit 0> worker=1
+I, [2016-03-01T08:52:56.758880 #1877]  INFO -- : master complete
+E, [2016-03-01T08:52:56.819966 #1213] ERROR -- : reaped #<Process::Status: pid 1877 exit 0> exec()-ed
+I, [2016-03-01T08:52:57.713716 #1213]  INFO -- : reaped #<Process::Status: pid 1246 exit 0> worker=0
+I, [2016-03-01T08:52:57.713918 #1213]  INFO -- : reaped #<Process::Status: pid 1249 exit 0> worker=1
+I, [2016-03-01T08:52:57.714101 #1213]  INFO -- : master complete
+I, [2016-03-01T08:53:12.038354 #1213]  INFO -- : Refreshing Gem list
+I, [2016-03-01T08:53:15.399130 #1213]  INFO -- : unlinking existing socket=/home/deploy/rempelonrails/shared/sockets/unicorn.sock
+I, [2016-03-01T08:53:15.399357 #1213]  INFO -- : listening on addr=/home/deploy/rempelonrails/shared/sockets/unicorn.sock fd=11
+I, [2016-03-01T08:53:15.399517 #1213]  INFO -- : worker=0 spawning...
+I, [2016-03-01T08:53:15.401491 #1213]  INFO -- : worker=1 spawning...
+I, [2016-03-01T08:53:15.402711 #1246]  INFO -- : worker=0 spawned pid=1246
+I, [2016-03-01T08:53:15.402910 #1246]  INFO -- : worker=0 ready
+I, [2016-03-01T08:53:15.404860 #1213]  INFO -- : master process ready
+I, [2016-03-01T08:53:15.411720 #1249]  INFO -- : worker=1 spawned pid=1249
+I, [2016-03-01T08:53:15.412087 #1249]  INFO -- : worker=1 ready
+I, [2016-03-01T17:06:43.568640 #1213]  INFO -- : reaped #<Process::Status: pid 1246 exit 0> worker=0
+I, [2016-03-01T17:06:43.569105 #1213]  INFO -- : reaped #<Process::Status: pid 1249 exit 0> worker=1
+I, [2016-03-01T17:06:43.569321 #1213]  INFO -- : master complete
+I, [2016-03-01T17:10:52.688338 #1214]  INFO -- : Refreshing Gem list
+I, [2016-03-01T17:10:56.577113 #1214]  INFO -- : unlinking existing socket=/home/deploy/rempelonrails/shared/sockets/unicorn.sock
+I, [2016-03-01T17:10:56.577370 #1214]  INFO -- : listening on addr=/home/deploy/rempelonrails/shared/sockets/unicorn.sock fd=11
+I, [2016-03-01T17:10:56.577535 #1214]  INFO -- : worker=0 spawning...
+I, [2016-03-01T17:10:56.579633 #1214]  INFO -- : worker=1 spawning...
+I, [2016-03-01T17:10:56.582562 #1214]  INFO -- : master process ready
+I, [2016-03-01T17:10:56.589618 #1249]  INFO -- : worker=0 spawned pid=1249
+I, [2016-03-01T17:10:56.589995 #1249]  INFO -- : worker=0 ready
+I, [2016-03-01T17:10:56.591975 #1252]  INFO -- : worker=1 spawned pid=1252
+I, [2016-03-01T17:10:56.592294 #1252]  INFO -- : worker=1 ready
+I, [2016-03-01T17:15:23.527801 #1211]  INFO -- : Refreshing Gem list
+I, [2016-03-01T17:15:29.781244 #1211]  INFO -- : unlinking existing socket=/home/deploy/rempelonrails/shared/sockets/unicorn.sock
+I, [2016-03-01T17:15:29.781416 #1211]  INFO -- : listening on addr=/home/deploy/rempelonrails/shared/sockets/unicorn.sock fd=14
+I, [2016-03-01T17:15:29.781566 #1211]  INFO -- : worker=0 spawning...
+I, [2016-03-01T17:15:29.784452 #1211]  INFO -- : worker=1 spawning...
+I, [2016-03-01T17:15:29.785792 #1211]  INFO -- : master process ready
+I, [2016-03-01T17:15:29.792195 #1244]  INFO -- : worker=0 spawned pid=1244
+I, [2016-03-01T17:15:29.792388 #1244]  INFO -- : worker=0 ready
+I, [2016-03-01T17:15:29.794082 #1246]  INFO -- : worker=1 spawned pid=1246
+I, [2016-03-01T17:15:29.794244 #1246]  INFO -- : worker=1 ready
+I, [2016-03-02T05:48:29.561634 #9276]  INFO -- : executing ["/home/deploy/.rbenv/versions/2.3.0/bin/unicorn", "-c", "config/unicorn.rb", "-E", "production", "-D", {14=>#<Kgio::UNIXServer:/home/deploy/rempelonrails/shared/sockets/unicorn.sock>}] (in /home/deploy/rempelonrails)
+I, [2016-03-02T05:48:29.561944 #9276]  INFO -- : forked child re-executing...
+I, [2016-03-02T05:48:29.985154 #9276]  INFO -- : inherited addr=/home/deploy/rempelonrails/shared/sockets/unicorn.sock fd=14
+I, [2016-03-02T05:48:29.985435 #9276]  INFO -- : Refreshing Gem list
+I, [2016-03-02T05:48:32.335397 #9276]  INFO -- : worker=0 spawning...
+I, [2016-03-02T05:48:32.336836 #9276]  INFO -- : worker=1 spawning...
+I, [2016-03-02T05:48:32.337822 #9280]  INFO -- : worker=0 spawned pid=9280
+I, [2016-03-02T05:48:32.338018 #9280]  INFO -- : worker=0 ready
+I, [2016-03-02T05:48:32.340276 #9276]  INFO -- : master process ready
+I, [2016-03-02T05:48:32.341234 #9283]  INFO -- : worker=1 spawned pid=9283
+I, [2016-03-02T05:48:32.341413 #9283]  INFO -- : worker=1 ready
+I, [2016-03-02T05:48:43.960919 #9276]  INFO -- : reaped #<Process::Status: pid 9280 exit 0> worker=0
+I, [2016-03-02T05:48:43.961269 #9276]  INFO -- : reaped #<Process::Status: pid 9283 exit 0> worker=1
+I, [2016-03-02T05:48:43.961429 #9276]  INFO -- : master complete
+E, [2016-03-02T05:48:44.009354 #1211] ERROR -- : reaped #<Process::Status: pid 9276 exit 0> exec()-ed
+I, [2016-03-02T05:48:44.869307 #1211]  INFO -- : reaped #<Process::Status: pid 1244 exit 0> worker=0
+I, [2016-03-02T05:48:44.869468 #1211]  INFO -- : reaped #<Process::Status: pid 1246 exit 0> worker=1
+I, [2016-03-02T05:48:44.869574 #1211]  INFO -- : master complete
+I, [2016-03-02T05:48:58.994422 #1213]  INFO -- : Refreshing Gem list
+I, [2016-03-02T05:49:03.556000 #1213]  INFO -- : unlinking existing socket=/home/deploy/rempelonrails/shared/sockets/unicorn.sock
+I, [2016-03-02T05:49:03.556449 #1213]  INFO -- : listening on addr=/home/deploy/rempelonrails/shared/sockets/unicorn.sock fd=14
+I, [2016-03-02T05:49:03.556659 #1213]  INFO -- : worker=0 spawning...
+I, [2016-03-02T05:49:03.558987 #1213]  INFO -- : worker=1 spawning...
+I, [2016-03-02T05:49:03.560794 #1216]  INFO -- : worker=0 spawned pid=1216
+I, [2016-03-02T05:49:03.562923 #1213]  INFO -- : master process ready
+I, [2016-03-02T05:49:03.570446 #1219]  INFO -- : worker=1 spawned pid=1219
+I, [2016-03-02T05:49:03.570638 #1219]  INFO -- : worker=1 ready
+I, [2016-03-02T05:49:03.570987 #1216]  INFO -- : worker=0 ready
+I, [2016-03-02T08:07:49.060562 #3580]  INFO -- : executing ["/home/deploy/.rbenv/versions/2.3.0/bin/unicorn", "-c", "config/unicorn.rb", "-E", "production", "-D", {14=>#<Kgio::UNIXServer:/home/deploy/rempelonrails/shared/sockets/unicorn.sock>}] (in /home/deploy/rempelonrails)
+I, [2016-03-02T08:07:49.061448 #3580]  INFO -- : forked child re-executing...
+I, [2016-03-02T08:07:49.470967 #3580]  INFO -- : inherited addr=/home/deploy/rempelonrails/shared/sockets/unicorn.sock fd=14
+I, [2016-03-02T08:07:49.471393 #3580]  INFO -- : Refreshing Gem list
+I, [2016-03-02T08:07:51.747887 #3580]  INFO -- : worker=0 spawning...
+I, [2016-03-02T08:07:51.749511 #3580]  INFO -- : worker=1 spawning...
+I, [2016-03-02T08:07:51.750284 #3584]  INFO -- : worker=0 spawned pid=3584
+I, [2016-03-02T08:07:51.750424 #3584]  INFO -- : worker=0 ready
+I, [2016-03-02T08:07:51.751466 #3580]  INFO -- : master process ready
+I, [2016-03-02T08:07:51.752334 #3587]  INFO -- : worker=1 spawned pid=3587
+I, [2016-03-02T08:07:51.752455 #3587]  INFO -- : worker=1 ready
+I, [2016-03-02T08:07:59.838841 #3580]  INFO -- : reaped #<Process::Status: pid 3584 exit 0> worker=0
+I, [2016-03-02T08:07:59.839072 #3580]  INFO -- : reaped #<Process::Status: pid 3587 exit 0> worker=1
+I, [2016-03-02T08:07:59.839155 #3580]  INFO -- : master complete
+E, [2016-03-02T08:07:59.885840 #1213] ERROR -- : reaped #<Process::Status: pid 3580 exit 0> exec()-ed
+I, [2016-03-02T08:08:00.916603 #1213]  INFO -- : reaped #<Process::Status: pid 1216 exit 0> worker=0
+I, [2016-03-02T08:08:00.916776 #1213]  INFO -- : reaped #<Process::Status: pid 1219 exit 0> worker=1
+I, [2016-03-02T08:08:00.916911 #1213]  INFO -- : master complete
+I, [2016-03-02T08:08:14.226573 #1207]  INFO -- : Refreshing Gem list
+I, [2016-03-02T08:08:17.502577 #1207]  INFO -- : unlinking existing socket=/home/deploy/rempelonrails/shared/sockets/unicorn.sock
+I, [2016-03-02T08:08:17.502879 #1207]  INFO -- : listening on addr=/home/deploy/rempelonrails/shared/sockets/unicorn.sock fd=14
+I, [2016-03-02T08:08:17.503006 #1207]  INFO -- : worker=0 spawning...
+I, [2016-03-02T08:08:17.504382 #1207]  INFO -- : worker=1 spawning...
+I, [2016-03-02T08:08:17.505912 #1207]  INFO -- : master process ready
+I, [2016-03-02T08:08:17.511241 #1210]  INFO -- : worker=0 spawned pid=1210
+I, [2016-03-02T08:08:17.511433 #1210]  INFO -- : worker=0 ready
+I, [2016-03-02T08:08:17.512498 #1213]  INFO -- : worker=1 spawned pid=1213
+I, [2016-03-02T08:08:17.512670 #1213]  INFO -- : worker=1 ready
+I, [2016-03-02T10:50:55.793648 #3577]  INFO -- : executing ["/home/deploy/.rbenv/versions/2.3.0/bin/unicorn", "-c", "config/unicorn.rb", "-E", "production", "-D", {14=>#<Kgio::UNIXServer:/home/deploy/rempelonrails/shared/sockets/unicorn.sock>}] (in /home/deploy/rempelonrails)
+I, [2016-03-02T10:50:55.794066 #3577]  INFO -- : forked child re-executing...
+I, [2016-03-02T10:50:56.412462 #3577]  INFO -- : inherited addr=/home/deploy/rempelonrails/shared/sockets/unicorn.sock fd=14
+I, [2016-03-02T10:50:56.412787 #3577]  INFO -- : Refreshing Gem list
+I, [2016-03-02T10:50:59.103009 #3577]  INFO -- : worker=0 spawning...
+I, [2016-03-02T10:50:59.108989 #3577]  INFO -- : worker=1 spawning...
+I, [2016-03-02T10:50:59.112281 #3588]  INFO -- : worker=0 spawned pid=3588
+I, [2016-03-02T10:50:59.112494 #3588]  INFO -- : worker=0 ready
+I, [2016-03-02T10:50:59.117013 #3577]  INFO -- : master process ready
+I, [2016-03-02T10:50:59.118123 #3591]  INFO -- : worker=1 spawned pid=3591
+I, [2016-03-02T10:50:59.118298 #3591]  INFO -- : worker=1 ready
+I, [2016-03-02T10:51:07.449731 #3577]  INFO -- : reaped #<Process::Status: pid 3588 exit 0> worker=0
+I, [2016-03-02T10:51:07.449953 #3577]  INFO -- : reaped #<Process::Status: pid 3591 exit 0> worker=1
+I, [2016-03-02T10:51:07.450018 #3577]  INFO -- : master complete
+E, [2016-03-02T10:51:07.482759 #1207] ERROR -- : reaped #<Process::Status: pid 3577 exit 0> exec()-ed
+I, [2016-03-02T10:51:08.482031 #1207]  INFO -- : reaped #<Process::Status: pid 1213 exit 0> worker=1
+I, [2016-03-02T10:51:08.582366 #1207]  INFO -- : reaped #<Process::Status: pid 1210 exit 0> worker=0
+I, [2016-03-02T10:51:08.582545 #1207]  INFO -- : master complete
+I, [2016-03-02T10:51:22.892646 #1213]  INFO -- : Refreshing Gem list
+I, [2016-03-02T10:51:26.793339 #1213]  INFO -- : unlinking existing socket=/home/deploy/rempelonrails/shared/sockets/unicorn.sock
+I, [2016-03-02T10:51:26.794119 #1213]  INFO -- : listening on addr=/home/deploy/rempelonrails/shared/sockets/unicorn.sock fd=14
+I, [2016-03-02T10:51:26.794277 #1213]  INFO -- : worker=0 spawning...
+I, [2016-03-02T10:51:26.796240 #1213]  INFO -- : worker=1 spawning...
+I, [2016-03-02T10:51:26.798504 #1213]  INFO -- : master process ready
+I, [2016-03-02T10:51:26.805627 #1216]  INFO -- : worker=0 spawned pid=1216
+I, [2016-03-02T10:51:26.806046 #1216]  INFO -- : worker=0 ready
+I, [2016-03-02T10:51:26.807152 #1219]  INFO -- : worker=1 spawned pid=1219
+I, [2016-03-02T10:51:26.807301 #1219]  INFO -- : worker=1 ready
+I, [2016-03-02T12:50:15.219912 #3273]  INFO -- : executing ["/home/deploy/.rbenv/versions/2.3.0/bin/unicorn", "-c", "config/unicorn.rb", "-E", "production", "-D", {14=>#<Kgio::UNIXServer:/home/deploy/rempelonrails/shared/sockets/unicorn.sock>}] (in /home/deploy/rempelonrails)
+I, [2016-03-02T12:50:15.220258 #3273]  INFO -- : forked child re-executing...
+I, [2016-03-02T12:50:15.704145 #3273]  INFO -- : inherited addr=/home/deploy/rempelonrails/shared/sockets/unicorn.sock fd=14
+I, [2016-03-02T12:50:15.704467 #3273]  INFO -- : Refreshing Gem list
+I, [2016-03-02T12:50:18.127839 #3273]  INFO -- : worker=0 spawning...
+I, [2016-03-02T12:50:18.129154 #3273]  INFO -- : worker=1 spawning...
+I, [2016-03-02T12:50:18.130201 #3277]  INFO -- : worker=0 spawned pid=3277
+I, [2016-03-02T12:50:18.130352 #3277]  INFO -- : worker=0 ready
+I, [2016-03-02T12:50:18.131927 #3273]  INFO -- : master process ready
+I, [2016-03-02T12:50:18.132847 #3280]  INFO -- : worker=1 spawned pid=3280
+I, [2016-03-02T12:50:18.132981 #3280]  INFO -- : worker=1 ready
+I, [2016-03-02T12:50:28.765004 #3273]  INFO -- : reaped #<Process::Status: pid 3277 exit 0> worker=0
+I, [2016-03-02T12:50:28.765162 #3273]  INFO -- : reaped #<Process::Status: pid 3280 exit 0> worker=1
+I, [2016-03-02T12:50:28.765247 #3273]  INFO -- : master complete
+E, [2016-03-02T12:50:28.805344 #1213] ERROR -- : reaped #<Process::Status: pid 3273 exit 0> exec()-ed
+I, [2016-03-02T12:50:29.852883 #1213]  INFO -- : reaped #<Process::Status: pid 1216 exit 0> worker=0
+I, [2016-03-02T12:50:29.853024 #1213]  INFO -- : reaped #<Process::Status: pid 1219 exit 0> worker=1
+I, [2016-03-02T12:50:29.853131 #1213]  INFO -- : master complete
+I, [2016-03-02T12:50:44.812541 #1213]  INFO -- : Refreshing Gem list
+I, [2016-03-02T12:50:48.483154 #1213]  INFO -- : unlinking existing socket=/home/deploy/rempelonrails/shared/sockets/unicorn.sock
+I, [2016-03-02T12:50:48.483509 #1213]  INFO -- : listening on addr=/home/deploy/rempelonrails/shared/sockets/unicorn.sock fd=14
+I, [2016-03-02T12:50:48.483669 #1213]  INFO -- : worker=0 spawning...
+I, [2016-03-02T12:50:48.486051 #1213]  INFO -- : worker=1 spawning...
+I, [2016-03-02T12:50:48.487313 #1246]  INFO -- : worker=0 spawned pid=1246
+I, [2016-03-02T12:50:48.487497 #1246]  INFO -- : worker=0 ready
+I, [2016-03-02T12:50:48.488880 #1213]  INFO -- : master process ready
+I, [2016-03-02T12:50:48.495703 #1249]  INFO -- : worker=1 spawned pid=1249
+I, [2016-03-02T12:50:48.495864 #1249]  INFO -- : worker=1 ready
+I, [2016-03-02T12:58:05.534566 #1706]  INFO -- : executing ["/home/deploy/.rbenv/versions/2.3.0/bin/unicorn", "-c", "config/unicorn.rb", "-E", "production", "-D", {14=>#<Kgio::UNIXServer:/home/deploy/rempelonrails/shared/sockets/unicorn.sock>}] (in /home/deploy/rempelonrails)
+I, [2016-03-02T12:58:05.534825 #1706]  INFO -- : forked child re-executing...
+I, [2016-03-02T12:58:05.971617 #1706]  INFO -- : inherited addr=/home/deploy/rempelonrails/shared/sockets/unicorn.sock fd=14
+I, [2016-03-02T12:58:05.972134 #1706]  INFO -- : Refreshing Gem list
+I, [2016-03-02T12:58:08.322467 #1706]  INFO -- : worker=0 spawning...
+I, [2016-03-02T12:58:08.323634 #1706]  INFO -- : worker=1 spawning...
+I, [2016-03-02T12:58:08.324512 #1706]  INFO -- : master process ready
+I, [2016-03-02T12:58:08.325486 #1710]  INFO -- : worker=0 spawned pid=1710
+I, [2016-03-02T12:58:08.325647 #1710]  INFO -- : worker=0 ready
+I, [2016-03-02T12:58:08.326487 #1712]  INFO -- : worker=1 spawned pid=1712
+I, [2016-03-02T12:58:08.326640 #1712]  INFO -- : worker=1 ready
+I, [2016-03-02T12:58:18.104736 #1706]  INFO -- : reaped #<Process::Status: pid 1710 exit 0> worker=0
+I, [2016-03-02T12:58:18.105070 #1706]  INFO -- : reaped #<Process::Status: pid 1712 exit 0> worker=1
+I, [2016-03-02T12:58:18.105176 #1706]  INFO -- : master complete
+E, [2016-03-02T12:58:18.141442 #1213] ERROR -- : reaped #<Process::Status: pid 1706 exit 0> exec()-ed
+I, [2016-03-02T12:58:19.072252 #1213]  INFO -- : reaped #<Process::Status: pid 1246 exit 0> worker=0
+I, [2016-03-02T12:58:19.072514 #1213]  INFO -- : reaped #<Process::Status: pid 1249 exit 0> worker=1
+I, [2016-03-02T12:58:19.072650 #1213]  INFO -- : master complete
+I, [2016-03-02T12:58:32.280558 #1215]  INFO -- : Refreshing Gem list
+I, [2016-03-02T12:58:35.640240 #1215]  INFO -- : unlinking existing socket=/home/deploy/rempelonrails/shared/sockets/unicorn.sock
+I, [2016-03-02T12:58:35.640635 #1215]  INFO -- : listening on addr=/home/deploy/rempelonrails/shared/sockets/unicorn.sock fd=14
+I, [2016-03-02T12:58:35.640780 #1215]  INFO -- : worker=0 spawning...
+I, [2016-03-02T12:58:35.642638 #1215]  INFO -- : worker=1 spawning...
+I, [2016-03-02T12:58:35.644359 #1215]  INFO -- : master process ready
+I, [2016-03-02T12:58:35.649784 #1218]  INFO -- : worker=0 spawned pid=1218
+I, [2016-03-02T12:58:35.649985 #1218]  INFO -- : worker=0 ready
+I, [2016-03-02T12:58:35.651081 #1221]  INFO -- : worker=1 spawned pid=1221
+I, [2016-03-02T12:58:35.651275 #1221]  INFO -- : worker=1 ready
+I, [2016-03-02T17:03:55.881491 #4742]  INFO -- : executing ["/home/deploy/.rbenv/versions/2.3.0/bin/unicorn", "-c", "config/unicorn.rb", "-E", "production", "-D", {14=>#<Kgio::UNIXServer:/home/deploy/rempelonrails/shared/sockets/unicorn.sock>}] (in /home/deploy/rempelonrails)
+I, [2016-03-02T17:03:55.881828 #4742]  INFO -- : forked child re-executing...
+I, [2016-03-02T17:03:56.304641 #4742]  INFO -- : inherited addr=/home/deploy/rempelonrails/shared/sockets/unicorn.sock fd=14
+I, [2016-03-02T17:03:56.304954 #4742]  INFO -- : Refreshing Gem list
+I, [2016-03-02T17:03:58.533315 #4742]  INFO -- : worker=0 spawning...
+I, [2016-03-02T17:03:58.534806 #4742]  INFO -- : worker=1 spawning...
+I, [2016-03-02T17:03:58.535619 #4746]  INFO -- : worker=0 spawned pid=4746
+I, [2016-03-02T17:03:58.535771 #4746]  INFO -- : worker=0 ready
+I, [2016-03-02T17:03:58.537719 #4742]  INFO -- : master process ready
+I, [2016-03-02T17:03:58.538619 #4749]  INFO -- : worker=1 spawned pid=4749
+I, [2016-03-02T17:03:58.538787 #4749]  INFO -- : worker=1 ready
+I, [2016-03-02T17:04:40.149735 #4742]  INFO -- : reaped #<Process::Status: pid 4746 exit 0> worker=0
+I, [2016-03-02T17:04:40.149927 #4742]  INFO -- : reaped #<Process::Status: pid 4749 exit 0> worker=1
+I, [2016-03-02T17:04:40.150025 #4742]  INFO -- : master complete
+E, [2016-03-02T17:04:40.214202 #1215] ERROR -- : reaped #<Process::Status: pid 4742 exit 0> exec()-ed
+I, [2016-03-02T17:04:40.992420 #1215]  INFO -- : reaped #<Process::Status: pid 1218 exit 0> worker=0
+I, [2016-03-02T17:04:40.992779 #1215]  INFO -- : reaped #<Process::Status: pid 1221 exit 0> worker=1
+I, [2016-03-02T17:04:40.992891 #1215]  INFO -- : master complete
+I, [2016-03-02T17:04:54.707100 #1213]  INFO -- : Refreshing Gem list
+I, [2016-03-02T17:04:59.137391 #1213]  INFO -- : unlinking existing socket=/home/deploy/rempelonrails/shared/sockets/unicorn.sock
+I, [2016-03-02T17:04:59.137837 #1213]  INFO -- : listening on addr=/home/deploy/rempelonrails/shared/sockets/unicorn.sock fd=14
+I, [2016-03-02T17:04:59.138008 #1213]  INFO -- : worker=0 spawning...
+I, [2016-03-02T17:04:59.141161 #1213]  INFO -- : worker=1 spawning...
+I, [2016-03-02T17:04:59.142459 #1246]  INFO -- : worker=0 spawned pid=1246
+I, [2016-03-02T17:04:59.142677 #1246]  INFO -- : worker=0 ready
+I, [2016-03-02T17:04:59.144191 #1213]  INFO -- : master process ready
+I, [2016-03-02T17:04:59.150171 #1249]  INFO -- : worker=1 spawned pid=1249
+I, [2016-03-02T17:04:59.150438 #1249]  INFO -- : worker=1 ready
+I, [2016-03-02T18:55:05.070037 #1213]  INFO -- : reaped #<Process::Status: pid 1246 exit 0> worker=0
+I, [2016-03-02T18:55:05.070272 #1213]  INFO -- : reaped #<Process::Status: pid 1249 exit 0> worker=1
+I, [2016-03-02T18:55:05.070360 #1213]  INFO -- : master complete
+I, [2016-03-02T18:55:22.041857 #1214]  INFO -- : Refreshing Gem list
+I, [2016-03-02T18:55:26.546978 #1214]  INFO -- : unlinking existing socket=/home/deploy/rempelonrails/shared/sockets/unicorn.sock
+I, [2016-03-02T18:55:26.547549 #1214]  INFO -- : listening on addr=/home/deploy/rempelonrails/shared/sockets/unicorn.sock fd=14
+I, [2016-03-02T18:55:26.547789 #1214]  INFO -- : worker=0 spawning...
+I, [2016-03-02T18:55:26.550713 #1214]  INFO -- : worker=1 spawning...
+I, [2016-03-02T18:55:26.555061 #1214]  INFO -- : master process ready
+I, [2016-03-02T18:55:26.562754 #1250]  INFO -- : worker=1 spawned pid=1250
+I, [2016-03-02T18:55:26.563068 #1250]  INFO -- : worker=1 ready
+I, [2016-03-02T18:55:26.564231 #1247]  INFO -- : worker=0 spawned pid=1247
+I, [2016-03-02T18:55:26.564495 #1247]  INFO -- : worker=0 ready
+I, [2016-03-03T12:31:48.074733 #1214]  INFO -- : reaped #<Process::Status: pid 1247 exit 0> worker=0
+I, [2016-03-03T12:31:48.077218 #1214]  INFO -- : reaped #<Process::Status: pid 1250 exit 0> worker=1
+I, [2016-03-03T12:31:48.077419 #1214]  INFO -- : master complete
+I, [2016-03-03T12:36:03.524245 #1229]  INFO -- : Refreshing Gem list
+I, [2016-03-03T12:36:09.632254 #1229]  INFO -- : unlinking existing socket=/home/deploy/rempelonrails/shared/sockets/unicorn.sock
+I, [2016-03-03T12:36:09.632986 #1229]  INFO -- : listening on addr=/home/deploy/rempelonrails/shared/sockets/unicorn.sock fd=14
+I, [2016-03-03T12:36:09.633214 #1229]  INFO -- : worker=0 spawning...
+I, [2016-03-03T12:36:09.635745 #1229]  INFO -- : worker=1 spawning...
+I, [2016-03-03T12:36:09.637728 #1229]  INFO -- : master process ready
+I, [2016-03-03T12:36:09.645455 #1262]  INFO -- : worker=0 spawned pid=1262
+I, [2016-03-03T12:36:09.645659 #1262]  INFO -- : worker=0 ready
+I, [2016-03-03T12:36:09.646793 #1264]  INFO -- : worker=1 spawned pid=1264
+I, [2016-03-03T12:36:09.646979 #1264]  INFO -- : worker=1 ready
+I, [2016-03-03T12:38:18.383987 #1229]  INFO -- : reaped #<Process::Status: pid 1262 exit 0> worker=0
+I, [2016-03-03T12:38:18.384787 #1229]  INFO -- : reaped #<Process::Status: pid 1264 exit 0> worker=1
+I, [2016-03-03T12:38:18.385116 #1229]  INFO -- : master complete
+I, [2016-03-03T12:38:33.191571 #1215]  INFO -- : Refreshing Gem list
+I, [2016-03-03T12:38:37.717303 #1215]  INFO -- : unlinking existing socket=/home/deploy/rempelonrails/shared/sockets/unicorn.sock
+I, [2016-03-03T12:38:37.717682 #1215]  INFO -- : listening on addr=/home/deploy/rempelonrails/shared/sockets/unicorn.sock fd=14
+I, [2016-03-03T12:38:37.717960 #1215]  INFO -- : worker=0 spawning...
+I, [2016-03-03T12:38:37.728666 #1215]  INFO -- : worker=1 spawning...
+I, [2016-03-03T12:38:37.730868 #1215]  INFO -- : master process ready
+I, [2016-03-03T12:38:37.737071 #1248]  INFO -- : worker=0 spawned pid=1248
+I, [2016-03-03T12:38:37.737312 #1248]  INFO -- : worker=0 ready
+I, [2016-03-03T12:38:37.738718 #1251]  INFO -- : worker=1 spawned pid=1251
+I, [2016-03-03T12:38:37.738934 #1251]  INFO -- : worker=1 ready
+I, [2016-03-03T12:41:45.325482 #1744]  INFO -- : executing ["/home/deploy/.rbenv/versions/2.3.0/bin/unicorn", "-c", "config/unicorn.rb", "-E", "production", "-D", {14=>#<Kgio::UNIXServer:/home/deploy/rempelonrails/shared/sockets/unicorn.sock>}] (in /home/deploy/rempelonrails)
+I, [2016-03-03T12:41:45.325818 #1744]  INFO -- : forked child re-executing...
+I, [2016-03-03T12:41:45.827214 #1744]  INFO -- : inherited addr=/home/deploy/rempelonrails/shared/sockets/unicorn.sock fd=14
+I, [2016-03-03T12:41:45.827576 #1744]  INFO -- : Refreshing Gem list
+I, [2016-03-03T12:41:48.510643 #1744]  INFO -- : worker=0 spawning...
+I, [2016-03-03T12:41:48.512444 #1744]  INFO -- : worker=1 spawning...
+I, [2016-03-03T12:41:48.513393 #1748]  INFO -- : worker=0 spawned pid=1748
+I, [2016-03-03T12:41:48.513566 #1748]  INFO -- : worker=0 ready
+I, [2016-03-03T12:41:48.515251 #1744]  INFO -- : master process ready
+I, [2016-03-03T12:41:48.516286 #1751]  INFO -- : worker=1 spawned pid=1751
+I, [2016-03-03T12:41:48.516520 #1751]  INFO -- : worker=1 ready
+E, [2016-03-03T12:48:11.035066 #1744] ERROR -- : old PID:1215 running with existing pid=/home/deploy/rempelonrails/shared/pids/unicorn.pid.oldbin, refusing rexec
+E, [2016-03-03T12:49:32.765268 #1744] ERROR -- : old PID:1215 running with existing pid=/home/deploy/rempelonrails/shared/pids/unicorn.pid.oldbin, refusing rexec
+I, [2016-03-03T12:49:47.820996 #1744]  INFO -- : reaped #<Process::Status: pid 1748 exit 0> worker=0
+I, [2016-03-03T12:49:47.921672 #1744]  INFO -- : reaped #<Process::Status: pid 1751 exit 0> worker=1
+I, [2016-03-03T12:49:47.921877 #1744]  INFO -- : master complete
+E, [2016-03-03T12:49:47.980502 #1215] ERROR -- : reaped #<Process::Status: pid 1744 exit 0> exec()-ed
+I, [2016-03-03T12:49:48.889167 #1215]  INFO -- : reaped #<Process::Status: pid 1248 exit 0> worker=0
+I, [2016-03-03T12:49:48.889374 #1215]  INFO -- : reaped #<Process::Status: pid 1251 exit 0> worker=1
+I, [2016-03-03T12:49:48.889584 #1215]  INFO -- : master complete
+I, [2016-03-03T12:50:03.248694 #1215]  INFO -- : Refreshing Gem list
+I, [2016-03-03T12:50:08.333487 #1215]  INFO -- : unlinking existing socket=/home/deploy/rempelonrails/shared/sockets/unicorn.sock
+I, [2016-03-03T12:50:08.333820 #1215]  INFO -- : listening on addr=/home/deploy/rempelonrails/shared/sockets/unicorn.sock fd=14
+I, [2016-03-03T12:50:08.334041 #1215]  INFO -- : worker=0 spawning...
+I, [2016-03-03T12:50:08.338210 #1215]  INFO -- : worker=1 spawning...
+I, [2016-03-03T12:50:08.342069 #1215]  INFO -- : master process ready
+I, [2016-03-03T12:50:08.348293 #1248]  INFO -- : worker=0 spawned pid=1248
+I, [2016-03-03T12:50:08.348629 #1248]  INFO -- : worker=0 ready
+I, [2016-03-03T12:50:08.350569 #1251]  INFO -- : worker=1 spawned pid=1251
+I, [2016-03-03T12:50:08.350777 #1251]  INFO -- : worker=1 ready
+I, [2016-03-03T13:59:04.372848 #2638]  INFO -- : executing ["/home/deploy/.rbenv/versions/2.3.0/bin/unicorn", "-c", "config/unicorn.rb", "-E", "production", "-D", {14=>#<Kgio::UNIXServer:/home/deploy/rempelonrails/shared/sockets/unicorn.sock>}] (in /home/deploy/rempelonrails)
+I, [2016-03-03T13:59:04.373215 #2638]  INFO -- : forked child re-executing...
+I, [2016-03-03T13:59:04.793474 #2638]  INFO -- : inherited addr=/home/deploy/rempelonrails/shared/sockets/unicorn.sock fd=14
+I, [2016-03-03T13:59:04.793782 #2638]  INFO -- : Refreshing Gem list
+I, [2016-03-03T13:59:07.130184 #2638]  INFO -- : worker=0 spawning...
+I, [2016-03-03T13:59:07.131736 #2638]  INFO -- : worker=1 spawning...
+I, [2016-03-03T13:59:07.133389 #2642]  INFO -- : worker=0 spawned pid=2642
+I, [2016-03-03T13:59:07.133559 #2642]  INFO -- : worker=0 ready
+I, [2016-03-03T13:59:07.135318 #2638]  INFO -- : master process ready
+I, [2016-03-03T13:59:07.136693 #2645]  INFO -- : worker=1 spawned pid=2645
+I, [2016-03-03T13:59:07.136850 #2645]  INFO -- : worker=1 ready
+I, [2016-03-03T13:59:19.356691 #2638]  INFO -- : reaped #<Process::Status: pid 2642 exit 0> worker=0
+I, [2016-03-03T13:59:19.356925 #2638]  INFO -- : reaped #<Process::Status: pid 2645 exit 0> worker=1
+I, [2016-03-03T13:59:19.357048 #2638]  INFO -- : master complete
+E, [2016-03-03T13:59:19.400707 #1215] ERROR -- : reaped #<Process::Status: pid 2638 exit 0> exec()-ed
+I, [2016-03-03T13:59:20.282246 #1215]  INFO -- : reaped #<Process::Status: pid 1251 exit 0> worker=1
+I, [2016-03-03T13:59:20.382659 #1215]  INFO -- : reaped #<Process::Status: pid 1248 exit 0> worker=0
+I, [2016-03-03T13:59:20.382933 #1215]  INFO -- : master complete
+I, [2016-03-03T13:59:34.881503 #1212]  INFO -- : Refreshing Gem list
+I, [2016-03-03T13:59:38.609094 #1212]  INFO -- : unlinking existing socket=/home/deploy/rempelonrails/shared/sockets/unicorn.sock
+I, [2016-03-03T13:59:38.609418 #1212]  INFO -- : listening on addr=/home/deploy/rempelonrails/shared/sockets/unicorn.sock fd=14
+I, [2016-03-03T13:59:38.610681 #1212]  INFO -- : worker=0 spawning...
+I, [2016-03-03T13:59:38.613491 #1212]  INFO -- : worker=1 spawning...
+I, [2016-03-03T13:59:38.614856 #1245]  INFO -- : worker=0 spawned pid=1245
+I, [2016-03-03T13:59:38.615131 #1245]  INFO -- : worker=0 ready
+I, [2016-03-03T13:59:38.617533 #1212]  INFO -- : master process ready
+I, [2016-03-03T13:59:38.624917 #1248]  INFO -- : worker=1 spawned pid=1248
+I, [2016-03-03T13:59:38.625115 #1248]  INFO -- : worker=1 ready
+I, [2016-03-03T15:18:14.420133 #1212]  INFO -- : reaped #<Process::Status: pid 1245 exit 0> worker=0
+I, [2016-03-03T15:18:14.420473 #1212]  INFO -- : reaped #<Process::Status: pid 1248 exit 0> worker=1
+I, [2016-03-03T15:18:14.420652 #1212]  INFO -- : master complete
+I, [2016-03-03T15:18:30.103824 #1214]  INFO -- : Refreshing Gem list
+I, [2016-03-03T15:18:34.538850 #1214]  INFO -- : unlinking existing socket=/home/deploy/rempelonrails/shared/sockets/unicorn.sock
+I, [2016-03-03T15:18:34.539139 #1214]  INFO -- : listening on addr=/home/deploy/rempelonrails/shared/sockets/unicorn.sock fd=14
+I, [2016-03-03T15:18:34.539324 #1214]  INFO -- : worker=0 spawning...
+I, [2016-03-03T15:18:34.542419 #1214]  INFO -- : worker=1 spawning...
+I, [2016-03-03T15:18:34.543773 #1247]  INFO -- : worker=0 spawned pid=1247
+I, [2016-03-03T15:18:34.545704 #1214]  INFO -- : master process ready
+I, [2016-03-03T15:18:34.552093 #1247]  INFO -- : worker=0 ready
+I, [2016-03-03T15:18:34.553697 #1250]  INFO -- : worker=1 spawned pid=1250
+I, [2016-03-03T15:18:34.553915 #1250]  INFO -- : worker=1 ready
+I, [2016-03-03T21:08:40.036704 #1214]  INFO -- : reaped #<Process::Status: pid 1247 exit 0> worker=0
+I, [2016-03-03T21:08:40.137318 #1214]  INFO -- : reaped #<Process::Status: pid 1250 exit 0> worker=1
+I, [2016-03-03T21:08:40.137563 #1214]  INFO -- : master complete
+I, [2016-03-03T21:08:55.129256 #1209]  INFO -- : Refreshing Gem list
+I, [2016-03-03T21:08:59.576739 #1209]  INFO -- : unlinking existing socket=/home/deploy/rempelonrails/shared/sockets/unicorn.sock
+I, [2016-03-03T21:08:59.577171 #1209]  INFO -- : listening on addr=/home/deploy/rempelonrails/shared/sockets/unicorn.sock fd=14
+I, [2016-03-03T21:08:59.577455 #1209]  INFO -- : worker=0 spawning...
+I, [2016-03-03T21:08:59.582545 #1242]  INFO -- : worker=0 spawned pid=1242
+I, [2016-03-03T21:08:59.582795 #1242]  INFO -- : worker=0 ready
+I, [2016-03-03T21:08:59.583248 #1209]  INFO -- : worker=1 spawning...
+I, [2016-03-03T21:08:59.585196 #1209]  INFO -- : master process ready
+I, [2016-03-03T21:08:59.590928 #1245]  INFO -- : worker=1 spawned pid=1245
+I, [2016-03-03T21:08:59.591214 #1245]  INFO -- : worker=1 ready
+I, [2016-03-03T21:12:12.458632 #1626]  INFO -- : executing ["/home/deploy/.rbenv/versions/2.3.0/bin/unicorn", "-c", "config/unicorn.rb", "-E", "production", "-D", {14=>#<Kgio::UNIXServer:/home/deploy/rempelonrails/shared/sockets/unicorn.sock>}] (in /home/deploy/rempelonrails)
+I, [2016-03-03T21:12:12.458938 #1626]  INFO -- : forked child re-executing...
+I, [2016-03-03T21:12:12.907198 #1626]  INFO -- : inherited addr=/home/deploy/rempelonrails/shared/sockets/unicorn.sock fd=14
+I, [2016-03-03T21:12:12.907552 #1626]  INFO -- : Refreshing Gem list
+I, [2016-03-03T21:12:15.242069 #1626]  INFO -- : worker=0 spawning...
+I, [2016-03-03T21:12:15.243580 #1626]  INFO -- : worker=1 spawning...
+I, [2016-03-03T21:12:15.244525 #1636]  INFO -- : worker=0 spawned pid=1636
+I, [2016-03-03T21:12:15.244711 #1636]  INFO -- : worker=0 ready
+I, [2016-03-03T21:12:15.246298 #1626]  INFO -- : master process ready
+I, [2016-03-03T21:12:15.247196 #1639]  INFO -- : worker=1 spawned pid=1639
+I, [2016-03-03T21:12:15.247367 #1639]  INFO -- : worker=1 ready
+E, [2016-03-03T21:12:58.618566 #1626] ERROR -- : old PID:1209 running with existing pid=/home/deploy/rempelonrails/shared/pids/unicorn.pid.oldbin, refusing rexec
+I, [2016-03-03T21:13:07.899179 #1626]  INFO -- : reaped #<Process::Status: pid 1636 exit 0> worker=0
+I, [2016-03-03T21:13:07.899366 #1626]  INFO -- : reaped #<Process::Status: pid 1639 exit 0> worker=1
+I, [2016-03-03T21:13:07.899478 #1626]  INFO -- : master complete
+E, [2016-03-03T21:13:07.942234 #1209] ERROR -- : reaped #<Process::Status: pid 1626 exit 0> exec()-ed
+I, [2016-03-03T21:13:08.843488 #1209]  INFO -- : reaped #<Process::Status: pid 1242 exit 0> worker=0
+I, [2016-03-03T21:13:08.843668 #1209]  INFO -- : reaped #<Process::Status: pid 1245 exit 0> worker=1
+I, [2016-03-03T21:13:08.843821 #1209]  INFO -- : master complete
+I, [2016-03-03T21:13:22.945990 #1214]  INFO -- : Refreshing Gem list
+I, [2016-03-03T21:13:27.323890 #1214]  INFO -- : unlinking existing socket=/home/deploy/rempelonrails/shared/sockets/unicorn.sock
+I, [2016-03-03T21:13:27.324191 #1214]  INFO -- : listening on addr=/home/deploy/rempelonrails/shared/sockets/unicorn.sock fd=14
+I, [2016-03-03T21:13:27.324409 #1214]  INFO -- : worker=0 spawning...
+I, [2016-03-03T21:13:27.327333 #1214]  INFO -- : worker=1 spawning...
+I, [2016-03-03T21:13:27.328529 #1247]  INFO -- : worker=0 spawned pid=1247
+I, [2016-03-03T21:13:27.328721 #1247]  INFO -- : worker=0 ready
+I, [2016-03-03T21:13:27.330898 #1214]  INFO -- : master process ready
+I, [2016-03-03T21:13:27.338392 #1250]  INFO -- : worker=1 spawned pid=1250
+I, [2016-03-03T21:13:27.338572 #1250]  INFO -- : worker=1 ready
+I, [2016-03-03T21:18:36.887536 #1834]  INFO -- : executing ["/home/deploy/.rbenv/versions/2.3.0/bin/unicorn", "-c", "config/unicorn.rb", "-E", "production", "-D", {14=>#<Kgio::UNIXServer:/home/deploy/rempelonrails/shared/sockets/unicorn.sock>}] (in /home/deploy/rempelonrails)
+I, [2016-03-03T21:18:36.887795 #1834]  INFO -- : forked child re-executing...
+I, [2016-03-03T21:18:37.304002 #1834]  INFO -- : inherited addr=/home/deploy/rempelonrails/shared/sockets/unicorn.sock fd=14
+I, [2016-03-03T21:18:37.304361 #1834]  INFO -- : Refreshing Gem list
+I, [2016-03-03T21:18:39.539282 #1834]  INFO -- : worker=0 spawning...
+I, [2016-03-03T21:18:39.540794 #1834]  INFO -- : worker=1 spawning...
+I, [2016-03-03T21:18:39.541754 #1838]  INFO -- : worker=0 spawned pid=1838
+I, [2016-03-03T21:18:39.541950 #1838]  INFO -- : worker=0 ready
+I, [2016-03-03T21:18:39.543400 #1834]  INFO -- : master process ready
+I, [2016-03-03T21:18:39.544355 #1841]  INFO -- : worker=1 spawned pid=1841
+I, [2016-03-03T21:18:39.544512 #1841]  INFO -- : worker=1 ready
+E, [2016-03-03T21:27:26.544411 #1834] ERROR -- : old PID:1214 running with existing pid=/home/deploy/rempelonrails/shared/pids/unicorn.pid.oldbin, refusing rexec
+I, [2016-03-03T21:27:37.817881 #1834]  INFO -- : reaped #<Process::Status: pid 1838 exit 0> worker=0
+I, [2016-03-03T21:27:37.818149 #1834]  INFO -- : reaped #<Process::Status: pid 1841 exit 0> worker=1
+I, [2016-03-03T21:27:37.818301 #1834]  INFO -- : master complete
+E, [2016-03-03T21:27:37.884117 #1214] ERROR -- : reaped #<Process::Status: pid 1834 exit 0> exec()-ed
+I, [2016-03-03T21:27:38.694069 #1214]  INFO -- : reaped #<Process::Status: pid 1247 exit 0> worker=0
+I, [2016-03-03T21:27:38.694306 #1214]  INFO -- : reaped #<Process::Status: pid 1250 exit 0> worker=1
+I, [2016-03-03T21:27:38.694510 #1214]  INFO -- : master complete
+I, [2016-03-03T21:27:52.757054 #1215]  INFO -- : Refreshing Gem list
+I, [2016-03-03T21:27:56.440001 #1215]  INFO -- : unlinking existing socket=/home/deploy/rempelonrails/shared/sockets/unicorn.sock
+I, [2016-03-03T21:27:56.440396 #1215]  INFO -- : listening on addr=/home/deploy/rempelonrails/shared/sockets/unicorn.sock fd=14
+I, [2016-03-03T21:27:56.440632 #1215]  INFO -- : worker=0 spawning...
+I, [2016-03-03T21:27:56.444125 #1215]  INFO -- : worker=1 spawning...
+I, [2016-03-03T21:27:56.445611 #1218]  INFO -- : worker=0 spawned pid=1218
+I, [2016-03-03T21:27:56.445872 #1218]  INFO -- : worker=0 ready
+I, [2016-03-03T21:27:56.448127 #1215]  INFO -- : master process ready
+I, [2016-03-03T21:27:56.453273 #1221]  INFO -- : worker=1 spawned pid=1221
+I, [2016-03-03T21:27:56.453465 #1221]  INFO -- : worker=1 ready
+I, [2016-03-04T08:27:22.910828 #7238]  INFO -- : executing ["/home/deploy/.rbenv/versions/2.3.0/bin/unicorn", "-c", "config/unicorn.rb", "-E", "production", "-D", {14=>#<Kgio::UNIXServer:/home/deploy/rempelonrails/shared/sockets/unicorn.sock>}] (in /home/deploy/rempelonrails)
+I, [2016-03-04T08:27:22.911549 #7238]  INFO -- : forked child re-executing...
+I, [2016-03-04T08:27:23.529544 #7238]  INFO -- : inherited addr=/home/deploy/rempelonrails/shared/sockets/unicorn.sock fd=14
+I, [2016-03-04T08:27:23.530226 #7238]  INFO -- : Refreshing Gem list
+I, [2016-03-04T08:27:27.151056 #7238]  INFO -- : worker=0 spawning...
+I, [2016-03-04T08:27:27.153489 #7238]  INFO -- : worker=1 spawning...
+I, [2016-03-04T08:27:27.154826 #7238]  INFO -- : master process ready
+I, [2016-03-04T08:27:27.156397 #7257]  INFO -- : worker=0 spawned pid=7257
+I, [2016-03-04T08:27:27.156606 #7257]  INFO -- : worker=0 ready
+I, [2016-03-04T08:27:27.157999 #7259]  INFO -- : worker=1 spawned pid=7259
+I, [2016-03-04T08:27:27.158203 #7259]  INFO -- : worker=1 ready
+I, [2016-03-04T08:41:17.555378 #7238]  INFO -- : reaped #<Process::Status: pid 7257 exit 0> worker=0
+I, [2016-03-04T08:41:17.555784 #7238]  INFO -- : reaped #<Process::Status: pid 7259 exit 0> worker=1
+I, [2016-03-04T08:41:17.555944 #7238]  INFO -- : master complete
+E, [2016-03-04T08:41:17.636409 #1215] ERROR -- : reaped #<Process::Status: pid 7238 exit 0> exec()-ed
+I, [2016-03-04T08:41:18.478958 #1215]  INFO -- : reaped #<Process::Status: pid 1218 exit 0> worker=0
+I, [2016-03-04T08:41:18.479095 #1215]  INFO -- : reaped #<Process::Status: pid 1221 exit 0> worker=1
+I, [2016-03-04T08:41:18.479223 #1215]  INFO -- : master complete
+I, [2016-03-04T08:41:35.871778 #1211]  INFO -- : Refreshing Gem list
+I, [2016-03-04T08:41:41.054304 #1211]  INFO -- : unlinking existing socket=/home/deploy/rempelonrails/shared/sockets/unicorn.sock
+I, [2016-03-04T08:41:41.054604 #1211]  INFO -- : listening on addr=/home/deploy/rempelonrails/shared/sockets/unicorn.sock fd=14
+I, [2016-03-04T08:41:41.054796 #1211]  INFO -- : worker=0 spawning...
+I, [2016-03-04T08:41:41.059355 #1211]  INFO -- : worker=1 spawning...
+I, [2016-03-04T08:41:41.060614 #1244]  INFO -- : worker=0 spawned pid=1244
+I, [2016-03-04T08:41:41.060807 #1244]  INFO -- : worker=0 ready
+I, [2016-03-04T08:41:41.063250 #1211]  INFO -- : master process ready
+I, [2016-03-04T08:41:41.071577 #1247]  INFO -- : worker=1 spawned pid=1247
+I, [2016-03-04T08:41:41.071955 #1247]  INFO -- : worker=1 ready
+I, [2016-03-04T08:45:20.818447 #1683]  INFO -- : executing ["/home/deploy/.rbenv/versions/2.3.0/bin/unicorn", "-c", "config/unicorn.rb", "-E", "production", "-D", {14=>#<Kgio::UNIXServer:/home/deploy/rempelonrails/shared/sockets/unicorn.sock>}] (in /home/deploy/rempelonrails)
+I, [2016-03-04T08:45:20.818819 #1683]  INFO -- : forked child re-executing...
+I, [2016-03-04T08:45:21.458670 #1683]  INFO -- : inherited addr=/home/deploy/rempelonrails/shared/sockets/unicorn.sock fd=14
+I, [2016-03-04T08:45:21.460462 #1683]  INFO -- : Refreshing Gem list
+I, [2016-03-04T08:45:24.775284 #1683]  INFO -- : worker=0 spawning...
+I, [2016-03-04T08:45:24.776949 #1683]  INFO -- : worker=1 spawning...
+I, [2016-03-04T08:45:24.780019 #1687]  INFO -- : worker=0 spawned pid=1687
+I, [2016-03-04T08:45:24.780192 #1687]  INFO -- : worker=0 ready
+I, [2016-03-04T08:45:24.782239 #1683]  INFO -- : master process ready
+I, [2016-03-04T08:45:24.783227 #1690]  INFO -- : worker=1 spawned pid=1690
+I, [2016-03-04T08:45:24.783384 #1690]  INFO -- : worker=1 ready
+I, [2016-03-04T08:45:32.691519 #1683]  INFO -- : reaped #<Process::Status: pid 1687 exit 0> worker=0
+I, [2016-03-04T08:45:32.691660 #1683]  INFO -- : reaped #<Process::Status: pid 1690 exit 0> worker=1
+I, [2016-03-04T08:45:32.691734 #1683]  INFO -- : master complete
+E, [2016-03-04T08:45:32.731617 #1211] ERROR -- : reaped #<Process::Status: pid 1683 exit 0> exec()-ed
+I, [2016-03-04T08:45:33.612334 #1211]  INFO -- : reaped #<Process::Status: pid 1244 exit 0> worker=0
+I, [2016-03-04T08:45:33.612604 #1211]  INFO -- : reaped #<Process::Status: pid 1247 exit 0> worker=1
+I, [2016-03-04T08:45:33.612785 #1211]  INFO -- : master complete
+I, [2016-03-04T08:45:52.067468 #1214]  INFO -- : Refreshing Gem list
+I, [2016-03-04T08:45:57.267269 #1214]  INFO -- : unlinking existing socket=/home/deploy/rempelonrails/shared/sockets/unicorn.sock
+I, [2016-03-04T08:45:57.267616 #1214]  INFO -- : listening on addr=/home/deploy/rempelonrails/shared/sockets/unicorn.sock fd=14
+I, [2016-03-04T08:45:57.267832 #1214]  INFO -- : worker=0 spawning...
+I, [2016-03-04T08:45:57.276070 #1214]  INFO -- : worker=1 spawning...
+I, [2016-03-04T08:45:57.278789 #1214]  INFO -- : master process ready
+I, [2016-03-04T08:45:57.286702 #1247]  INFO -- : worker=0 spawned pid=1247
+I, [2016-03-04T08:45:57.286902 #1247]  INFO -- : worker=0 ready
+I, [2016-03-04T08:45:57.299095 #1250]  INFO -- : worker=1 spawned pid=1250
+I, [2016-03-04T08:45:57.299274 #1250]  INFO -- : worker=1 ready
+I, [2016-03-04T10:21:19.110159 #1214]  INFO -- : reaped #<Process::Status: pid 1247 exit 0> worker=0
+I, [2016-03-04T10:21:19.110427 #1214]  INFO -- : reaped #<Process::Status: pid 1250 exit 0> worker=1
+I, [2016-03-04T10:21:19.110505 #1214]  INFO -- : master complete
+I, [2016-03-04T10:40:18.300608 #1212]  INFO -- : Refreshing Gem list
+I, [2016-03-04T10:40:22.546730 #1212]  INFO -- : unlinking existing socket=/home/deploy/rempelonrails/shared/sockets/unicorn.sock
+I, [2016-03-04T10:40:22.546910 #1212]  INFO -- : listening on addr=/home/deploy/rempelonrails/shared/sockets/unicorn.sock fd=14
+I, [2016-03-04T10:40:22.547069 #1212]  INFO -- : worker=0 spawning...
+I, [2016-03-04T10:40:22.550473 #1212]  INFO -- : worker=1 spawning...
+I, [2016-03-04T10:40:22.554153 #1212]  INFO -- : master process ready
+I, [2016-03-04T10:40:22.551995 #1245]  INFO -- : worker=0 spawned pid=1245
+I, [2016-03-04T10:40:22.558948 #1245]  INFO -- : worker=0 ready
+I, [2016-03-04T10:40:22.565493 #1248]  INFO -- : worker=1 spawned pid=1248
+I, [2016-03-04T10:40:22.565765 #1248]  INFO -- : worker=1 ready
+I, [2016-03-04T11:30:37.235933 #2251]  INFO -- : executing ["/home/deploy/.rbenv/versions/2.3.0/bin/unicorn", "-c", "config/unicorn.rb", "-E", "production", "-D", {14=>#<Kgio::UNIXServer:/home/deploy/rempelonrails/shared/sockets/unicorn.sock>}] (in /home/deploy/rempelonrails)
+I, [2016-03-04T11:30:37.236253 #2251]  INFO -- : forked child re-executing...
+I, [2016-03-04T11:30:37.704623 #2251]  INFO -- : inherited addr=/home/deploy/rempelonrails/shared/sockets/unicorn.sock fd=14
+I, [2016-03-04T11:30:37.704928 #2251]  INFO -- : Refreshing Gem list
+I, [2016-03-04T11:30:40.117387 #2251]  INFO -- : worker=0 spawning...
+I, [2016-03-04T11:30:40.118538 #2251]  INFO -- : worker=1 spawning...
+I, [2016-03-04T11:30:40.119745 #2251]  INFO -- : master process ready
+I, [2016-03-04T11:30:40.120864 #2255]  INFO -- : worker=0 spawned pid=2255
+I, [2016-03-04T11:30:40.121032 #2255]  INFO -- : worker=0 ready
+I, [2016-03-04T11:30:40.121925 #2257]  INFO -- : worker=1 spawned pid=2257
+I, [2016-03-04T11:30:40.122078 #2257]  INFO -- : worker=1 ready
+I, [2016-03-04T11:30:50.014045 #2251]  INFO -- : reaped #<Process::Status: pid 2255 exit 0> worker=0
+I, [2016-03-04T11:30:50.014307 #2251]  INFO -- : reaped #<Process::Status: pid 2257 exit 0> worker=1
+I, [2016-03-04T11:30:50.014410 #2251]  INFO -- : master complete
+E, [2016-03-04T11:30:50.065184 #1212] ERROR -- : reaped #<Process::Status: pid 2251 exit 0> exec()-ed
+I, [2016-03-04T11:30:50.996988 #1212]  INFO -- : reaped #<Process::Status: pid 1245 exit 0> worker=0
+I, [2016-03-04T11:30:50.997183 #1212]  INFO -- : reaped #<Process::Status: pid 1248 exit 0> worker=1
+I, [2016-03-04T11:30:50.997335 #1212]  INFO -- : master complete
+I, [2016-03-04T11:31:04.671233 #1213]  INFO -- : Refreshing Gem list
+I, [2016-03-04T11:31:08.204396 #1213]  INFO -- : unlinking existing socket=/home/deploy/rempelonrails/shared/sockets/unicorn.sock
+I, [2016-03-04T11:31:08.204649 #1213]  INFO -- : listening on addr=/home/deploy/rempelonrails/shared/sockets/unicorn.sock fd=14
+I, [2016-03-04T11:31:08.204851 #1213]  INFO -- : worker=0 spawning...
+I, [2016-03-04T11:31:08.207549 #1213]  INFO -- : worker=1 spawning...
+I, [2016-03-04T11:31:08.208915 #1216]  INFO -- : worker=0 spawned pid=1216
+I, [2016-03-04T11:31:08.209149 #1216]  INFO -- : worker=0 ready
+I, [2016-03-04T11:31:08.211394 #1213]  INFO -- : master process ready
+I, [2016-03-04T11:31:08.219206 #1219]  INFO -- : worker=1 spawned pid=1219
+I, [2016-03-04T11:31:08.219424 #1219]  INFO -- : worker=1 ready
+I, [2016-03-04T16:10:09.646326 #4944]  INFO -- : executing ["/home/deploy/.rbenv/versions/2.3.0/bin/unicorn", "-c", "config/unicorn.rb", "-E", "production", "-D", {14=>#<Kgio::UNIXServer:/home/deploy/rempelonrails/shared/sockets/unicorn.sock>}] (in /home/deploy/rempelonrails)
+I, [2016-03-04T16:10:09.646789 #4944]  INFO -- : forked child re-executing...
+I, [2016-03-04T16:10:10.179369 #4944]  INFO -- : inherited addr=/home/deploy/rempelonrails/shared/sockets/unicorn.sock fd=14
+I, [2016-03-04T16:10:10.179763 #4944]  INFO -- : Refreshing Gem list
+I, [2016-03-04T16:10:13.778708 #4944]  INFO -- : worker=0 spawning...
+I, [2016-03-04T16:10:13.781223 #4944]  INFO -- : worker=1 spawning...
+I, [2016-03-04T16:10:13.782264 #4956]  INFO -- : worker=0 spawned pid=4956
+I, [2016-03-04T16:10:13.782452 #4956]  INFO -- : worker=0 ready
+I, [2016-03-04T16:10:13.785444 #4944]  INFO -- : master process ready
+I, [2016-03-04T16:10:13.786535 #4959]  INFO -- : worker=1 spawned pid=4959
+I, [2016-03-04T16:10:13.786712 #4959]  INFO -- : worker=1 ready
+I, [2016-03-04T16:10:22.362153 #4944]  INFO -- : reaped #<Process::Status: pid 4956 exit 0> worker=0
+I, [2016-03-04T16:10:22.362291 #4944]  INFO -- : reaped #<Process::Status: pid 4959 exit 0> worker=1
+I, [2016-03-04T16:10:22.362362 #4944]  INFO -- : master complete
+E, [2016-03-04T16:10:22.401437 #1213] ERROR -- : reaped #<Process::Status: pid 4944 exit 0> exec()-ed
+I, [2016-03-04T16:10:23.422646 #1213]  INFO -- : reaped #<Process::Status: pid 1216 exit 0> worker=0
+I, [2016-03-04T16:10:23.523349 #1213]  INFO -- : reaped #<Process::Status: pid 1219 exit 0> worker=1
+I, [2016-03-04T16:10:23.523633 #1213]  INFO -- : master complete
+I, [2016-03-04T16:10:39.787188 #1214]  INFO -- : Refreshing Gem list
+I, [2016-03-04T16:10:43.872257 #1214]  INFO -- : unlinking existing socket=/home/deploy/rempelonrails/shared/sockets/unicorn.sock
+I, [2016-03-04T16:10:43.872640 #1214]  INFO -- : listening on addr=/home/deploy/rempelonrails/shared/sockets/unicorn.sock fd=14
+I, [2016-03-04T16:10:43.872828 #1214]  INFO -- : worker=0 spawning...
+I, [2016-03-04T16:10:43.875951 #1214]  INFO -- : worker=1 spawning...
+I, [2016-03-04T16:10:43.877526 #1247]  INFO -- : worker=0 spawned pid=1247
+I, [2016-03-04T16:10:43.877729 #1247]  INFO -- : worker=0 ready
+I, [2016-03-04T16:10:43.880040 #1214]  INFO -- : master process ready
+I, [2016-03-04T16:10:43.886421 #1250]  INFO -- : worker=1 spawned pid=1250
+I, [2016-03-04T16:10:43.886623 #1250]  INFO -- : worker=1 ready
+I, [2016-03-08T13:15:48.213068 #28292]  INFO -- : executing ["/home/deploy/.rbenv/versions/2.3.0/bin/unicorn", "-c", "config/unicorn.rb", "-E", "production", "-D", {14=>#<Kgio::UNIXServer:/home/deploy/rempelonrails/shared/sockets/unicorn.sock>}] (in /home/deploy/rempelonrails)
+I, [2016-03-08T13:15:48.214706 #28292]  INFO -- : forked child re-executing...
+I, [2016-03-08T13:15:48.694285 #28292]  INFO -- : inherited addr=/home/deploy/rempelonrails/shared/sockets/unicorn.sock fd=14
+I, [2016-03-08T13:15:48.694663 #28292]  INFO -- : Refreshing Gem list
+I, [2016-03-08T13:15:51.630264 #28292]  INFO -- : worker=0 spawning...
+I, [2016-03-08T13:15:51.633395 #28292]  INFO -- : worker=1 spawning...
+I, [2016-03-08T13:15:51.635337 #28292]  INFO -- : master process ready
+I, [2016-03-08T13:15:51.637908 #28298]  INFO -- : worker=1 spawned pid=28298
+I, [2016-03-08T13:15:51.638120 #28298]  INFO -- : worker=1 ready
+I, [2016-03-08T13:15:51.636905 #28296]  INFO -- : worker=0 spawned pid=28296
+I, [2016-03-08T13:15:51.638607 #28296]  INFO -- : worker=0 ready
+I, [2016-03-08T13:16:00.238844 #28292]  INFO -- : reaped #<Process::Status: pid 28296 exit 0> worker=0
+I, [2016-03-08T13:16:00.239083 #28292]  INFO -- : reaped #<Process::Status: pid 28298 exit 0> worker=1
+I, [2016-03-08T13:16:00.239180 #28292]  INFO -- : master complete
+E, [2016-03-08T13:16:00.292416 #1214] ERROR -- : reaped #<Process::Status: pid 28292 exit 0> exec()-ed
+I, [2016-03-08T13:16:01.225341 #1214]  INFO -- : reaped #<Process::Status: pid 1247 exit 0> worker=0
+I, [2016-03-08T13:16:01.225497 #1214]  INFO -- : reaped #<Process::Status: pid 1250 exit 0> worker=1
+I, [2016-03-08T13:16:01.225709 #1214]  INFO -- : master complete
+I, [2016-03-08T13:16:16.384602 #1212]  INFO -- : Refreshing Gem list
+I, [2016-03-08T13:16:20.454187 #1212]  INFO -- : unlinking existing socket=/home/deploy/rempelonrails/shared/sockets/unicorn.sock
+I, [2016-03-08T13:16:20.454491 #1212]  INFO -- : listening on addr=/home/deploy/rempelonrails/shared/sockets/unicorn.sock fd=14
+I, [2016-03-08T13:16:20.454694 #1212]  INFO -- : worker=0 spawning...
+I, [2016-03-08T13:16:20.457698 #1212]  INFO -- : worker=1 spawning...
+I, [2016-03-08T13:16:20.459893 #1212]  INFO -- : master process ready
+I, [2016-03-08T13:16:20.466192 #1245]  INFO -- : worker=0 spawned pid=1245
+I, [2016-03-08T13:16:20.466451 #1245]  INFO -- : worker=0 ready
+I, [2016-03-08T13:16:20.468134 #1247]  INFO -- : worker=1 spawned pid=1247
+I, [2016-03-08T13:16:20.468362 #1247]  INFO -- : worker=1 ready
+I, [2016-03-08T13:23:58.370750 #1754]  INFO -- : executing ["/home/deploy/.rbenv/versions/2.3.0/bin/unicorn", "-c", "config/unicorn.rb", "-E", "production", "-D", {14=>#<Kgio::UNIXServer:/home/deploy/rempelonrails/shared/sockets/unicorn.sock>}] (in /home/deploy/rempelonrails)
+I, [2016-03-08T13:23:58.371035 #1754]  INFO -- : forked child re-executing...
+I, [2016-03-08T13:23:58.839130 #1754]  INFO -- : inherited addr=/home/deploy/rempelonrails/shared/sockets/unicorn.sock fd=14
+I, [2016-03-08T13:23:58.839466 #1754]  INFO -- : Refreshing Gem list
+I, [2016-03-08T13:24:01.683669 #1754]  INFO -- : worker=0 spawning...
+I, [2016-03-08T13:24:01.685997 #1754]  INFO -- : worker=1 spawning...
+I, [2016-03-08T13:24:01.687681 #1754]  INFO -- : master process ready
+I, [2016-03-08T13:24:01.689687 #1760]  INFO -- : worker=1 spawned pid=1760
+I, [2016-03-08T13:24:01.689887 #1760]  INFO -- : worker=1 ready
+I, [2016-03-08T13:24:01.690135 #1758]  INFO -- : worker=0 spawned pid=1758
+I, [2016-03-08T13:24:01.690311 #1758]  INFO -- : worker=0 ready
+I, [2016-03-08T13:24:57.318851 #1754]  INFO -- : reaped #<Process::Status: pid 1758 exit 0> worker=0
+I, [2016-03-08T13:24:57.319046 #1754]  INFO -- : reaped #<Process::Status: pid 1760 exit 0> worker=1
+I, [2016-03-08T13:24:57.319140 #1754]  INFO -- : master complete
+E, [2016-03-08T13:24:57.367699 #1212] ERROR -- : reaped #<Process::Status: pid 1754 exit 0> exec()-ed
+I, [2016-03-08T13:24:58.320817 #1212]  INFO -- : reaped #<Process::Status: pid 1245 exit 0> worker=0
+I, [2016-03-08T13:24:58.325692 #1212]  INFO -- : reaped #<Process::Status: pid 1247 exit 0> worker=1
+I, [2016-03-08T13:24:58.325868 #1212]  INFO -- : master complete
+I, [2016-03-08T13:25:13.729861 #1212]  INFO -- : Refreshing Gem list
+I, [2016-03-08T13:25:17.599313 #1212]  INFO -- : unlinking existing socket=/home/deploy/rempelonrails/shared/sockets/unicorn.sock
+I, [2016-03-08T13:25:17.599545 #1212]  INFO -- : listening on addr=/home/deploy/rempelonrails/shared/sockets/unicorn.sock fd=14
+I, [2016-03-08T13:25:17.599695 #1212]  INFO -- : worker=0 spawning...
+I, [2016-03-08T13:25:17.601634 #1212]  INFO -- : worker=1 spawning...
+I, [2016-03-08T13:25:17.603454 #1212]  INFO -- : master process ready
+I, [2016-03-08T13:25:17.609541 #1245]  INFO -- : worker=0 spawned pid=1245
+I, [2016-03-08T13:25:17.609771 #1245]  INFO -- : worker=0 ready
+I, [2016-03-08T13:25:17.610974 #1247]  INFO -- : worker=1 spawned pid=1247
+I, [2016-03-08T13:25:17.611167 #1247]  INFO -- : worker=1 ready
+I, [2016-03-08T13:27:36.662083 #1696]  INFO -- : executing ["/home/deploy/.rbenv/versions/2.3.0/bin/unicorn", "-c", "config/unicorn.rb", "-E", "production", "-D", {14=>#<Kgio::UNIXServer:/home/deploy/rempelonrails/shared/sockets/unicorn.sock>}] (in /home/deploy/rempelonrails)
+I, [2016-03-08T13:27:36.662721 #1696]  INFO -- : forked child re-executing...
+I, [2016-03-08T13:27:37.315302 #1696]  INFO -- : inherited addr=/home/deploy/rempelonrails/shared/sockets/unicorn.sock fd=14
+I, [2016-03-08T13:27:37.315821 #1696]  INFO -- : Refreshing Gem list
+I, [2016-03-08T13:27:40.123241 #1696]  INFO -- : worker=0 spawning...
+I, [2016-03-08T13:27:40.125077 #1696]  INFO -- : worker=1 spawning...
+I, [2016-03-08T13:27:40.126214 #1703]  INFO -- : worker=0 spawned pid=1703
+I, [2016-03-08T13:27:40.126443 #1703]  INFO -- : worker=0 ready
+I, [2016-03-08T13:27:40.128220 #1696]  INFO -- : master process ready
+I, [2016-03-08T13:27:40.129465 #1706]  INFO -- : worker=1 spawned pid=1706
+I, [2016-03-08T13:27:40.129658 #1706]  INFO -- : worker=1 ready
+I, [2016-03-08T13:27:48.082593 #1696]  INFO -- : reaped #<Process::Status: pid 1703 exit 0> worker=0
+I, [2016-03-08T13:27:48.082832 #1696]  INFO -- : reaped #<Process::Status: pid 1706 exit 0> worker=1
+I, [2016-03-08T13:27:48.082965 #1696]  INFO -- : master complete
+E, [2016-03-08T13:27:48.124893 #1212] ERROR -- : reaped #<Process::Status: pid 1696 exit 0> exec()-ed
+I, [2016-03-08T13:27:48.965802 #1212]  INFO -- : reaped #<Process::Status: pid 1245 exit 0> worker=0
+I, [2016-03-08T13:27:48.965993 #1212]  INFO -- : reaped #<Process::Status: pid 1247 exit 0> worker=1
+I, [2016-03-08T13:27:48.966141 #1212]  INFO -- : master complete
+I, [2016-03-08T13:28:04.055623 #1212]  INFO -- : Refreshing Gem list
+I, [2016-03-08T13:28:07.545747 #1212]  INFO -- : unlinking existing socket=/home/deploy/rempelonrails/shared/sockets/unicorn.sock
+I, [2016-03-08T13:28:07.546060 #1212]  INFO -- : listening on addr=/home/deploy/rempelonrails/shared/sockets/unicorn.sock fd=14
+I, [2016-03-08T13:28:07.546227 #1212]  INFO -- : worker=0 spawning...
+I, [2016-03-08T13:28:07.548450 #1212]  INFO -- : worker=1 spawning...
+I, [2016-03-08T13:28:07.551345 #1212]  INFO -- : master process ready
+I, [2016-03-08T13:28:07.555811 #1245]  INFO -- : worker=0 spawned pid=1245
+I, [2016-03-08T13:28:07.556007 #1245]  INFO -- : worker=0 ready
+I, [2016-03-08T13:28:07.561515 #1248]  INFO -- : worker=1 spawned pid=1248
+I, [2016-03-08T13:28:07.561700 #1248]  INFO -- : worker=1 ready
+I, [2016-03-08T13:42:41.101528 #1824]  INFO -- : executing ["/home/deploy/.rbenv/versions/2.3.0/bin/unicorn", "-c", "config/unicorn.rb", "-E", "production", "-D", {14=>#<Kgio::UNIXServer:/home/deploy/rempelonrails/shared/sockets/unicorn.sock>}] (in /home/deploy/rempelonrails)
+I, [2016-03-08T13:42:41.101974 #1824]  INFO -- : forked child re-executing...
+I, [2016-03-08T13:42:41.559632 #1824]  INFO -- : inherited addr=/home/deploy/rempelonrails/shared/sockets/unicorn.sock fd=14
+I, [2016-03-08T13:42:41.560001 #1824]  INFO -- : Refreshing Gem list
+I, [2016-03-08T13:42:44.377707 #1824]  INFO -- : worker=0 spawning...
+I, [2016-03-08T13:42:44.379135 #1824]  INFO -- : worker=1 spawning...
+I, [2016-03-08T13:42:44.380136 #1831]  INFO -- : worker=0 spawned pid=1831
+I, [2016-03-08T13:42:44.380320 #1831]  INFO -- : worker=0 ready
+I, [2016-03-08T13:42:44.383318 #1824]  INFO -- : master process ready
+I, [2016-03-08T13:42:44.385244 #1834]  INFO -- : worker=1 spawned pid=1834
+I, [2016-03-08T13:42:44.385756 #1834]  INFO -- : worker=1 ready
+I, [2016-03-08T13:42:50.269726 #1824]  INFO -- : reaped #<Process::Status: pid 1831 exit 0> worker=0
+I, [2016-03-08T13:42:50.269876 #1824]  INFO -- : reaped #<Process::Status: pid 1834 exit 0> worker=1
+I, [2016-03-08T13:42:50.269949 #1824]  INFO -- : master complete
+E, [2016-03-08T13:42:50.316963 #1212] ERROR -- : reaped #<Process::Status: pid 1824 exit 0> exec()-ed
+I, [2016-03-08T13:42:52.112272 #1212]  INFO -- : reaped #<Process::Status: pid 1245 exit 0> worker=0
+I, [2016-03-08T13:42:52.112421 #1212]  INFO -- : reaped #<Process::Status: pid 1248 exit 0> worker=1
+I, [2016-03-08T13:42:52.112519 #1212]  INFO -- : master complete
+I, [2016-03-08T13:43:06.986110 #1212]  INFO -- : Refreshing Gem list
+I, [2016-03-08T13:43:10.519758 #1212]  INFO -- : unlinking existing socket=/home/deploy/rempelonrails/shared/sockets/unicorn.sock
+I, [2016-03-08T13:43:10.520255 #1212]  INFO -- : listening on addr=/home/deploy/rempelonrails/shared/sockets/unicorn.sock fd=14
+I, [2016-03-08T13:43:10.520438 #1212]  INFO -- : worker=0 spawning...
+I, [2016-03-08T13:43:10.522464 #1212]  INFO -- : worker=1 spawning...
+I, [2016-03-08T13:43:10.523768 #1245]  INFO -- : worker=0 spawned pid=1245
+I, [2016-03-08T13:43:10.524025 #1245]  INFO -- : worker=0 ready
+I, [2016-03-08T13:43:10.526193 #1212]  INFO -- : master process ready
+I, [2016-03-08T13:43:10.532371 #1248]  INFO -- : worker=1 spawned pid=1248
+I, [2016-03-08T13:43:10.532593 #1248]  INFO -- : worker=1 ready
+I, [2016-03-08T13:50:35.760413 #1832]  INFO -- : executing ["/home/deploy/.rbenv/versions/2.3.0/bin/unicorn", "-c", "config/unicorn.rb", "-E", "production", "-D", {14=>#<Kgio::UNIXServer:/home/deploy/rempelonrails/shared/sockets/unicorn.sock>}] (in /home/deploy/rempelonrails)
+I, [2016-03-08T13:50:35.760691 #1832]  INFO -- : forked child re-executing...
+I, [2016-03-08T13:50:36.211825 #1832]  INFO -- : inherited addr=/home/deploy/rempelonrails/shared/sockets/unicorn.sock fd=14
+I, [2016-03-08T13:50:36.212287 #1832]  INFO -- : Refreshing Gem list
+I, [2016-03-08T13:50:38.858894 #1832]  INFO -- : worker=0 spawning...
+I, [2016-03-08T13:50:38.860735 #1832]  INFO -- : worker=1 spawning...
+I, [2016-03-08T13:50:38.861628 #1851]  INFO -- : worker=0 spawned pid=1851
+I, [2016-03-08T13:50:38.861788 #1851]  INFO -- : worker=0 ready
+I, [2016-03-08T13:50:38.862987 #1832]  INFO -- : master process ready
+I, [2016-03-08T13:50:38.863910 #1854]  INFO -- : worker=1 spawned pid=1854
+I, [2016-03-08T13:50:38.864086 #1854]  INFO -- : worker=1 ready
+I, [2016-03-08T13:51:51.589649 #1832]  INFO -- : reaped #<Process::Status: pid 1851 exit 0> worker=0
+I, [2016-03-08T13:51:51.589935 #1832]  INFO -- : reaped #<Process::Status: pid 1854 exit 0> worker=1
+I, [2016-03-08T13:51:51.590044 #1832]  INFO -- : master complete
+E, [2016-03-08T13:51:51.636339 #1212] ERROR -- : reaped #<Process::Status: pid 1832 exit 0> exec()-ed
+I, [2016-03-08T13:51:52.513960 #1212]  INFO -- : reaped #<Process::Status: pid 1245 exit 0> worker=0
+I, [2016-03-08T13:51:52.514165 #1212]  INFO -- : reaped #<Process::Status: pid 1248 exit 0> worker=1
+I, [2016-03-08T13:51:52.514331 #1212]  INFO -- : master complete
+I, [2016-03-08T13:52:07.705716 #1214]  INFO -- : Refreshing Gem list
+I, [2016-03-08T13:52:11.793052 #1214]  INFO -- : unlinking existing socket=/home/deploy/rempelonrails/shared/sockets/unicorn.sock
+I, [2016-03-08T13:52:11.793409 #1214]  INFO -- : listening on addr=/home/deploy/rempelonrails/shared/sockets/unicorn.sock fd=14
+I, [2016-03-08T13:52:11.793618 #1214]  INFO -- : worker=0 spawning...
+I, [2016-03-08T13:52:11.797562 #1214]  INFO -- : worker=1 spawning...
+I, [2016-03-08T13:52:11.802015 #1247]  INFO -- : worker=0 spawned pid=1247
+I, [2016-03-08T13:52:11.802339 #1247]  INFO -- : worker=0 ready
+I, [2016-03-08T13:52:11.803145 #1214]  INFO -- : master process ready
+I, [2016-03-08T13:52:11.810024 #1249]  INFO -- : worker=1 spawned pid=1249
+I, [2016-03-08T13:52:11.810409 #1249]  INFO -- : worker=1 ready
+I, [2016-03-08T13:59:24.074466 #1214]  INFO -- : reaped #<Process::Status: pid 1247 exit 0> worker=0
+I, [2016-03-08T13:59:24.074782 #1214]  INFO -- : reaped #<Process::Status: pid 1249 exit 0> worker=1
+I, [2016-03-08T13:59:24.074893 #1214]  INFO -- : master complete
+I, [2016-03-08T14:14:01.109261 #1208]  INFO -- : Refreshing Gem list
+I, [2016-03-08T14:14:04.530378 #1208]  INFO -- : unlinking existing socket=/home/deploy/rempelonrails/shared/sockets/unicorn.sock
+I, [2016-03-08T14:14:04.530565 #1208]  INFO -- : listening on addr=/home/deploy/rempelonrails/shared/sockets/unicorn.sock fd=14
+I, [2016-03-08T14:14:04.530684 #1208]  INFO -- : worker=0 spawning...
+I, [2016-03-08T14:14:04.532469 #1208]  INFO -- : worker=1 spawning...
+I, [2016-03-08T14:14:04.533292 #1211]  INFO -- : worker=0 spawned pid=1211
+I, [2016-03-08T14:14:04.533461 #1211]  INFO -- : worker=0 ready
+I, [2016-03-08T14:14:04.534600 #1208]  INFO -- : master process ready
+I, [2016-03-08T14:14:04.539174 #1214]  INFO -- : worker=1 spawned pid=1214
+I, [2016-03-08T14:14:04.539372 #1214]  INFO -- : worker=1 ready
+I, [2016-03-08T15:11:06.665796 #2409]  INFO -- : executing ["/home/deploy/.rbenv/versions/2.3.0/bin/unicorn", "-c", "config/unicorn.rb", "-E", "production", "-D", {14=>#<Kgio::UNIXServer:/home/deploy/rempelonrails/shared/sockets/unicorn.sock>}] (in /home/deploy/rempelonrails)
+I, [2016-03-08T15:11:06.665950 #2409]  INFO -- : forked child re-executing...
+I, [2016-03-08T15:11:07.074298 #2409]  INFO -- : inherited addr=/home/deploy/rempelonrails/shared/sockets/unicorn.sock fd=14
+I, [2016-03-08T15:11:07.074595 #2409]  INFO -- : Refreshing Gem list
+I, [2016-03-08T15:11:09.389991 #2409]  INFO -- : worker=0 spawning...
+I, [2016-03-08T15:11:09.391405 #2409]  INFO -- : worker=1 spawning...
+I, [2016-03-08T15:11:09.392303 #2416]  INFO -- : worker=0 spawned pid=2416
+I, [2016-03-08T15:11:09.392460 #2416]  INFO -- : worker=0 ready
+I, [2016-03-08T15:11:09.394094 #2409]  INFO -- : master process ready
+I, [2016-03-08T15:11:09.394925 #2419]  INFO -- : worker=1 spawned pid=2419
+I, [2016-03-08T15:11:09.395085 #2419]  INFO -- : worker=1 ready
+I, [2016-03-08T15:11:18.175108 #2409]  INFO -- : reaped #<Process::Status: pid 2416 exit 0> worker=0
+I, [2016-03-08T15:11:18.175258 #2409]  INFO -- : reaped #<Process::Status: pid 2419 exit 0> worker=1
+I, [2016-03-08T15:11:18.175345 #2409]  INFO -- : master complete
+E, [2016-03-08T15:11:18.213604 #1208] ERROR -- : reaped #<Process::Status: pid 2409 exit 0> exec()-ed
+I, [2016-03-08T15:11:19.251642 #1208]  INFO -- : reaped #<Process::Status: pid 1211 exit 0> worker=0
+I, [2016-03-08T15:11:19.251794 #1208]  INFO -- : reaped #<Process::Status: pid 1214 exit 0> worker=1
+I, [2016-03-08T15:11:19.251872 #1208]  INFO -- : master complete
+I, [2016-03-08T15:11:32.875303 #1212]  INFO -- : Refreshing Gem list
+I, [2016-03-08T15:11:36.129521 #1212]  INFO -- : unlinking existing socket=/home/deploy/rempelonrails/shared/sockets/unicorn.sock
+I, [2016-03-08T15:11:36.129735 #1212]  INFO -- : listening on addr=/home/deploy/rempelonrails/shared/sockets/unicorn.sock fd=14
+I, [2016-03-08T15:11:36.129873 #1212]  INFO -- : worker=0 spawning...
+I, [2016-03-08T15:11:36.131457 #1212]  INFO -- : worker=1 spawning...
+I, [2016-03-08T15:11:36.132422 #1215]  INFO -- : worker=0 spawned pid=1215
+I, [2016-03-08T15:11:36.132601 #1215]  INFO -- : worker=0 ready
+I, [2016-03-08T15:11:36.134279 #1212]  INFO -- : master process ready
+I, [2016-03-08T15:11:36.139116 #1218]  INFO -- : worker=1 spawned pid=1218
+I, [2016-03-08T15:11:36.139279 #1218]  INFO -- : worker=1 ready

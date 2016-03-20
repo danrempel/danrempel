@@ -1,0 +1,29 @@
+<% set_meta_tags title: 'About', description: 'Rempel on Rails is a blog for beginner and intermediate Ruby and Rails developers, as well as a personal Rails portfolio for Dan Rempel.', keywords: 'web, development, ruby, rails, edmonton, yeg' %>
+<div class="wrapper wrapper_padding row clearfix">
+	<div class="col-md-6 about homepage_content">
+		<h2>About</h2>
+		<hr>
+    <p>My name is Dan Rempel and I am a web developer living in Edmonton, Alberta. By day I work as a Sr. Client Support Technician for the University of Alberta, by night I freelance web development projects under my own brand, <a href="http://www.dare-studios.com" target="_blank">Dare Studios</a>.</p><br>
+		<p>I am absolutely <strong>in love</strong> with Ruby on Rails and I am dedicated to improving my expertise. It is my dream to someday work with Rails as a career. My hope is to use this blog to further solidify the things I'm learning for myself while also hopefully giving back to the community that has been so giving to me. I know what it's like starting out on this path and because of that I have a familiarity with the kinds of things that were truly useful. This blog will be geared towards beginners like myself. Please feel free to comment on anything or send me a quick email if you spot something I've done wrong or if you know of a better way to achieve something! I am always looking for ways to improve my skills and I really appreciate the feedback. Likewise if you are a beginner and would like to see an article about a certain technology let me know, I'd love to put the time and research in.</p>
+	</div>
+	<div class="col-md-3 homepage_content">
+		<h2>Recent Posts</h2>
+		<hr>
+		<% @posts.where(published: true).each do |post| %>
+      <h3><%= link_to post.title, post %></h3>
+      <h4><%= post.subtitle %></h4>
+      <div class="tagline">
+        <p class="date"><%= post.created_at.strftime("%B %d, %Y") %></p>
+        <span class="tag"><%= render post.tags %></span>
+      </div>
+		<%end %>
+	</div>
+	<div class="col-md-3 homepage_content">
+		<h2>Projects</h2>
+		<hr>
+		<% @projects.each do |project| %>
+			<h3><%= link_to project.title, project %></h3>
+			<p class="date"><%= project.created_at.strftime("%B %d, %Y") %></p>
+		<%end %>
+	</div>
+</div>

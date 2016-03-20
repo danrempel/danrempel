@@ -1,0 +1,29 @@
+<% content_for :head, auto_discovery_link_tag(:rss, "http://www.rempelonrails.com/posts.rss") %>
+
+<% set_meta_tags description: 'A blog for beginner and intermediate Ruby and Rails developers.', keywords: 'Ruby, Rails, YEG, Edmonton, Blog', reverse: true %>
+
+<div class="container">
+  <div class="row">
+    <div class="col-sm-9 col-md-9 main">
+      <div id="posts_wrapper" class="skinny_wrapper">
+        <% @posts.each do |post| %>
+          <div class="post">
+            <h2 id="posthead"><%= link_to post.title, post %></h2>
+            <% if user_signed_in? %>
+              <% if post.published == false %>
+                <span id="draft">Draft</span>
+              <% end %>
+            <% end %>
+            <h4><%= post.subtitle %></h4>
+            <p class="date"><%= post.created_at.strftime("%B %d, %Y") %></p>
+            <span class="tag"><%= render post.tags %></span>
+            <hr>
+          </div>
+        <% end %>
+
+        <%= will_paginate @posts %>
+      </div>
+    </div>
+    <%= render 'sidebar' %>
+  </div>
+</div>
